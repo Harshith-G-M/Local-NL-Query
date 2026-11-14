@@ -1,0 +1,970 @@
+PatientID,Dept,PayerType,Total Cost (INR),Insurance Reimbursement (INR)
+PT-1000,Cardiology,Government Scheme,270063.78,178145.17
+PT-1001,Orthopedics,Government Scheme,204596.49,129231.66
+PT-1002,Emergency,Private Insurance,111960.0,78750.25
+PT-1003,Emergency,Self-Pay,66719.83,2174.74
+PT-1004,Orthopedics,Government Scheme,187835.62,114591.76
+PT-1005,Emergency,Private Insurance,128959.91,108796.31
+PT-1006,Orthopedics,Government Scheme,183539.41,102814.58
+PT-1007,Orthopedics,Self-Pay,122576.72,20287.42
+PT-1008,Cardiology,Private Insurance,136209.48,101622.16
+PT-1009,General Surgery,Government Scheme,156450.12,91689.63
+PT-1010,Cardiology,Self-Pay,187736.46,39085.02
+PT-1011,General Surgery,Government Scheme,138035.89,94333.55
+PT-1012,General Surgery,Corporate,122264.8,108386.88
+PT-1013,General Surgery,Private Insurance,162870.96,112212.22
+PT-1013,General Surgery,Private Insurance,140262.71,118587.17
+PT-1014,Emergency,Private Insurance,71802.88,54054.82
+PT-1015,Emergency,Private Insurance,96172.18,83382.0
+PT-1016,Emergency,Private Insurance,65749.96,58044.93
+PT-1017,Orthopedics,Private Insurance,137432.19,121387.68
+PT-1018,Neurology,Private Insurance,206095.23,171848.26
+PT-1019,Emergency,Private Insurance,132832.49,108796.1
+PT-1020,Pediatrics,Government Scheme,83217.74,47196.94
+PT-1021,Emergency,Private Insurance,54780.18,47415.66
+PT-1022,Emergency,Private Insurance,58747.74,50708.13
+PT-1023,General Surgery,Self-Pay,127861.14,34591.7
+PT-1024,Oncology,Private Insurance,176661.56,121481.45
+PT-1025,Cardiology,Government Scheme,146342.13,105093.51
+PT-1026,Orthopedics,Private Insurance,144441.01,126719.74
+PT-1027,Pediatrics,Corporate,71006.91,64407.79
+PT-1028,Neurology,Private Insurance,182764.85,150945.64
+PT-1029,Cardiology,Self-Pay,160153.39,4876.65
+PT-1030,Oncology,Government Scheme,255615.26,186640.91
+PT-1031,Emergency,Private Insurance,67681.52,51018.09
+PT-1032,General Surgery,Private Insurance,158522.73,127542.99
+PT-1033,Neurology,Private Insurance,128907.67,101589.6
+PT-1034,Emergency,Government Scheme,96261.09,71874.36
+PT-1035,Emergency,Self-Pay,116096.73,31473.3
+PT-1036,Emergency,Self-Pay,141851.23,28251.19
+PT-1037,Emergency,Self-Pay,67198.17,8969.02
+PT-1038,Emergency,Private Insurance,122010.62,83443.02
+PT-1039,Pediatrics,Corporate,58856.95,46782.0
+PT-1040,Cardiology,Private Insurance,138682.43,90835.4
+PT-1041,Emergency,Private Insurance,115930.93,99061.58
+PT-1041,Emergency,Private Insurance,137784.8,109707.4
+PT-1042,Emergency,Private Insurance,70365.03,61463.64
+PT-1043,Oncology,Government Scheme,345465.28,255409.67
+PT-1044,Orthopedics,Government Scheme,175017.45,127258.82
+PT-1045,General Surgery,Government Scheme,222294.14,161674.11
+PT-1046,Cardiology,Private Insurance,120400.2,82321.93
+PT-1047,Cardiology,Private Insurance,162018.82,121255.52
+PT-1048,General Surgery,Self-Pay,104928.04,31254.81
+PT-1049,Emergency,Private Insurance,125187.08,102306.13
+PT-1050,Emergency,Government Scheme,140541.76,86312.28
+PT-1051,Cardiology,Government Scheme,236053.47,174621.11
+PT-1052,Orthopedics,Private Insurance,102460.9,82040.76
+PT-1053,Cardiology,Private Insurance,251877.18,164724.88
+PT-1054,Pediatrics,Self-Pay,89462.86,11211.63
+PT-1055,Pediatrics,Government Scheme,46143.61,33234.96
+PT-1056,Cardiology,Government Scheme,142564.17,86400.9
+PT-1057,Pediatrics,Private Insurance,67225.9,59090.31
+PT-1058,Orthopedics,Private Insurance,163441.36,143248.86
+PT-1059,Oncology,Corporate,143442.44,108973.36
+PT-1060,Emergency,Private Insurance,81597.25,62196.1
+PT-1061,Orthopedics,Private Insurance,154942.45,102279.67
+PT-1062,Cardiology,Private Insurance,242999.57,204105.37
+PT-1063,Oncology,Self-Pay,232779.26,5603.75
+PT-1064,Pediatrics,Private Insurance,69076.45,47155.9
+PT-1065,Emergency,Private Insurance,142042.38,114492.18
+PT-1066,General Surgery,Self-Pay,186849.78,1076.94
+PT-1067,Neurology,Private Insurance,166714.09,146063.83
+PT-1068,Pediatrics,Government Scheme,58801.02,32763.73
+PT-1069,General Surgery,Government Scheme,178066.55,122753.95
+PT-1070,Orthopedics,Government Scheme,140345.24,99733.43
+PT-1071,Oncology,Private Insurance,319797.87,270558.62
+PT-1072,Oncology,Government Scheme,221582.91,137032.57
+PT-1073,Pediatrics,Private Insurance,92574.38,76816.3
+PT-1074,Oncology,Private Insurance,253524.18,195773.3
+PT-1075,Emergency,Corporate,78000.53,72410.96
+PT-1076,Neurology,Private Insurance,258191.94,173298.13
+PT-1077,General Surgery,Corporate,177271.16,138210.08
+PT-1078,Emergency,Private Insurance,99791.22,67696.5
+PT-1079,General Surgery,Private Insurance,197505.71,168187.3
+PT-1080,Orthopedics,Private Insurance,106057.44,70910.39
+PT-1081,Orthopedics,Government Scheme,146008.24,84801.76
+PT-1082,Oncology,Private Insurance,308320.55,260444.28
+PT-1083,Cardiology,Corporate,263464.27,185060.28
+PT-1084,Neurology,Government Scheme,104286.03,74188.79
+PT-1085,Neurology,Private Insurance,249927.13,201032.68
+PT-1086,General Surgery,Private Insurance,105874.13,85390.83
+PT-1087,Cardiology,Government Scheme,264842.89,170069.55
+PT-1088,Cardiology,Private Insurance,265212.26,224510.91
+PT-1089,General Surgery,Private Insurance,98816.58,67244.15
+PT-1090,Cardiology,Private Insurance,234746.57,164294.51
+PT-1091,Emergency,Self-Pay,121145.77,2949.5
+PT-1092,Cardiology,Self-Pay,124506.7,35536.4
+PT-1093,Pediatrics,Self-Pay,36230.47,8603.93
+PT-1094,Pediatrics,Private Insurance,49984.54,33114.74
+PT-1095,Emergency,Self-Pay,61147.08,5877.55
+PT-1095,Emergency,Self-Pay,101640.01,14515.54
+PT-1096,Cardiology,Government Scheme,143513.96,107289.02
+PT-1097,Emergency,Corporate,108491.2,80990.44
+PT-1098,Orthopedics,Government Scheme,133209.52,91279.41
+PT-1099,General Surgery,Corporate,205101.15,146712.25
+PT-1100,General Surgery,Private Insurance,109889.9,71601.88
+PT-1101,Neurology,Government Scheme,131894.66,77757.72
+PT-1102,Neurology,Corporate,126461.77,105658.76
+PT-1103,Orthopedics,Self-Pay,235908.56,49538.46
+PT-1104,Oncology,Private Insurance,286630.98,191740.34
+PT-1105,Emergency,Government Scheme,70834.32,43512.18
+PT-1106,Oncology,Corporate,350235.69,259386.62
+PT-1107,Oncology,Corporate,271765.32,230477.93
+PT-1108,Emergency,Self-Pay,108139.86,16436.86
+PT-1109,Emergency,Corporate,79686.27,64277.4
+PT-1110,Pediatrics,Self-Pay,85468.11,18857.08
+PT-1111,Orthopedics,Self-Pay,169582.63,33314.96
+PT-1112,Emergency,Government Scheme,141132.51,84726.59
+PT-1113,Cardiology,Corporate,243773.48,174581.63
+PT-1114,Cardiology,Government Scheme,119300.94,73828.75
+PT-1115,Emergency,Private Insurance,119962.28,96565.0
+PT-1116,Cardiology,Private Insurance,255186.63,170971.96
+PT-1117,Orthopedics,Private Insurance,204665.07,169672.96
+PT-1118,Oncology,Private Insurance,134639.77,112567.89
+PT-1119,General Surgery,Private Insurance,96352.44,76796.23
+PT-1120,Orthopedics,Government Scheme,227450.01,141541.22
+PT-1121,Orthopedics,Government Scheme,192162.12,131753.86
+PT-1122,General Surgery,Government Scheme,93223.03,56165.71
+PT-1123,Orthopedics,Private Insurance,215958.78,164711.06
+PT-1124,Emergency,Private Insurance,120797.34,93027.51
+PT-1125,Oncology,Private Insurance,241932.88,203430.02
+PT-1126,Cardiology,Self-Pay,164425.44,49283.11
+PT-1127,Neurology,Self-Pay,134348.46,23668.0
+PT-1128,General Surgery,Private Insurance,89977.93,66423.84
+PT-1129,Pediatrics,Government Scheme,63896.69,41042.64
+PT-1130,Pediatrics,Government Scheme,91406.76,65748.55
+PT-1131,General Surgery,Private Insurance,220118.65,168590.19
+PT-1132,General Surgery,Self-Pay,209872.54,28469.82
+PT-1133,General Surgery,Private Insurance,103891.6,87023.55
+PT-1134,Neurology,Private Insurance,173331.52,113726.27
+PT-1135,Oncology,Private Insurance,162675.05,118619.54
+PT-1136,Orthopedics,Private Insurance,238464.32,192690.68
+PT-1137,Emergency,Government Scheme,89947.64,49722.16
+PT-1138,Pediatrics,Private Insurance,83482.51,68075.23
+PT-1139,Pediatrics,Government Scheme,46366.8,31000.26
+PT-1140,General Surgery,Private Insurance,109747.35,73938.06
+PT-1141,Neurology,Corporate,168519.58,124278.97
+PT-1142,Emergency,Self-Pay,84358.37,548.68
+PT-1143,Pediatrics,Government Scheme,59533.91,36357.62
+PT-1144,Pediatrics,Government Scheme,93311.75,61573.23
+PT-1145,General Surgery,Private Insurance,115883.5,89419.61
+PT-1146,Emergency,Private Insurance,119135.63,90330.31
+PT-1147,Pediatrics,Private Insurance,92839.85,64055.33
+PT-1148,Cardiology,Private Insurance,282437.98,187804.34
+PT-1149,Oncology,Private Insurance,343516.67,229031.67
+PT-1150,Pediatrics,Government Scheme,55396.95,35749.87
+PT-1151,Orthopedics,Private Insurance,133398.28,94551.11
+PT-1152,General Surgery,Self-Pay,216067.32,52090.94
+PT-1153,Oncology,Government Scheme,223595.99,123557.69
+PT-1154,Neurology,Government Scheme,154361.31,89795.14
+PT-1155,Emergency,Government Scheme,110741.31,76058.41
+PT-1156,Emergency,Private Insurance,92609.77,63017.42
+PT-1157,General Surgery,Private Insurance,102119.93,73574.78
+PT-1158,General Surgery,Self-Pay,185465.95,44908.22
+PT-1159,Emergency,Private Insurance,131768.78,97824.07
+PT-1160,Cardiology,Government Scheme,282677.53,159041.44
+PT-1161,Cardiology,Self-Pay,188474.08,23578.14
+PT-1162,Cardiology,Private Insurance,145702.08,106588.38
+PT-1163,General Surgery,Private Insurance,116681.37,101275.75
+PT-1164,Neurology,Private Insurance,155131.3,136350.25
+PT-1165,Pediatrics,Private Insurance,94351.67,79887.7
+PT-1166,Cardiology,Self-Pay,207899.23,36001.07
+PT-1167,Oncology,Private Insurance,204833.36,143095.45
+PT-1168,General Surgery,Private Insurance,101798.6,74359.62
+PT-1169,Pediatrics,Self-Pay,73960.9,21547.82
+PT-1170,Orthopedics,Self-Pay,124339.01,22113.75
+PT-1171,Cardiology,Government Scheme,150663.22,107563.2
+PT-1172,Cardiology,Private Insurance,195945.83,150376.3
+PT-1173,General Surgery,Corporate,86715.62,71778.0
+PT-1174,Neurology,Government Scheme,118249.05,82778.88
+PT-1175,General Surgery,Private Insurance,171304.98,114830.34
+PT-1176,Pediatrics,Government Scheme,65456.43,43889.84
+PT-1177,Cardiology,Government Scheme,268363.9,199033.31
+PT-1178,Emergency,Self-Pay,77940.66,10509.95
+PT-1179,Emergency,Private Insurance,123968.99,105103.44
+PT-1180,Emergency,Private Insurance,78858.93,54079.15
+PT-1181,Cardiology,Government Scheme,260599.1,146405.68
+PT-1182,Oncology,Self-Pay,186248.84,35372.56
+PT-1183,Orthopedics,Self-Pay,139082.16,34416.02
+PT-1184,Cardiology,Private Insurance,194859.56,133776.94
+PT-1185,Emergency,Private Insurance,78548.18,57340.87
+PT-1186,Neurology,Government Scheme,269498.38,180821.07
+PT-1187,General Surgery,Private Insurance,159083.42,136180.83
+PT-1188,Emergency,Corporate,112125.74,105334.44
+PT-1189,General Surgery,Private Insurance,167662.21,114025.49
+PT-1190,Orthopedics,Corporate,200012.99,176786.23
+PT-1191,General Surgery,Government Scheme,111292.03,78991.71
+PT-1192,Pediatrics,Private Insurance,52947.38,44882.29
+PT-1193,Oncology,Private Insurance,225058.09,192345.14
+PT-1194,General Surgery,Private Insurance,85527.96,61173.61
+PT-1195,Pediatrics,Private Insurance,44643.58,29300.52
+PT-1196,Emergency,Private Insurance,112647.15,94690.45
+PT-1197,Orthopedics,Government Scheme,101806.45,65460.32
+PT-1198,Cardiology,Government Scheme,271765.19,157494.16
+PT-1199,Oncology,Government Scheme,269695.77,178283.16
+PT-1200,Emergency,Government Scheme,107446.06,75394.07
+PT-1201,Pediatrics,Private Insurance,42464.69,30506.12
+PT-1202,General Surgery,Government Scheme,122632.92,84771.15
+PT-1203,Pediatrics,Government Scheme,63200.01,36819.08
+PT-1204,Emergency,Government Scheme,65568.21,48600.54
+PT-1205,Cardiology,Self-Pay,130304.69,33921.09
+PT-1206,Orthopedics,Government Scheme,172886.27,107840.3
+PT-1207,General Surgery,Private Insurance,128137.62,106370.28
+PT-1208,Orthopedics,Government Scheme,172519.07,116584.6
+PT-1209,Cardiology,Government Scheme,224339.1,141133.42
+PT-1210,Neurology,Corporate,157523.78,143192.0
+PT-1211,Pediatrics,Private Insurance,38072.04,27439.56
+PT-1212,Neurology,Corporate,198154.87,166872.64
+PT-1213,General Surgery,Self-Pay,207656.35,3479.85
+PT-1214,Oncology,Private Insurance,289799.45,197923.37
+PT-1215,Pediatrics,Private Insurance,39832.67,26567.34
+PT-1216,Orthopedics,Government Scheme,112735.49,73791.7
+PT-1217,Cardiology,Private Insurance,277222.1,196482.11
+PT-1218,Orthopedics,Government Scheme,203198.93,151274.27
+PT-1219,Oncology,Self-Pay,206394.77,25550.13
+PT-1220,Cardiology,Government Scheme,243153.12,157682.64
+PT-1221,Orthopedics,Private Insurance,171766.71,134178.97
+PT-1222,General Surgery,Government Scheme,173854.62,109388.99
+PT-1223,Pediatrics,Government Scheme,45299.04,32369.3
+PT-1224,Pediatrics,Private Insurance,84861.85,64675.3
+PT-1225,Neurology,Government Scheme,121592.36,89040.25
+PT-1226,Oncology,Corporate,189366.03,143883.4
+PT-1227,Pediatrics,Private Insurance,74685.51,58958.32
+PT-1228,Oncology,Private Insurance,143546.28,123553.63
+PT-1229,Orthopedics,Private Insurance,123827.98,81800.6
+PT-1230,Emergency,Government Scheme,73710.08,43970.5
+PT-1231,General Surgery,Private Insurance,105368.3,91419.73
+PT-1232,Cardiology,Self-Pay,198105.1,19193.43
+PT-1233,General Surgery,Private Insurance,189834.83,155202.46
+PT-1234,Pediatrics,Private Insurance,37155.34,31261.91
+PT-1235,Emergency,Private Insurance,98300.45,80351.82
+PT-1236,Neurology,Self-Pay,220511.21,36386.41
+PT-1237,Cardiology,Corporate,115223.4,97642.29
+PT-1238,Oncology,Private Insurance,177944.05,141587.38
+PT-1239,Emergency,Private Insurance,54643.71,45105.98
+PT-1240,Emergency,Private Insurance,106342.49,78909.27
+PT-1241,Pediatrics,Corporate,89914.74,66630.85
+PT-1242,Orthopedics,Government Scheme,121916.75,80129.3
+PT-1243,Cardiology,Self-Pay,272736.12,60895.48
+PT-1244,Cardiology,Government Scheme,158655.09,104911.08
+PT-1245,General Surgery,Private Insurance,155523.15,107305.66
+PT-1246,Cardiology,Self-Pay,144285.47,26301.16
+PT-1247,Emergency,Private Insurance,84103.72,61544.12
+PT-1248,Cardiology,Government Scheme,154861.53,88864.74
+PT-1249,Pediatrics,Self-Pay,53122.9,459.26
+PT-1250,General Surgery,Self-Pay,168471.5,32923.14
+PT-1250,General Surgery,Self-Pay,155652.72,18944.06
+PT-1251,Orthopedics,Self-Pay,117724.81,1471.33
+PT-1252,Orthopedics,Private Insurance,210695.37,176078.83
+PT-1253,General Surgery,Private Insurance,206392.8,144482.32
+PT-1254,Orthopedics,Government Scheme,175531.05,122776.0
+PT-1255,Oncology,Self-Pay,315244.53,63761.96
+PT-1256,Cardiology,Private Insurance,267597.39,228652.62
+PT-1257,Orthopedics,Government Scheme,144140.75,80844.73
+PT-1258,Neurology,Private Insurance,208440.0,165024.38
+PT-1259,Emergency,Government Scheme,133594.24,80218.87
+PT-1260,Orthopedics,Private Insurance,166664.91,121244.62
+PT-1261,Cardiology,Corporate,146956.24,109516.17
+PT-1262,General Surgery,Private Insurance,130750.48,101318.31
+PT-1263,Emergency,Government Scheme,118794.79,82442.85
+PT-1264,Pediatrics,Government Scheme,63473.06,39870.66
+PT-1265,Orthopedics,Self-Pay,203078.8,56099.64
+PT-1266,Orthopedics,Private Insurance,162026.34,129489.04
+PT-1267,Emergency,Government Scheme,125550.29,85801.68
+PT-1268,Emergency,Private Insurance,138404.27,92650.38
+PT-1269,General Surgery,Private Insurance,99016.62,64367.5
+PT-1270,Neurology,Government Scheme,107303.99,60090.84
+PT-1271,Pediatrics,Self-Pay,36672.71,3017.04
+PT-1272,Pediatrics,Private Insurance,36000.57,27405.98
+PT-1273,Oncology,Government Scheme,292324.61,216975.51
+PT-1274,Neurology,Private Insurance,118529.55,87950.4
+PT-1275,Oncology,Private Insurance,274069.87,244671.78
+PT-1276,Pediatrics,Government Scheme,80510.79,50284.16
+PT-1277,Pediatrics,Government Scheme,52798.72,35941.42
+PT-1278,Cardiology,Private Insurance,161544.59,106417.21
+PT-1279,Pediatrics,Government Scheme,43204.59,24988.14
+PT-1280,Orthopedics,Corporate,158539.15,147926.76
+PT-1281,General Surgery,Private Insurance,221659.63,194759.35
+PT-1282,Oncology,Private Insurance,158471.5,128231.56
+PT-1283,Orthopedics,Government Scheme,232863.75,164996.19
+PT-1284,Emergency,Private Insurance,133226.15,117640.13
+PT-1285,Orthopedics,Self-Pay,116187.19,3924.34
+PT-1286,Emergency,Government Scheme,119232.81,76434.06
+PT-1287,General Surgery,Private Insurance,208101.6,171419.46
+PT-1288,Cardiology,Self-Pay,157164.22,1063.64
+PT-1289,Neurology,Government Scheme,197749.21,111264.93
+PT-1290,Emergency,Self-Pay,116262.14,7515.5
+PT-1291,Oncology,Self-Pay,219458.57,24848.75
+PT-1292,Emergency,Self-Pay,57344.51,7440.24
+PT-1293,General Surgery,Corporate,149198.22,110967.03
+PT-1294,Emergency,Private Insurance,55194.22,48259.18
+PT-1295,Pediatrics,Government Scheme,75396.6,55935.67
+PT-1296,Orthopedics,Private Insurance,221456.37,183249.71
+PT-1297,General Surgery,Private Insurance,184641.92,129373.91
+PT-1298,Cardiology,Government Scheme,156111.2,106818.86
+PT-1299,Orthopedics,Government Scheme,234478.44,137782.81
+PT-1300,Emergency,Government Scheme,116070.77,82650.6
+PT-1301,Neurology,Government Scheme,271292.37,151604.86
+PT-1302,Emergency,Government Scheme,104689.08,75522.66
+PT-1303,Cardiology,Government Scheme,208609.99,144063.85
+PT-1304,Emergency,Self-Pay,125276.74,26893.26
+PT-1304,Emergency,Self-Pay,120827.34,10385.73
+PT-1305,Orthopedics,Corporate,103262.4,81765.68
+PT-1306,Pediatrics,Private Insurance,85242.85,67013.47
+PT-1307,Pediatrics,Private Insurance,58396.05,51123.13
+PT-1308,Cardiology,Private Insurance,238715.75,187437.64
+PT-1309,Oncology,Private Insurance,202556.47,164036.01
+PT-1310,Cardiology,Private Insurance,181260.3,144111.54
+PT-1311,General Surgery,Private Insurance,136095.39,121924.89
+PT-1312,Orthopedics,Private Insurance,205096.99,140882.82
+PT-1313,Emergency,Private Insurance,114539.21,99919.11
+PT-1314,Cardiology,Self-Pay,229627.93,28094.46
+PT-1315,Oncology,Private Insurance,343505.01,230701.88
+PT-1316,Pediatrics,Corporate,51192.02,37595.95
+PT-1317,General Surgery,Corporate,213460.67,183867.77
+PT-1318,General Surgery,Corporate,147107.62,122805.87
+PT-1319,General Surgery,Government Scheme,179247.27,130482.72
+PT-1320,Cardiology,Private Insurance,169821.68,149370.85
+PT-1321,Oncology,Government Scheme,348197.1,201609.64
+PT-1322,Cardiology,Government Scheme,169496.98,114671.4
+PT-1323,Cardiology,Self-Pay,242062.9,61805.76
+PT-1324,Oncology,Government Scheme,258212.37,192483.48
+PT-1325,General Surgery,Private Insurance,194918.89,166883.97
+PT-1326,Emergency,Government Scheme,89671.52,64087.22
+PT-1327,Cardiology,Private Insurance,266530.14,239244.38
+PT-1328,Emergency,Self-Pay,102959.71,16048.4
+PT-1329,Orthopedics,Private Insurance,176319.69,125835.71
+PT-1330,Neurology,Private Insurance,195576.26,173196.95
+PT-1331,General Surgery,Corporate,187559.58,163364.9
+PT-1332,General Surgery,Private Insurance,194281.39,150042.55
+PT-1333,Oncology,Corporate,203607.21,185102.82
+PT-1334,General Surgery,Private Insurance,136265.1,120489.96
+PT-1335,Pediatrics,Government Scheme,67387.26,48105.89
+PT-1336,Cardiology,Private Insurance,147432.86,108773.54
+PT-1337,Emergency,Private Insurance,90719.86,76013.39
+PT-1338,Emergency,Government Scheme,63578.4,43112.12
+PT-1339,General Surgery,Government Scheme,147511.57,105746.6
+PT-1340,Pediatrics,Government Scheme,89714.06,52721.92
+PT-1341,Neurology,Government Scheme,102101.34,72361.14
+PT-1342,Emergency,Self-Pay,99406.0,3214.82
+PT-1343,Pediatrics,Government Scheme,44661.33,25208.7
+PT-1344,General Surgery,Self-Pay,217015.48,15744.47
+PT-1345,Cardiology,Private Insurance,181101.58,155078.73
+PT-1346,Cardiology,Government Scheme,205554.04,117025.5
+PT-1347,Orthopedics,Private Insurance,212174.15,139160.02
+PT-1348,Oncology,Private Insurance,138841.44,94449.51
+PT-1349,Pediatrics,Private Insurance,47142.85,39789.37
+PT-1350,Orthopedics,Self-Pay,100700.42,7656.27
+PT-1351,Pediatrics,Private Insurance,93060.76,70305.49
+PT-1352,Orthopedics,Private Insurance,143627.14,107828.1
+PT-1353,Cardiology,Self-Pay,233607.33,21039.76
+PT-1354,Cardiology,Private Insurance,177794.52,124831.68
+PT-1355,Emergency,Private Insurance,92567.15,73815.15
+PT-1356,Neurology,Private Insurance,183334.71,147346.25
+PT-1357,Emergency,Private Insurance,57768.74,44645.61
+PT-1358,Emergency,Private Insurance,56836.62,41485.5
+PT-1359,Neurology,Private Insurance,107276.85,88520.34
+PT-1360,Emergency,Private Insurance,131505.74,98095.24
+PT-1361,Emergency,Self-Pay,102511.56,3014.05
+PT-1362,Orthopedics,Self-Pay,193288.67,35965.13
+PT-1363,Cardiology,Private Insurance,171189.89,152845.28
+PT-1364,Cardiology,Self-Pay,196255.52,1608.99
+PT-1365,Neurology,Corporate,108574.17,89233.0
+PT-1366,Orthopedics,Self-Pay,225881.31,32179.4
+PT-1367,Emergency,Government Scheme,102936.15,58322.9
+PT-1368,Neurology,Private Insurance,225127.37,186608.55
+PT-1369,Neurology,Government Scheme,258792.85,165869.97
+PT-1370,Orthopedics,Government Scheme,202357.83,121065.78
+PT-1371,Cardiology,Self-Pay,285120.04,2937.49
+PT-1372,Cardiology,Private Insurance,163766.44,138266.52
+PT-1373,Neurology,Corporate,247289.17,186490.37
+PT-1374,Orthopedics,Government Scheme,151591.06,83687.18
+PT-1375,Orthopedics,Government Scheme,109257.62,78943.37
+PT-1376,Emergency,Government Scheme,124275.14,91604.15
+PT-1377,Pediatrics,Private Insurance,62665.8,48598.47
+PT-1378,Emergency,Government Scheme,95686.2,65968.57
+PT-1379,Oncology,Government Scheme,217399.18,159787.55
+PT-1380,Pediatrics,Government Scheme,75222.14,42105.06
+PT-1381,Neurology,Private Insurance,201562.38,166199.09
+PT-1382,Pediatrics,Government Scheme,65465.94,47819.75
+PT-1383,Pediatrics,Private Insurance,53603.37,37023.13
+PT-1384,Cardiology,Private Insurance,160251.6,117441.01
+PT-1385,General Surgery,Government Scheme,99354.44,57720.88
+PT-1386,Cardiology,Government Scheme,258727.4,152603.79
+PT-1387,Orthopedics,Private Insurance,162937.12,106141.01
+PT-1388,Neurology,Private Insurance,233875.82,199192.19
+PT-1389,Oncology,Private Insurance,331190.19,279231.64
+PT-1390,Cardiology,Corporate,115897.44,86421.18
+PT-1391,Cardiology,Self-Pay,169212.67,34673.36
+PT-1392,Cardiology,Self-Pay,260196.92,17854.65
+PT-1393,Orthopedics,Private Insurance,156699.96,129308.02
+PT-1394,Pediatrics,Private Insurance,90699.31,61256.9
+PT-1395,Emergency,Self-Pay,66528.48,14776.44
+PT-1396,Emergency,Government Scheme,139200.52,92227.88
+PT-1397,Pediatrics,Corporate,62285.84,49309.76
+PT-1398,Cardiology,Government Scheme,233805.82,129553.56
+PT-1399,Neurology,Government Scheme,191279.79,131746.33
+PT-1400,General Surgery,Government Scheme,172876.48,98758.39
+PT-1401,Emergency,Private Insurance,96629.22,69546.52
+PT-1402,Cardiology,Self-Pay,208310.68,26388.08
+PT-1403,Neurology,Private Insurance,113079.81,80930.53
+PT-1404,Neurology,Private Insurance,263272.55,194666.53
+PT-1405,Emergency,Government Scheme,90119.43,66134.58
+PT-1406,Emergency,Government Scheme,135595.46,98321.16
+PT-1407,Cardiology,Private Insurance,129781.96,89614.29
+PT-1408,Neurology,Government Scheme,198971.51,135883.25
+PT-1409,Oncology,Government Scheme,230142.47,172446.69
+PT-1410,Emergency,Private Insurance,87598.52,62698.79
+PT-1411,Neurology,Self-Pay,113359.21,26866.07
+PT-1412,Orthopedics,Corporate,117826.53,94651.69
+PT-1413,Oncology,Government Scheme,255126.65,152170.2
+PT-1414,Emergency,Private Insurance,67264.85,45962.32
+PT-1415,Neurology,Self-Pay,221250.56,742.98
+PT-1416,Emergency,Government Scheme,59399.46,42032.09
+PT-1417,Neurology,Private Insurance,121167.94,98930.93
+PT-1417,Neurology,Private Insurance,201547.38,131452.1
+PT-1418,Orthopedics,Self-Pay,222057.7,9130.69
+PT-1419,Orthopedics,Private Insurance,228109.75,197348.33
+PT-1420,Cardiology,Private Insurance,252220.55,175839.78
+PT-1421,Cardiology,Corporate,193456.72,158573.3
+PT-1422,Cardiology,Government Scheme,125828.46,78966.36
+PT-1423,Pediatrics,Government Scheme,74003.79,48715.26
+PT-1424,Emergency,Private Insurance,126348.3,86741.66
+PT-1425,Orthopedics,Government Scheme,109043.34,71093.38
+PT-1426,Emergency,Government Scheme,131506.69,74117.01
+PT-1427,Orthopedics,Government Scheme,167007.69,124833.63
+PT-1428,Orthopedics,Government Scheme,174923.61,104851.58
+PT-1429,Cardiology,Private Insurance,243614.47,209494.49
+PT-1430,Pediatrics,Private Insurance,57703.35,40757.93
+PT-1431,Oncology,Government Scheme,189743.06,106623.19
+PT-1432,Orthopedics,Government Scheme,154780.66,112081.9
+PT-1433,Neurology,Government Scheme,234707.44,130387.74
+PT-1434,General Surgery,Government Scheme,178031.84,131059.21
+PT-1435,Pediatrics,Corporate,59446.57,50625.24
+PT-1436,Orthopedics,Self-Pay,220040.31,49417.21
+PT-1437,Cardiology,Private Insurance,130918.74,105222.53
+PT-1438,Cardiology,Government Scheme,250284.17,182144.01
+PT-1439,Emergency,Private Insurance,112143.69,94072.58
+PT-1440,Emergency,Government Scheme,68155.66,45650.37
+PT-1441,Neurology,Self-Pay,150896.71,34997.44
+PT-1442,Cardiology,Self-Pay,185893.47,1724.01
+PT-1443,Emergency,Government Scheme,59970.06,34001.14
+PT-1444,Orthopedics,Private Insurance,223747.57,153578.31
+PT-1445,Oncology,Private Insurance,273108.03,202750.02
+PT-1446,Cardiology,Private Insurance,178788.12,136974.37
+PT-1447,Emergency,Private Insurance,126613.02,111328.0
+PT-1448,Orthopedics,Private Insurance,135524.53,106227.21
+PT-1449,Orthopedics,Private Insurance,139063.17,101103.86
+PT-1449,Orthopedics,Private Insurance,232274.39,180676.95
+PT-1450,General Surgery,Private Insurance,138053.14,119801.1
+PT-1451,Pediatrics,Government Scheme,77307.1,53268.45
+PT-1452,Emergency,Private Insurance,137110.86,109867.1
+PT-1453,General Surgery,Government Scheme,176541.24,117364.2
+PT-1454,Orthopedics,Self-Pay,160399.22,4378.31
+PT-1455,Orthopedics,Private Insurance,163451.33,120235.21
+PT-1456,Pediatrics,Self-Pay,67019.85,12694.21
+PT-1457,Emergency,Private Insurance,76643.36,54957.34
+PT-1458,Pediatrics,Private Insurance,52275.07,37754.98
+PT-1459,Emergency,Private Insurance,100216.61,72984.04
+PT-1460,Emergency,Government Scheme,135522.97,99127.4
+PT-1461,Pediatrics,Private Insurance,69960.9,51570.16
+PT-1462,Pediatrics,Private Insurance,54380.86,46573.61
+PT-1463,Orthopedics,Government Scheme,167650.76,106006.89
+PT-1464,Orthopedics,Private Insurance,129586.52,97962.49
+PT-1465,Oncology,Private Insurance,277004.45,233259.5
+PT-1466,General Surgery,Government Scheme,208677.06,120585.19
+PT-1467,Emergency,Corporate,123291.81,95397.51
+PT-1468,Emergency,Government Scheme,115839.3,72086.49
+PT-1469,Cardiology,Self-Pay,205699.67,19817.67
+PT-1470,Oncology,Government Scheme,307566.74,204947.04
+PT-1471,Emergency,Corporate,69607.4,61334.43
+PT-1472,General Surgery,Self-Pay,206660.39,39591.71
+PT-1473,Oncology,Corporate,177261.44,159089.71
+PT-1474,Orthopedics,Government Scheme,214558.39,125863.29
+PT-1475,Cardiology,Private Insurance,224545.92,173852.19
+PT-1476,Pediatrics,Government Scheme,50738.03,32820.84
+PT-1477,Emergency,Private Insurance,78366.64,62070.09
+PT-1478,Cardiology,Private Insurance,204733.55,140566.98
+PT-1479,Oncology,Private Insurance,265316.43,189206.15
+PT-1480,Pediatrics,Government Scheme,93990.82,66980.01
+PT-1481,Cardiology,Government Scheme,285096.16,156989.17
+PT-1482,Pediatrics,Government Scheme,47335.69,34878.09
+PT-1483,Emergency,Self-Pay,137502.51,18759.22
+PT-1484,Emergency,Private Insurance,143176.84,113953.86
+PT-1485,Emergency,Private Insurance,78938.25,62508.31
+PT-1486,Neurology,Private Insurance,135862.3,90042.5
+PT-1487,Emergency,Government Scheme,92493.66,69031.66
+PT-1488,General Surgery,Private Insurance,167338.05,128698.36
+PT-1489,Pediatrics,Self-Pay,59213.08,2121.81
+PT-1490,Orthopedics,Self-Pay,117165.71,12700.82
+PT-1491,Pediatrics,Self-Pay,84077.99,1374.73
+PT-1492,Orthopedics,Government Scheme,217076.21,131433.39
+PT-1493,Neurology,Government Scheme,195243.42,117865.11
+PT-1494,Neurology,Private Insurance,235258.01,207365.1
+PT-1495,General Surgery,Government Scheme,180141.4,106459.7
+PT-1496,Neurology,Corporate,253522.96,213375.53
+PT-1497,Pediatrics,Private Insurance,36591.37,26872.76
+PT-1498,Neurology,Private Insurance,208141.2,149714.6
+PT-1499,Orthopedics,Private Insurance,154470.4,109306.67
+PT-1500,Pediatrics,Private Insurance,73098.71,57942.0
+PT-1501,Orthopedics,Government Scheme,130010.37,85874.86
+PT-1502,Emergency,Private Insurance,129669.12,89202.72
+PT-1502,Emergency,Private Insurance,103833.92,75713.56
+PT-1503,Orthopedics,Private Insurance,122980.85,104709.29
+PT-1504,Cardiology,Private Insurance,256521.49,179766.49
+PT-1505,Oncology,Private Insurance,267585.26,237781.17
+PT-1506,Oncology,Government Scheme,152059.11,106151.13
+PT-1507,Cardiology,Private Insurance,284161.05,203866.31
+PT-1508,Orthopedics,Private Insurance,162938.56,109807.7
+PT-1508,Orthopedics,Private Insurance,216807.34,152901.94
+PT-1509,Cardiology,Government Scheme,190711.19,111209.13
+PT-1510,Neurology,Private Insurance,131502.33,92720.37
+PT-1511,General Surgery,Self-Pay,99034.17,7093.94
+PT-1512,Orthopedics,Government Scheme,136274.14,90748.7
+PT-1513,Orthopedics,Private Insurance,179957.45,134369.88
+PT-1514,Cardiology,Self-Pay,146409.81,4408.4
+PT-1515,Cardiology,Private Insurance,122759.48,101657.89
+PT-1516,Pediatrics,Self-Pay,62551.65,13870.79
+PT-1517,Cardiology,Government Scheme,177205.59,119261.24
+PT-1518,Cardiology,Corporate,176429.27,147374.22
+PT-1519,Oncology,Self-Pay,191779.13,50733.61
+PT-1520,Emergency,Private Insurance,98236.78,83245.55
+PT-1521,General Surgery,Government Scheme,157350.95,96678.94
+PT-1522,General Surgery,Self-Pay,153864.5,28417.44
+PT-1523,General Surgery,Corporate,201350.65,171477.96
+PT-1524,General Surgery,Private Insurance,136214.55,112494.71
+PT-1525,Pediatrics,Corporate,72057.21,63030.76
+PT-1525,Pediatrics,Corporate,58659.86,52618.92
+PT-1526,Emergency,Corporate,72641.78,56555.47
+PT-1527,Orthopedics,Private Insurance,150765.34,107373.78
+PT-1528,Oncology,Government Scheme,195949.34,116820.9
+PT-1529,Emergency,Private Insurance,108039.21,82912.34
+PT-1530,Emergency,Government Scheme,56184.84,41411.21
+PT-1531,General Surgery,Government Scheme,118170.21,81480.27
+PT-1532,Oncology,Private Insurance,231494.08,196775.79
+PT-1533,Cardiology,Private Insurance,177996.58,131058.18
+PT-1534,General Surgery,Government Scheme,137335.93,89019.98
+PT-1535,Neurology,Private Insurance,225110.34,197488.63
+PT-1536,Neurology,Government Scheme,117208.35,70440.48
+PT-1537,Emergency,Government Scheme,74570.12,46480.97
+PT-1538,Neurology,Private Insurance,271506.84,208960.54
+PT-1539,Orthopedics,Private Insurance,115281.25,99535.18
+PT-1540,Cardiology,Private Insurance,224101.61,179231.16
+PT-1541,General Surgery,Private Insurance,197419.9,170072.43
+PT-1542,Emergency,Corporate,142124.53,112440.82
+PT-1543,General Surgery,Private Insurance,190499.43,128109.56
+PT-1544,Cardiology,Private Insurance,272852.99,183655.76
+PT-1545,Pediatrics,Corporate,77718.77,55375.89
+PT-1546,Oncology,Private Insurance,149436.18,131952.52
+PT-1547,General Surgery,Government Scheme,147434.12,89732.91
+PT-1548,Emergency,Government Scheme,131265.02,79507.58
+PT-1549,Oncology,Private Insurance,333511.83,235883.63
+PT-1550,Pediatrics,Private Insurance,54695.9,42669.75
+PT-1551,Neurology,Government Scheme,141408.66,80384.35
+PT-1552,Cardiology,Private Insurance,117386.38,95512.07
+PT-1553,Oncology,Corporate,304537.85,285796.51
+PT-1554,Cardiology,Government Scheme,277471.58,162373.26
+PT-1555,Emergency,Private Insurance,103314.47,91485.38
+PT-1556,Emergency,Corporate,134542.98,102126.37
+PT-1557,Orthopedics,Private Insurance,211159.31,147567.89
+PT-1558,Emergency,Self-Pay,118127.62,2387.91
+PT-1559,Oncology,Private Insurance,154332.27,131849.52
+PT-1560,Emergency,Government Scheme,70085.75,40287.21
+PT-1561,Oncology,Private Insurance,233758.17,196407.14
+PT-1562,Orthopedics,Private Insurance,198481.27,136590.77
+PT-1563,Emergency,Government Scheme,137893.51,82616.04
+PT-1564,Orthopedics,Government Scheme,91311.97,65843.37
+PT-1565,Cardiology,Private Insurance,245942.93,191420.21
+PT-1566,Pediatrics,Private Insurance,37243.08,28905.38
+PT-1567,Orthopedics,Corporate,98527.51,72293.31
+PT-1568,Pediatrics,Self-Pay,38900.67,1819.49
+PT-1569,Pediatrics,Government Scheme,43937.46,31737.68
+PT-1570,General Surgery,Private Insurance,200799.19,159327.36
+PT-1571,Cardiology,Government Scheme,158269.87,94828.62
+PT-1572,Orthopedics,Government Scheme,116271.75,66504.56
+PT-1573,Pediatrics,Private Insurance,50892.89,41224.97
+PT-1574,General Surgery,Private Insurance,189631.91,126440.59
+PT-1575,Pediatrics,Corporate,58645.51,41060.26
+PT-1576,Emergency,Corporate,95469.54,85894.85
+PT-1577,General Surgery,Government Scheme,178853.56,112499.49
+PT-1578,Pediatrics,Government Scheme,68488.14,43200.93
+PT-1579,Pediatrics,Private Insurance,67503.05,60113.24
+PT-1580,Pediatrics,Corporate,92597.12,73011.34
+PT-1581,Pediatrics,Government Scheme,72331.03,50173.95
+PT-1582,Emergency,Government Scheme,121440.9,85048.25
+PT-1583,Neurology,Private Insurance,190989.97,143609.1
+PT-1584,General Surgery,Private Insurance,154441.36,119681.5
+PT-1585,Cardiology,Private Insurance,252870.97,177445.44
+PT-1586,Orthopedics,Private Insurance,179969.73,133515.1
+PT-1587,General Surgery,Private Insurance,125781.9,100763.75
+PT-1588,Neurology,Private Insurance,172110.21,128047.6
+PT-1589,Cardiology,Private Insurance,175252.21,127695.12
+PT-1590,Orthopedics,Self-Pay,119805.43,576.56
+PT-1591,Pediatrics,Self-Pay,62132.25,11900.57
+PT-1592,Pediatrics,Self-Pay,44830.21,11636.09
+PT-1593,General Surgery,Private Insurance,194673.4,163001.27
+PT-1594,Pediatrics,Government Scheme,74944.28,45745.57
+PT-1595,General Surgery,Private Insurance,118228.85,77332.84
+PT-1596,Oncology,Private Insurance,181955.73,138242.05
+PT-1597,General Surgery,Government Scheme,152148.62,97872.61
+PT-1598,Emergency,Government Scheme,95868.42,69646.17
+PT-1599,Pediatrics,Self-Pay,63797.96,7958.16
+PT-1600,Pediatrics,Private Insurance,39080.78,34661.97
+PT-1601,General Surgery,Government Scheme,209585.44,153950.85
+PT-1602,Cardiology,Private Insurance,161175.26,106904.3
+PT-1603,Emergency,Private Insurance,95858.05,71571.38
+PT-1604,Pediatrics,Private Insurance,75205.92,57032.08
+PT-1605,Oncology,Private Insurance,263612.02,194728.51
+PT-1606,Oncology,Private Insurance,244763.53,188290.96
+PT-1607,Neurology,Government Scheme,260776.12,188730.41
+PT-1608,Pediatrics,Government Scheme,64767.51,40188.01
+PT-1609,Emergency,Private Insurance,71413.14,62879.01
+PT-1610,Neurology,Self-Pay,130210.72,38754.6
+PT-1611,Emergency,Private Insurance,67134.51,55572.35
+PT-1612,Neurology,Private Insurance,147833.46,97004.01
+PT-1613,Pediatrics,Corporate,49121.63,40784.35
+PT-1614,Neurology,Private Insurance,106103.77,79668.34
+PT-1615,Pediatrics,Private Insurance,83910.67,64197.77
+PT-1616,Cardiology,Corporate,219919.08,169608.59
+PT-1617,Emergency,Government Scheme,58582.47,38277.76
+PT-1618,Orthopedics,Government Scheme,108494.67,69184.83
+PT-1619,Orthopedics,Government Scheme,163127.52,114634.26
+PT-1620,General Surgery,Private Insurance,89061.83,75241.84
+PT-1621,Orthopedics,Government Scheme,199299.67,132189.52
+PT-1622,Emergency,Private Insurance,60056.03,53571.92
+PT-1623,Oncology,Private Insurance,337248.47,251075.16
+PT-1624,Emergency,Private Insurance,113455.46,86222.22
+PT-1625,Cardiology,Private Insurance,238057.83,170634.25
+PT-1626,Cardiology,Self-Pay,133598.02,36672.45
+PT-1627,Cardiology,Corporate,124774.13,99316.76
+PT-1628,Oncology,Private Insurance,218767.87,144490.25
+PT-1629,Pediatrics,Private Insurance,54174.62,48128.19
+PT-1630,General Surgery,Government Scheme,111229.08,73840.42
+PT-1631,Neurology,Government Scheme,172990.14,123719.85
+PT-1632,Cardiology,Private Insurance,135296.36,106446.3
+PT-1633,Cardiology,Private Insurance,153926.62,135304.24
+PT-1634,Neurology,Government Scheme,102096.39,57505.35
+PT-1635,Cardiology,Private Insurance,262591.32,188114.36
+PT-1636,Emergency,Self-Pay,97439.81,1931.91
+PT-1637,Emergency,Private Insurance,96147.6,86080.88
+PT-1638,Cardiology,Government Scheme,274467.92,178046.36
+PT-1639,General Surgery,Private Insurance,95195.73,72815.36
+PT-1640,Oncology,Private Insurance,329869.17,265280.65
+PT-1641,Orthopedics,Government Scheme,236918.72,170609.62
+PT-1642,Oncology,Private Insurance,342247.05,244542.65
+PT-1643,Neurology,Government Scheme,196956.66,143351.77
+PT-1644,Cardiology,Private Insurance,254588.48,186524.24
+PT-1645,General Surgery,Government Scheme,177091.81,116055.67
+PT-1646,General Surgery,Private Insurance,177485.26,152431.38
+PT-1647,Oncology,Private Insurance,261751.51,214806.47
+PT-1648,Orthopedics,Private Insurance,210928.34,178144.6
+PT-1649,Pediatrics,Government Scheme,50717.79,36161.09
+PT-1650,Cardiology,Private Insurance,186097.21,133626.57
+PT-1651,Emergency,Government Scheme,138594.6,84558.48
+PT-1652,Emergency,Private Insurance,141548.5,127086.24
+PT-1653,Emergency,Corporate,58615.79,49701.69
+PT-1654,Oncology,Government Scheme,308368.24,185492.27
+PT-1655,Oncology,Corporate,313295.18,262777.44
+PT-1655,Oncology,Corporate,317787.4,239846.27
+PT-1656,Neurology,Corporate,264550.06,215895.84
+PT-1657,Emergency,Government Scheme,67793.24,38623.13
+PT-1658,Cardiology,Self-Pay,205597.67,22389.15
+PT-1659,Emergency,Self-Pay,120827.12,15198.54
+PT-1660,Orthopedics,Private Insurance,139681.97,93626.35
+PT-1661,General Surgery,Self-Pay,106742.37,15408.49
+PT-1662,Pediatrics,Government Scheme,91704.59,51653.91
+PT-1663,General Surgery,Government Scheme,127953.98,93132.75
+PT-1664,Pediatrics,Private Insurance,62137.41,53050.76
+PT-1665,Cardiology,Corporate,135728.27,111065.57
+PT-1666,Neurology,Self-Pay,107201.24,30153.37
+PT-1667,Emergency,Government Scheme,64640.38,38599.13
+PT-1668,Emergency,Private Insurance,133119.53,102896.76
+PT-1669,Orthopedics,Government Scheme,233741.14,156065.37
+PT-1670,Emergency,Government Scheme,90478.59,65134.63
+PT-1671,Neurology,Private Insurance,150699.49,120957.92
+PT-1672,Pediatrics,Corporate,45893.67,33952.05
+PT-1673,Orthopedics,Self-Pay,139071.43,15722.62
+PT-1674,Emergency,Private Insurance,61459.05,41209.75
+PT-1675,Neurology,Government Scheme,237353.03,130947.19
+PT-1676,General Surgery,Private Insurance,159651.86,123436.77
+PT-1677,Oncology,Private Insurance,152309.31,135938.35
+PT-1678,Emergency,Government Scheme,126728.86,86124.17
+PT-1679,Pediatrics,Private Insurance,95510.24,62131.49
+PT-1680,Emergency,Private Insurance,69981.58,47823.37
+PT-1681,Oncology,Private Insurance,348414.23,258415.96
+PT-1682,Pediatrics,Private Insurance,77139.7,66084.76
+PT-1683,General Surgery,Private Insurance,134015.07,106273.86
+PT-1684,Emergency,Government Scheme,57638.68,41994.16
+PT-1685,Oncology,Self-Pay,204631.18,2390.64
+PT-1686,Cardiology,Government Scheme,212915.43,159183.44
+PT-1687,Cardiology,Self-Pay,218585.4,53865.77
+PT-1688,Emergency,Private Insurance,71302.33,49375.69
+PT-1689,Cardiology,Government Scheme,178355.55,133534.13
+PT-1690,Cardiology,Private Insurance,127356.92,101674.45
+PT-1691,Pediatrics,Private Insurance,72926.11,56993.35
+PT-1692,Emergency,Government Scheme,128862.2,78205.05
+PT-1693,Oncology,Private Insurance,146287.35,117255.45
+PT-1694,Neurology,Private Insurance,146196.98,118546.16
+PT-1695,Orthopedics,Private Insurance,194991.41,131430.07
+PT-1696,Pediatrics,Government Scheme,72389.02,49789.63
+PT-1697,Orthopedics,Corporate,94805.06,86560.73
+PT-1698,Oncology,Private Insurance,278301.89,229244.83
+PT-1699,Cardiology,Private Insurance,253848.74,187768.86
+PT-1700,General Surgery,Private Insurance,155242.62,112304.58
+PT-1701,Pediatrics,Private Insurance,78339.45,58776.01
+PT-1702,Emergency,Government Scheme,126626.93,75599.45
+PT-1703,Emergency,Private Insurance,142613.88,103727.57
+PT-1704,Emergency,Self-Pay,83394.87,6021.48
+PT-1705,Pediatrics,Government Scheme,44923.26,26102.38
+PT-1706,Orthopedics,Self-Pay,101917.97,17968.64
+PT-1707,Cardiology,Self-Pay,129189.27,4173.12
+PT-1708,General Surgery,Corporate,146848.83,108276.3
+PT-1709,Pediatrics,Private Insurance,40406.53,34046.21
+PT-1710,Orthopedics,Government Scheme,193158.87,128615.62
+PT-1711,General Surgery,Government Scheme,184609.67,117608.72
+PT-1712,Pediatrics,Government Scheme,43357.11,29433.5
+PT-1713,Oncology,Private Insurance,339367.32,267431.65
+PT-1714,Orthopedics,Self-Pay,178150.62,50101.45
+PT-1715,Neurology,Government Scheme,137661.22,88742.71
+PT-1716,Emergency,Self-Pay,57045.25,2678.8
+PT-1717,Neurology,Government Scheme,134553.06,75781.77
+PT-1718,Emergency,Private Insurance,56824.16,49054.42
+PT-1719,General Surgery,Private Insurance,119305.47,83113.04
+PT-1720,Neurology,Government Scheme,186594.88,127195.36
+PT-1721,Neurology,Self-Pay,169573.24,36075.44
+PT-1722,Emergency,Corporate,83122.16,60947.31
+PT-1723,Orthopedics,Self-Pay,139036.23,40321.78
+PT-1724,Orthopedics,Private Insurance,153352.26,111747.35
+PT-1725,Emergency,Government Scheme,136394.39,90472.27
+PT-1726,Emergency,Corporate,116986.97,82108.44
+PT-1727,Orthopedics,Corporate,207481.0,194735.94
+PT-1728,Emergency,Government Scheme,91422.09,59184.73
+PT-1729,Cardiology,Private Insurance,285906.39,196429.68
+PT-1730,Orthopedics,Private Insurance,222632.87,158070.64
+PT-1731,Cardiology,Government Scheme,216705.93,160668.49
+PT-1732,Oncology,Self-Pay,331607.52,71705.26
+PT-1733,General Surgery,Government Scheme,142501.83,100345.8
+PT-1734,Pediatrics,Private Insurance,73892.28,61171.08
+PT-1735,Neurology,Self-Pay,238035.47,26637.88
+PT-1736,Pediatrics,Self-Pay,36164.24,5238.01
+PT-1737,General Surgery,Government Scheme,199405.37,129656.44
+PT-1738,Emergency,Private Insurance,72995.56,53515.2
+PT-1739,Oncology,Self-Pay,276906.44,61186.25
+PT-1740,Neurology,Private Insurance,187846.79,147030.93
+PT-1741,Emergency,Corporate,134062.77,127146.17
+PT-1742,Neurology,Private Insurance,206118.84,165525.0
+PT-1743,Emergency,Private Insurance,93144.39,82661.38
+PT-1744,General Surgery,Corporate,196039.12,159524.51
+PT-1745,Cardiology,Private Insurance,237439.3,186812.68
+PT-1746,Cardiology,Government Scheme,204982.61,143724.52
+PT-1747,General Surgery,Private Insurance,90231.91,66153.65
+PT-1748,Neurology,Government Scheme,171247.17,115661.8
+PT-1749,General Surgery,Private Insurance,194857.36,149773.09
+PT-1750,Oncology,Private Insurance,325211.56,286921.83
+PT-1751,Emergency,Government Scheme,136269.47,91539.3
+PT-1752,Cardiology,Private Insurance,149570.14,109005.95
+PT-1753,Oncology,Private Insurance,261996.61,199724.69
+PT-1754,General Surgery,Private Insurance,126039.55,102471.88
+PT-1755,General Surgery,Government Scheme,89419.47,53284.58
+PT-1756,General Surgery,Government Scheme,210613.26,126542.42
+PT-1757,Cardiology,Government Scheme,155765.86,102205.55
+PT-1758,Cardiology,Private Insurance,115297.95,102384.83
+PT-1759,Orthopedics,Government Scheme,157387.49,99059.06
+PT-1760,Emergency,Private Insurance,92700.97,82472.29
+PT-1761,Orthopedics,Government Scheme,210358.68,127209.56
+PT-1762,General Surgery,Private Insurance,198019.45,155769.32
+PT-1763,General Surgery,Private Insurance,142345.71,110380.27
+PT-1764,Cardiology,Private Insurance,279467.51,237172.18
+PT-1765,Emergency,Private Insurance,111601.77,81084.38
+PT-1766,Pediatrics,Private Insurance,72014.7,47731.27
+PT-1767,Emergency,Private Insurance,142998.16,100578.28
+PT-1768,Neurology,Private Insurance,214419.06,154786.82
+PT-1769,Cardiology,Private Insurance,128856.9,91321.96
+PT-1770,Emergency,Government Scheme,143034.94,94710.72
+PT-1771,Cardiology,Self-Pay,167145.73,27331.5
+PT-1772,Cardiology,Private Insurance,144046.27,118301.03
+PT-1773,Emergency,Corporate,61170.92,52711.64
+PT-1774,Emergency,Government Scheme,139192.07,77131.64
+PT-1775,Emergency,Government Scheme,65688.97,45974.53
+PT-1776,Pediatrics,Self-Pay,51491.59,10156.05
+PT-1777,Orthopedics,Government Scheme,190771.63,120780.41
+PT-1778,Neurology,Self-Pay,256012.27,15675.12
+PT-1779,Pediatrics,Self-Pay,45834.44,1342.09
+PT-1780,Cardiology,Self-Pay,275713.46,25599.37
+PT-1781,Emergency,Self-Pay,102808.76,16922.75
+PT-1782,Cardiology,Government Scheme,120346.16,89845.96
+PT-1783,General Surgery,Self-Pay,206250.96,52781.49
+PT-1784,Emergency,Self-Pay,54299.54,3902.26
+PT-1785,Emergency,Government Scheme,124079.84,87958.38
+PT-1786,Pediatrics,Private Insurance,92661.83,82588.18
+PT-1787,General Surgery,Private Insurance,99871.91,76184.58
+PT-1788,Oncology,Self-Pay,158716.59,36473.06
+PT-1789,Emergency,Private Insurance,124158.38,95145.58
+PT-1790,Oncology,Government Scheme,158861.45,108597.64
+PT-1791,Emergency,Private Insurance,79047.05,53026.11
+PT-1792,Cardiology,Government Scheme,250020.0,155174.42
+PT-1793,Neurology,Self-Pay,167939.72,9537.3
+PT-1794,General Surgery,Government Scheme,216291.7,150336.37
+PT-1795,Pediatrics,Private Insurance,90655.2,72985.19
+PT-1796,Emergency,Private Insurance,141247.99,118877.27
+PT-1797,General Surgery,Government Scheme,222897.22,129828.36
+PT-1798,Emergency,Government Scheme,84789.11,55487.46
+PT-1799,Pediatrics,Private Insurance,77371.79,54047.49
+PT-1800,General Surgery,Government Scheme,222755.89,156254.99
+PT-1801,Pediatrics,Government Scheme,57082.96,35279.33
+PT-1802,General Surgery,Government Scheme,138498.95,97136.41
+PT-1803,Emergency,Private Insurance,63321.24,49270.57
+PT-1804,Pediatrics,Self-Pay,84708.57,5396.61
+PT-1805,Orthopedics,Private Insurance,118521.55,95928.06
+PT-1806,Pediatrics,Government Scheme,82407.8,57648.12
+PT-1807,Oncology,Private Insurance,146718.12,131790.37
+PT-1808,Orthopedics,Government Scheme,124012.68,84502.88
+PT-1809,Oncology,Government Scheme,332834.21,215967.81
+PT-1810,Oncology,Government Scheme,301584.58,189230.79
+PT-1811,Orthopedics,Private Insurance,186379.11,130424.05
+PT-1812,Emergency,Self-Pay,57776.82,7850.3
+PT-1813,Orthopedics,Private Insurance,90558.26,66909.46
+PT-1814,Neurology,Private Insurance,269902.61,238453.56
+PT-1815,Emergency,Private Insurance,112384.51,84724.82
+PT-1816,Cardiology,Private Insurance,258753.44,230910.52
+PT-1817,Emergency,Private Insurance,131580.62,88330.9
+PT-1818,Emergency,Private Insurance,129872.01,103723.86
+PT-1819,General Surgery,Private Insurance,162597.72,110423.93
+PT-1819,General Surgery,Private Insurance,103007.84,79685.46
+PT-1820,Orthopedics,Self-Pay,239420.35,52138.83
+PT-1821,Cardiology,Private Insurance,169326.6,136517.31
+PT-1822,Orthopedics,Government Scheme,94872.01,68027.53
+PT-1823,Pediatrics,Corporate,55024.01,42809.48
+PT-1824,Cardiology,Self-Pay,255989.62,22536.15
+PT-1825,Cardiology,Self-Pay,262558.24,4325.36
+PT-1826,Cardiology,Private Insurance,162036.92,144378.06
+PT-1827,Cardiology,Self-Pay,132645.51,10277.96
+PT-1828,Emergency,Corporate,88162.3,65086.63
+PT-1829,Orthopedics,Government Scheme,140991.18,89163.66
+PT-1830,Cardiology,Private Insurance,121391.51,95018.06
+PT-1830,Cardiology,Private Insurance,121520.1,88356.81
+PT-1831,Pediatrics,Self-Pay,53989.21,368.19
+PT-1832,General Surgery,Private Insurance,221375.54,162033.27
+PT-1833,Emergency,Corporate,118062.03,108307.3
+PT-1834,Pediatrics,Government Scheme,91884.62,61616.11
+PT-1835,Orthopedics,Self-Pay,217735.48,23680.83
+PT-1836,Oncology,Corporate,152934.6,117155.54
+PT-1837,Cardiology,Private Insurance,168081.33,146584.08
+PT-1838,Cardiology,Private Insurance,140871.41,99043.54
+PT-1839,Emergency,Private Insurance,126033.44,89216.53
+PT-1840,Cardiology,Corporate,157772.68,143631.01
+PT-1841,General Surgery,Private Insurance,161029.17,126460.49
+PT-1842,Neurology,Private Insurance,248072.94,211579.99
+PT-1843,Neurology,Private Insurance,195319.21,155149.95
+PT-1844,Neurology,Government Scheme,219381.98,133700.43
+PT-1845,General Surgery,Government Scheme,161331.34,98332.94
+PT-1846,Emergency,Government Scheme,134579.32,94267.48
+PT-1847,Emergency,Private Insurance,57666.37,50729.66
+PT-1848,Orthopedics,Corporate,153025.67,132286.77
+PT-1849,Pediatrics,Private Insurance,52142.89,34571.43
+PT-1850,Cardiology,Corporate,120374.56,112820.57
+PT-1851,Emergency,Self-Pay,106947.38,3427.51
+PT-1852,Orthopedics,Corporate,161546.56,132032.94
+PT-1853,General Surgery,Private Insurance,134557.95,105694.07
+PT-1854,Emergency,Self-Pay,77785.4,13787.94
+PT-1855,General Surgery,Private Insurance,162566.67,137942.17
+PT-1856,Neurology,Private Insurance,115941.51,80242.53
+PT-1857,Pediatrics,Government Scheme,74909.15,49724.92
+PT-1858,Cardiology,Government Scheme,264004.59,178511.4
+PT-1859,Emergency,Private Insurance,55516.09,39116.89
+PT-1860,Emergency,Self-Pay,117734.53,5982.19
+PT-1861,Orthopedics,Government Scheme,233593.73,168833.39
+PT-1862,Emergency,Private Insurance,99871.6,89625.94
+PT-1863,Emergency,Government Scheme,54475.78,35659.57
+PT-1864,Oncology,Government Scheme,192129.17,136206.56
+PT-1865,Emergency,Private Insurance,123863.61,86319.0
+PT-1866,Emergency,Private Insurance,103280.74,68665.47
+PT-1867,Pediatrics,Government Scheme,48660.45,33253.41
+PT-1868,Emergency,Corporate,71322.46,59336.38
+PT-1869,Cardiology,Government Scheme,169968.22,107233.65
+PT-1870,Emergency,Private Insurance,107169.31,94061.06
+PT-1871,Cardiology,Private Insurance,159779.3,113804.03
+PT-1872,Emergency,Private Insurance,131052.6,89268.08
+PT-1873,Emergency,Private Insurance,91820.18,74565.74
+PT-1874,General Surgery,Private Insurance,153674.81,137455.04
+PT-1875,General Surgery,Government Scheme,140776.29,82809.26
+PT-1876,Neurology,Private Insurance,144999.16,98896.35
+PT-1877,General Surgery,Government Scheme,109810.11,74469.28
+PT-1878,Neurology,Corporate,122396.13,106209.97
+PT-1879,General Surgery,Private Insurance,102542.8,67683.53
+PT-1880,Neurology,Government Scheme,271684.65,189901.06
+PT-1881,Emergency,Government Scheme,119812.72,82289.01
+PT-1882,Oncology,Self-Pay,161251.66,10552.42
+PT-1883,General Surgery,Private Insurance,218315.97,173265.09
+PT-1884,Orthopedics,Private Insurance,187777.95,155725.97
+PT-1885,Neurology,Self-Pay,243095.02,1003.49
+PT-1886,Cardiology,Government Scheme,127251.66,75239.67
+PT-1887,Orthopedics,Government Scheme,111657.55,77586.68
+PT-1888,Pediatrics,Private Insurance,83135.85,72095.43
+PT-1889,General Surgery,Government Scheme,129515.63,81883.07
+PT-1890,Oncology,Private Insurance,277094.45,227239.24
+PT-1891,Emergency,Private Insurance,93907.06,65771.31
+PT-1892,Pediatrics,Government Scheme,74103.09,43821.33
+PT-1893,Cardiology,Government Scheme,171572.07,124216.5
+PT-1894,Orthopedics,Corporate,218717.04,189316.2
+PT-1895,Pediatrics,Government Scheme,65394.8,48380.94
+PT-1896,Pediatrics,Self-Pay,62247.05,4707.95
+PT-1897,Orthopedics,Private Insurance,154994.01,106891.82
+PT-1898,Cardiology,Private Insurance,248650.76,213447.41
+PT-1899,Pediatrics,Private Insurance,80899.46,63188.18
+PT-1900,Emergency,Private Insurance,72345.59,49021.67
+PT-1900,Emergency,Private Insurance,79848.89,57559.99
+PT-1901,Pediatrics,Self-Pay,46623.6,10756.81
+PT-1902,Pediatrics,Private Insurance,64394.04,54133.39
+PT-1902,Pediatrics,Private Insurance,39917.7,30481.45
+PT-1903,Emergency,Government Scheme,81287.61,48355.0
+PT-1904,Pediatrics,Corporate,48055.44,44016.95
+PT-1905,Oncology,Government Scheme,316682.95,235200.94
+PT-1906,Pediatrics,Government Scheme,52178.37,33710.88
+PT-1907,Cardiology,Government Scheme,186863.27,107763.55
+PT-1908,Emergency,Government Scheme,124290.7,84398.86
+PT-1909,Pediatrics,Government Scheme,59074.9,44146.59
+PT-1910,Pediatrics,Government Scheme,69104.79,46879.15
+PT-1911,Oncology,Government Scheme,163832.28,98878.54
+PT-1912,Cardiology,Government Scheme,174750.13,105018.23
+PT-1913,Orthopedics,Private Insurance,104825.19,90726.27
+PT-1914,Cardiology,Government Scheme,200966.49,123000.22
+PT-1915,Neurology,Private Insurance,170631.51,113596.55
+PT-1916,Oncology,Government Scheme,342573.91,195754.9
+PT-1917,Neurology,Government Scheme,254791.86,152982.07
+PT-1918,Oncology,Private Insurance,185744.72,165205.02
+PT-1919,Neurology,Government Scheme,260333.18,187744.49
+PT-1919,Neurology,Government Scheme,199650.32,146720.25
+PT-1920,Pediatrics,Government Scheme,91309.65,61680.02
+PT-1921,Pediatrics,Corporate,94647.1,66332.73
+PT-1922,Oncology,Private Insurance,342896.73,250946.97
+PT-1923,General Surgery,Corporate,180549.29,151384.82
+PT-1924,Neurology,Private Insurance,198551.68,129131.09
+PT-1925,Neurology,Government Scheme,134881.25,77110.7
+PT-1926,Orthopedics,Government Scheme,135950.71,95550.57
+PT-1927,General Surgery,Private Insurance,119163.48,101425.79
+PT-1928,Emergency,Private Insurance,106757.31,86175.76
+PT-1929,Neurology,Self-Pay,215872.17,62213.54
+PT-1930,Cardiology,Private Insurance,209738.82,155043.52
+PT-1931,General Surgery,Private Insurance,137189.01,110595.58
+PT-1932,Orthopedics,Government Scheme,223538.56,137463.48
+PT-1933,Oncology,Government Scheme,320715.22,199284.78
+PT-1934,Emergency,Government Scheme,122303.39,80291.83
+PT-1935,General Surgery,Private Insurance,153041.08,115960.11
+PT-1936,General Surgery,Government Scheme,162740.94,111956.96
+PT-1937,Cardiology,Self-Pay,126574.63,34020.42
+PT-1938,Emergency,Government Scheme,74817.4,54116.2
+PT-1939,Cardiology,Government Scheme,144892.68,91640.56
+PT-1940,General Surgery,Self-Pay,223433.85,4866.65
+PT-1941,Neurology,Private Insurance,217763.33,194676.46
+PT-1942,General Surgery,Private Insurance,145779.36,99702.92
+PT-1943,Orthopedics,Private Insurance,200703.67,141419.34
+PT-1943,Orthopedics,Private Insurance,104528.43,74645.23
+PT-1944,General Surgery,Private Insurance,212548.48,159896.94
+PT-1945,Orthopedics,Private Insurance,238697.34,193525.02
+PT-1946,Neurology,Private Insurance,253266.27,221171.28
+PT-1947,Emergency,Private Insurance,62413.47,54979.51
+PT-1948,General Surgery,Government Scheme,169648.36,96479.37
+PT-1949,Orthopedics,Self-Pay,127547.5,22894.4
+PT-1950,Orthopedics,Private Insurance,201962.66,178649.69
+PT-1951,Neurology,Government Scheme,143005.7,92267.63

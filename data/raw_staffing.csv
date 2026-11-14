@@ -1,0 +1,1261 @@
+Date,Department ,Shift,Staff Count
+01/03/2026,Cardiology,Day,8
+01-Mar-2026,Cardiology,Night,8
+2026-03-01,Orthopedics,Day,11
+2026-03-01,Orthopedics,Night,7
+01-Mar-2026,Pediatrics,Day,10
+01-Mar-2026,Pediatrics,Night,6
+03-01-2026,General Surgery,Day,11
+03-01-2026,General Surgery,Night,5
+03-01-2026,Neurology,Day,6
+03-01-2026,Neurology,Night,3
+01-Mar-2026,Oncology,Day,7
+2026-03-01,Oncology,Night,4
+01-Mar-2026,Emergency,Day,13
+03-01-2026,Emergency,Night,9
+03-02-2026,Cardiology,Day,8
+2026-03-02,Cardiology,Night,8
+02-Mar-2026,Orthopedics,Day,9
+02/03/2026,Orthopedics,Night,7
+02-Mar-2026,Pediatrics,Day,9
+02/03/2026,Pediatrics,Night,3
+02/03/2026,General Surgery,Day,13
+02/03/2026,General Surgery,Night,7
+03-02-2026,Neurology,Day,9
+03-02-2026,Neurology,Night,4
+2026-03-02,Oncology,Day,8
+02-Mar-2026,Oncology,Night,2
+02/03/2026,Emergency,Day,15
+02-Mar-2026,Emergency,Night,10
+03/03/2026,Cardiology,Day,9
+2026-03-03,Cardiology,Night,7
+2026-03-03,Orthopedics,Day,8
+03-03-2026,Orthopedics,Night,6
+03-Mar-2026,Pediatrics,Day,10
+03/03/2026,Pediatrics,Night,2
+03-Mar-2026,General Surgery,Day,9
+03/03/2026,General Surgery,Night,4
+03/03/2026,Neurology,Day,5
+03-Mar-2026,Neurology,Night,6
+03-03-2026,Oncology,Day,9
+03-Mar-2026,Oncology,Night,3
+03/03/2026,Emergency,Day,16
+2026-03-03,Emergency,Night,8
+03-04-2026,Cardiology,Day,10
+2026-03-04,Cardiology,Night,8
+2026-03-04,Orthopedics,Day,7
+04-Mar-2026,Orthopedics,Night,5
+04-Mar-2026,Pediatrics,Day,9
+03-04-2026,Pediatrics,Night,5
+04/03/2026,General Surgery,Day,12
+2026-03-04,General Surgery,Night,5
+2026-03-04,Neurology,Day,6
+03-04-2026,Neurology,Night,6
+04-Mar-2026,Oncology,Day,9
+04-Mar-2026,Oncology,Night,4
+03-04-2026,Emergency,Day,13
+04/03/2026,Emergency,Night,6
+05-Mar-2026,Cardiology,Day,10
+2026-03-05,Cardiology,Night,6
+05-Mar-2026,Orthopedics,Day,11
+03-05-2026,Orthopedics,Night,5
+03-05-2026,Pediatrics,Day,9
+05/03/2026,Pediatrics,Night,3
+05/03/2026,General Surgery,Day,9
+03-05-2026,General Surgery,Night,7
+03-05-2026,Neurology,Day,9
+03-05-2026,Neurology,Night,2
+05/03/2026,Oncology,Day,8
+03-05-2026,Oncology,Night,2
+05-Mar-2026,Emergency,Day,14
+05/03/2026,Emergency,Night,9
+03-06-2026,Cardiology,Day,9
+2026-03-06,Cardiology,Night,6
+03-06-2026,Orthopedics,Day,8
+2026-03-06,Orthopedics,Night,4
+06/03/2026,Pediatrics,Day,7
+2026-03-06,Pediatrics,Night,2
+06/03/2026,General Surgery,Day,13
+06-Mar-2026,General Surgery,Night,4
+03-06-2026,Neurology,Day,5
+03-06-2026,Neurology,Night,3
+06-Mar-2026,Oncology,Day,10
+06/03/2026,Oncology,Night,5
+03-06-2026,Emergency,Day,15
+2026-03-06,Emergency,Night,6
+07-Mar-2026,Cardiology,Day,11
+03-07-2026,Cardiology,Night,7
+07/03/2026,Orthopedics,Day,7
+2026-03-07,Orthopedics,Night,5
+2026-03-07,Pediatrics,Day,8
+2026-03-07,Pediatrics,Night,3
+07/03/2026,General Surgery,Day,11
+03-07-2026,General Surgery,Night,8
+07-Mar-2026,Neurology,Day,7
+2026-03-07,Neurology,Night,6
+2026-03-07,Oncology,Day,8
+2026-03-07,Oncology,Night,5
+03-07-2026,Emergency,Day,16
+2026-03-07,Emergency,Night,7
+08/03/2026,Cardiology,Day,8
+08-Mar-2026,Cardiology,Night,5
+08/03/2026,Orthopedics,Day,8
+08-Mar-2026,Orthopedics,Night,5
+08-Mar-2026,Pediatrics,Day,7
+08-Mar-2026,Pediatrics,Night,3
+08/03/2026,General Surgery,Day,11
+2026-03-08,General Surgery,Night,5
+08/03/2026,Neurology,Day,9
+08-Mar-2026,Neurology,Night,2
+08-Mar-2026,Oncology,Day,6
+08/03/2026,Oncology,Night,6
+2026-03-08,Emergency,Day,13
+03-08-2026,Emergency,Night,9
+09-Mar-2026,Cardiology,Day,12
+09/03/2026,Cardiology,Night,8
+09-Mar-2026,Orthopedics,Day,9
+09/03/2026,Orthopedics,Night,7
+09/03/2026,Pediatrics,Day,8
+09-Mar-2026,Pediatrics,Night,4
+09-Mar-2026,General Surgery,Day,12
+03-09-2026,General Surgery,Night,8
+09-Mar-2026,Neurology,Day,9
+2026-03-09,Neurology,Night,4
+2026-03-09,Oncology,Day,7
+09-Mar-2026,Oncology,Night,4
+03-09-2026,Emergency,Day,15
+09-Mar-2026,Emergency,Night,7
+10/03/2026,Cardiology,Day,8
+03-10-2026,Cardiology,Night,7
+03-10-2026,Orthopedics,Day,7
+10/03/2026,Orthopedics,Night,6
+10-Mar-2026,Pediatrics,Day,9
+10-Mar-2026,Pediatrics,Night,6
+2026-03-10,General Surgery,Day,10
+03-10-2026,General Surgery,Night,6
+10/03/2026,Neurology,Day,9
+2026-03-10,Neurology,Night,5
+03-10-2026,Oncology,Day,10
+03-10-2026,Oncology,Night,4
+10-Mar-2026,Emergency,Day,15
+10-Mar-2026,Emergency,Night,9
+03-11-2026,Cardiology,Day,11
+03-11-2026,Cardiology,Night,4
+11/03/2026,Orthopedics,Day,10
+2026-03-11,Orthopedics,Night,5
+11-Mar-2026,Pediatrics,Day,8
+11/03/2026,Pediatrics,Night,5
+11/03/2026,General Surgery,Day,13
+11/03/2026,General Surgery,Night,8
+03-11-2026,Neurology,Day,5
+2026-03-11,Neurology,Night,3
+11-Mar-2026,Oncology,Day,6
+03-11-2026,Oncology,Night,2
+2026-03-11,Emergency,Day,14
+11/03/2026,Emergency,Night,6
+12/03/2026,Cardiology,Day,10
+12-Mar-2026,Cardiology,Night,5
+03-12-2026,Orthopedics,Day,8
+03-12-2026,Orthopedics,Night,4
+12-Mar-2026,Pediatrics,Day,8
+12/03/2026,Pediatrics,Night,3
+2026-03-12,General Surgery,Day,9
+2026-03-12,General Surgery,Night,4
+12-Mar-2026,Neurology,Day,9
+2026-03-12,Neurology,Night,5
+03-12-2026,Oncology,Day,7
+2026-03-12,Oncology,Night,4
+12/03/2026,Emergency,Day,13
+03-12-2026,Emergency,Night,6
+13-Mar-2026,Cardiology,Day,8
+13/03/2026,Cardiology,Night,7
+2026-03-13,Orthopedics,Day,9
+2026-03-13,Orthopedics,Night,3
+13-Mar-2026,Pediatrics,Day,10
+2026-03-13,Pediatrics,Night,2
+13/03/2026,General Surgery,Day,13
+13-Mar-2026,General Surgery,Night,4
+03-13-2026,Neurology,Day,6
+13-Mar-2026,Neurology,Night,4
+2026-03-13,Oncology,Day,10
+03-13-2026,Oncology,Night,4
+13/03/2026,Emergency,Day,15
+03-13-2026,Emergency,Night,6
+14-Mar-2026,Cardiology,Day,12
+03-14-2026,Cardiology,Night,7
+2026-03-14,Orthopedics,Day,10
+14-Mar-2026,Orthopedics,Night,4
+03-14-2026,Pediatrics,Day,10
+03-14-2026,Pediatrics,Night,5
+14/03/2026,General Surgery,Day,13
+2026-03-14,General Surgery,Night,7
+14-Mar-2026,Neurology,Day,8
+2026-03-14,Neurology,Night,4
+14/03/2026,Oncology,Day,9
+2026-03-14,Oncology,Night,6
+14/03/2026,Emergency,Day,15
+03-14-2026,Emergency,Night,9
+2026-03-15,Cardiology,Day,11
+03-15-2026,Cardiology,Night,6
+2026-03-15,Orthopedics,Day,8
+15/03/2026,Orthopedics,Night,3
+15-Mar-2026,Pediatrics,Day,7
+15/03/2026,Pediatrics,Night,6
+15/03/2026,General Surgery,Day,9
+15-Mar-2026,General Surgery,Night,7
+15/03/2026,Neurology,Day,9
+15-Mar-2026,Neurology,Night,2
+15-Mar-2026,Oncology,Day,8
+03-15-2026,Oncology,Night,4
+2026-03-15,Emergency,Day,13
+15-Mar-2026,Emergency,Night,8
+03-16-2026,Cardiology,Day,8
+16-Mar-2026,Cardiology,Night,5
+16-Mar-2026,Orthopedics,Day,11
+16/03/2026,Orthopedics,Night,5
+16-Mar-2026,Pediatrics,Day,8
+2026-03-16,Pediatrics,Night,5
+16-Mar-2026,General Surgery,Day,9
+16-Mar-2026,General Surgery,Night,4
+2026-03-16,Neurology,Day,6
+2026-03-16,Neurology,Night,3
+16/03/2026,Oncology,Day,7
+2026-03-16,Oncology,Night,5
+16-Mar-2026,Emergency,Day,12
+16/03/2026,Emergency,Night,9
+17-Mar-2026,Cardiology,Day,12
+17-Mar-2026,Cardiology,Night,5
+2026-03-17,Orthopedics,Day,10
+2026-03-17,Orthopedics,Night,5
+03-17-2026,Pediatrics,Day,9
+03-17-2026,Pediatrics,Night,4
+03-17-2026,General Surgery,Day,13
+17/03/2026,General Surgery,Night,8
+03-17-2026,Neurology,Day,6
+17/03/2026,Neurology,Night,6
+03-17-2026,Oncology,Day,10
+03-17-2026,Oncology,Night,6
+17-Mar-2026,Emergency,Day,15
+03-17-2026,Emergency,Night,7
+18/03/2026,Cardiology,Day,9
+18-Mar-2026,Cardiology,Night,8
+03-18-2026,Orthopedics,Day,7
+18/03/2026,Orthopedics,Night,6
+18-Mar-2026,Pediatrics,Day,7
+2026-03-18,Pediatrics,Night,2
+18/03/2026,General Surgery,Day,11
+2026-03-18,General Surgery,Night,5
+18-Mar-2026,Neurology,Day,9
+2026-03-18,Neurology,Night,4
+18-Mar-2026,Oncology,Day,6
+18/03/2026,Oncology,Night,6
+03-18-2026,Emergency,Day,12
+18/03/2026,Emergency,Night,10
+2026-03-19,Cardiology,Day,10
+03-19-2026,Cardiology,Night,5
+19-Mar-2026,Orthopedics,Day,9
+03-19-2026,Orthopedics,Night,7
+19-Mar-2026,Pediatrics,Day,8
+19/03/2026,Pediatrics,Night,4
+19/03/2026,General Surgery,Day,9
+19/03/2026,General Surgery,Night,4
+19/03/2026,Neurology,Day,7
+2026-03-19,Neurology,Night,4
+19-Mar-2026,Oncology,Day,7
+03-19-2026,Oncology,Night,4
+19-Mar-2026,Emergency,Day,16
+19/03/2026,Emergency,Night,7
+20/03/2026,Cardiology,Day,8
+2026-03-20,Cardiology,Night,5
+20/03/2026,Orthopedics,Day,11
+20/03/2026,Orthopedics,Night,4
+2026-03-20,Pediatrics,Day,9
+2026-03-20,Pediatrics,Night,4
+20/03/2026,General Surgery,Day,9
+20-Mar-2026,General Surgery,Night,8
+20-Mar-2026,Neurology,Day,8
+03-20-2026,Neurology,Night,4
+2026-03-20,Oncology,Day,10
+20-Mar-2026,Oncology,Night,3
+20-Mar-2026,Emergency,Day,15
+03-20-2026,Emergency,Night,9
+03-21-2026,Cardiology,Day,10
+2026-03-21,Cardiology,Night,8
+21/03/2026,Orthopedics,Day,11
+03-21-2026,Orthopedics,Night,4
+21-Mar-2026,Pediatrics,Day,7
+21-Mar-2026,Pediatrics,Night,6
+03-21-2026,General Surgery,Day,12
+21-Mar-2026,General Surgery,Night,4
+21/03/2026,Neurology,Day,7
+03-21-2026,Neurology,Night,2
+03-21-2026,Oncology,Day,9
+21/03/2026,Oncology,Night,5
+21/03/2026,Emergency,Day,16
+03-21-2026,Emergency,Night,9
+2026-03-22,Cardiology,Day,9
+22-Mar-2026,Cardiology,Night,5
+22/03/2026,Orthopedics,Day,9
+03-22-2026,Orthopedics,Night,3
+2026-03-22,Pediatrics,Day,8
+03-22-2026,Pediatrics,Night,4
+2026-03-22,General Surgery,Day,13
+03-22-2026,General Surgery,Night,8
+03-22-2026,Neurology,Day,5
+22-Mar-2026,Neurology,Night,5
+03-22-2026,Oncology,Day,6
+2026-03-22,Oncology,Night,4
+2026-03-22,Emergency,Day,16
+22-Mar-2026,Emergency,Night,9
+23/03/2026,Cardiology,Day,11
+2026-03-23,Cardiology,Night,7
+03-23-2026,Orthopedics,Day,7
+23/03/2026,Orthopedics,Night,3
+23/03/2026,Pediatrics,Day,7
+23-Mar-2026,Pediatrics,Night,2
+2026-03-23,General Surgery,Day,9
+2026-03-23,General Surgery,Night,7
+2026-03-23,Neurology,Day,7
+03-23-2026,Neurology,Night,6
+2026-03-23,Oncology,Day,7
+03-23-2026,Oncology,Night,4
+03-23-2026,Emergency,Day,13
+2026-03-23,Emergency,Night,10
+24-Mar-2026,Cardiology,Day,11
+2026-03-24,Cardiology,Night,4
+24/03/2026,Orthopedics,Day,8
+2026-03-24,Orthopedics,Night,5
+24-Mar-2026,Pediatrics,Day,7
+03-24-2026,Pediatrics,Night,2
+24/03/2026,General Surgery,Day,13
+24-Mar-2026,General Surgery,Night,8
+2026-03-24,Neurology,Day,6
+03-24-2026,Neurology,Night,4
+03-24-2026,Oncology,Day,10
+03-24-2026,Oncology,Night,2
+2026-03-24,Emergency,Day,15
+24-Mar-2026,Emergency,Night,10
+2026-03-25,Cardiology,Day,8
+25/03/2026,Cardiology,Night,4
+25/03/2026,Orthopedics,Day,7
+2026-03-25,Orthopedics,Night,5
+2026-03-25,Pediatrics,Day,7
+03-25-2026,Pediatrics,Night,3
+2026-03-25,General Surgery,Day,12
+03-25-2026,General Surgery,Night,5
+25/03/2026,Neurology,Day,6
+2026-03-25,Neurology,Night,4
+03-25-2026,Oncology,Day,9
+03-25-2026,Oncology,Night,3
+03-25-2026,Emergency,Day,13
+25/03/2026,Emergency,Night,9
+03-26-2026,Cardiology,Day,9
+26/03/2026,Cardiology,Night,5
+03-26-2026,Orthopedics,Day,9
+03-26-2026,Orthopedics,Night,6
+26-Mar-2026,Pediatrics,Day,6
+03-26-2026,Pediatrics,Night,4
+26-Mar-2026,General Surgery,Day,11
+2026-03-26,General Surgery,Night,5
+26-Mar-2026,Neurology,Day,9
+26/03/2026,Neurology,Night,3
+03-26-2026,Oncology,Day,9
+26/03/2026,Oncology,Night,4
+03-26-2026,Emergency,Day,14
+26/03/2026,Emergency,Night,6
+27/03/2026,Cardiology,Day,10
+03-27-2026,Cardiology,Night,7
+2026-03-27,Orthopedics,Day,7
+27/03/2026,Orthopedics,Night,7
+27/03/2026,Pediatrics,Day,9
+03-27-2026,Pediatrics,Night,5
+27-Mar-2026,General Surgery,Day,11
+2026-03-27,General Surgery,Night,8
+2026-03-27,Neurology,Day,7
+2026-03-27,Neurology,Night,4
+27-Mar-2026,Oncology,Day,7
+03-27-2026,Oncology,Night,5
+2026-03-27,Emergency,Day,14
+03-27-2026,Emergency,Night,7
+28/03/2026,Cardiology,Day,10
+28/03/2026,Cardiology,Night,7
+28-Mar-2026,Orthopedics,Day,7
+28-Mar-2026,Orthopedics,Night,7
+28-Mar-2026,Pediatrics,Day,10
+28-Mar-2026,Pediatrics,Night,5
+03-28-2026,General Surgery,Day,10
+03-28-2026,General Surgery,Night,6
+28-Mar-2026,Neurology,Day,8
+2026-03-28,Neurology,Night,4
+2026-03-28,Oncology,Day,7
+28-Mar-2026,Oncology,Night,5
+28-Mar-2026,Emergency,Day,14
+2026-03-28,Emergency,Night,10
+29/03/2026,Cardiology,Day,9
+29/03/2026,Cardiology,Night,6
+29/03/2026,Orthopedics,Day,11
+03-29-2026,Orthopedics,Night,4
+2026-03-29,Pediatrics,Day,6
+29/03/2026,Pediatrics,Night,4
+29-Mar-2026,General Surgery,Day,11
+29/03/2026,General Surgery,Night,7
+2026-03-29,Neurology,Day,8
+29/03/2026,Neurology,Night,3
+03-29-2026,Oncology,Day,7
+2026-03-29,Oncology,Night,4
+29/03/2026,Emergency,Day,13
+29-Mar-2026,Emergency,Night,7
+30/03/2026,Cardiology,Day,8
+03-30-2026,Cardiology,Night,5
+30-Mar-2026,Orthopedics,Day,7
+03-30-2026,Orthopedics,Night,4
+30-Mar-2026,Pediatrics,Day,6
+30-Mar-2026,Pediatrics,Night,6
+30-Mar-2026,General Surgery,Day,10
+30-Mar-2026,General Surgery,Night,7
+2026-03-30,Neurology,Day,6
+30/03/2026,Neurology,Night,5
+30/03/2026,Oncology,Day,8
+03-30-2026,Oncology,Night,5
+30-Mar-2026,Emergency,Day,14
+30-Mar-2026,Emergency,Night,10
+2026-03-31,Cardiology,Day,12
+31-Mar-2026,Cardiology,Night,6
+2026-03-31,Orthopedics,Day,11
+31/03/2026,Orthopedics,Night,4
+03-31-2026,Pediatrics,Day,7
+03-31-2026,Pediatrics,Night,4
+2026-03-31,General Surgery,Day,13
+31-Mar-2026,General Surgery,Night,8
+31/03/2026,Neurology,Day,5
+31-Mar-2026,Neurology,Night,3
+2026-03-31,Oncology,Day,7
+03-31-2026,Oncology,Night,3
+2026-03-31,Emergency,Day,15
+31-Mar-2026,Emergency,Night,8
+01-Apr-2026,Cardiology,Day,9
+04-01-2026,Cardiology,Night,5
+01-Apr-2026,Orthopedics,Day,9
+2026-04-01,Orthopedics,Night,6
+01-Apr-2026,Pediatrics,Day,8
+01/04/2026,Pediatrics,Night,3
+2026-04-01,General Surgery,Day,12
+2026-04-01,General Surgery,Night,7
+2026-04-01,Neurology,Day,7
+2026-04-01,Neurology,Night,5
+04-01-2026,Oncology,Day,7
+01-Apr-2026,Oncology,Night,3
+2026-04-01,Emergency,Day,15
+01-Apr-2026,Emergency,Night,9
+2026-04-02,Cardiology,Day,11
+02-Apr-2026,Cardiology,Night,6
+2026-04-02,Orthopedics,Day,9
+02-Apr-2026,Orthopedics,Night,7
+04-02-2026,Pediatrics,Day,10
+04-02-2026,Pediatrics,Night,5
+04-02-2026,General Surgery,Day,13
+02/04/2026,General Surgery,Night,4
+02-Apr-2026,Neurology,Day,8
+02/04/2026,Neurology,Night,2
+04-02-2026,Oncology,Day,6
+04-02-2026,Oncology,Night,6
+02-Apr-2026,Emergency,Day,13
+2026-04-02,Emergency,Night,9
+04-03-2026,Cardiology,Day,11
+2026-04-03,Cardiology,Night,4
+03-Apr-2026,Orthopedics,Day,10
+2026-04-03,Orthopedics,Night,5
+04-03-2026,Pediatrics,Day,10
+03-Apr-2026,Pediatrics,Night,4
+04-03-2026,General Surgery,Day,11
+04-03-2026,General Surgery,Night,4
+04-03-2026,Neurology,Day,6
+03-Apr-2026,Neurology,Night,4
+03-Apr-2026,Oncology,Day,6
+04-03-2026,Oncology,Night,4
+2026-04-03,Emergency,Day,12
+2026-04-03,Emergency,Night,8
+04-Apr-2026,Cardiology,Day,12
+04/04/2026,Cardiology,Night,5
+2026-04-04,Orthopedics,Day,7
+04/04/2026,Orthopedics,Night,4
+04-Apr-2026,Pediatrics,Day,9
+04-04-2026,Pediatrics,Night,4
+04/04/2026,General Surgery,Day,12
+04-Apr-2026,General Surgery,Night,8
+2026-04-04,Neurology,Day,5
+04-04-2026,Neurology,Night,4
+04/04/2026,Oncology,Day,6
+2026-04-04,Oncology,Night,6
+2026-04-04,Emergency,Day,15
+04-04-2026,Emergency,Night,8
+05-Apr-2026,Cardiology,Day,11
+05/04/2026,Cardiology,Night,4
+2026-04-05,Orthopedics,Day,9
+2026-04-05,Orthopedics,Night,6
+04-05-2026,Pediatrics,Day,7
+05/04/2026,Pediatrics,Night,4
+04-05-2026,General Surgery,Day,9
+05-Apr-2026,General Surgery,Night,8
+05-Apr-2026,Neurology,Day,6
+05/04/2026,Neurology,Night,4
+2026-04-05,Oncology,Day,8
+05-Apr-2026,Oncology,Night,6
+04-05-2026,Emergency,Day,13
+2026-04-05,Emergency,Night,8
+06/04/2026,Cardiology,Day,11
+06-Apr-2026,Cardiology,Night,4
+04-06-2026,Orthopedics,Day,8
+06-Apr-2026,Orthopedics,Night,5
+04-06-2026,Pediatrics,Day,10
+06/04/2026,Pediatrics,Night,2
+2026-04-06,General Surgery,Day,10
+06/04/2026,General Surgery,Night,6
+04-06-2026,Neurology,Day,5
+06-Apr-2026,Neurology,Night,6
+06-Apr-2026,Oncology,Day,10
+04-06-2026,Oncology,Night,6
+06-Apr-2026,Emergency,Day,16
+2026-04-06,Emergency,Night,9
+04-07-2026,Cardiology,Day,10
+04-07-2026,Cardiology,Night,6
+07/04/2026,Orthopedics,Day,10
+07-Apr-2026,Orthopedics,Night,6
+07/04/2026,Pediatrics,Day,7
+04-07-2026,Pediatrics,Night,5
+2026-04-07,General Surgery,Day,12
+2026-04-07,General Surgery,Night,8
+04-07-2026,Neurology,Day,8
+07/04/2026,Neurology,Night,2
+04-07-2026,Oncology,Day,10
+04-07-2026,Oncology,Night,4
+07-Apr-2026,Emergency,Day,14
+2026-04-07,Emergency,Night,9
+08/04/2026,Cardiology,Day,9
+04-08-2026,Cardiology,Night,8
+08-Apr-2026,Orthopedics,Day,11
+2026-04-08,Orthopedics,Night,6
+08-Apr-2026,Pediatrics,Day,8
+08-Apr-2026,Pediatrics,Night,3
+08/04/2026,General Surgery,Day,13
+2026-04-08,General Surgery,Night,7
+08-Apr-2026,Neurology,Day,5
+08/04/2026,Neurology,Night,3
+04-08-2026,Oncology,Day,6
+08/04/2026,Oncology,Night,3
+08-Apr-2026,Emergency,Day,15
+08/04/2026,Emergency,Night,8
+04-09-2026,Cardiology,Day,11
+04-09-2026,Cardiology,Night,6
+04-09-2026,Orthopedics,Day,7
+09-Apr-2026,Orthopedics,Night,7
+09-Apr-2026,Pediatrics,Day,7
+09-Apr-2026,Pediatrics,Night,5
+09-Apr-2026,General Surgery,Day,11
+09/04/2026,General Surgery,Night,5
+04-09-2026,Neurology,Day,8
+04-09-2026,Neurology,Night,2
+09/04/2026,Oncology,Day,9
+09-Apr-2026,Oncology,Night,2
+09-Apr-2026,Emergency,Day,16
+09-Apr-2026,Emergency,Night,9
+2026-04-10,Cardiology,Day,9
+10/04/2026,Cardiology,Night,8
+2026-04-10,Orthopedics,Day,8
+10-Apr-2026,Orthopedics,Night,7
+04-10-2026,Pediatrics,Day,6
+10/04/2026,Pediatrics,Night,6
+10-Apr-2026,General Surgery,Day,10
+04-10-2026,General Surgery,Night,4
+10-Apr-2026,Neurology,Day,5
+10/04/2026,Neurology,Night,6
+10-Apr-2026,Oncology,Day,7
+10/04/2026,Oncology,Night,4
+10-Apr-2026,Emergency,Day,13
+04-10-2026,Emergency,Night,7
+04-11-2026,Cardiology,Day,9
+2026-04-11,Cardiology,Night,4
+11-Apr-2026,Orthopedics,Day,8
+11/04/2026,Orthopedics,Night,6
+11-Apr-2026,Pediatrics,Day,10
+11/04/2026,Pediatrics,Night,3
+2026-04-11,General Surgery,Day,12
+04-11-2026,General Surgery,Night,8
+11/04/2026,Neurology,Day,6
+2026-04-11,Neurology,Night,5
+2026-04-11,Oncology,Day,6
+11-Apr-2026,Oncology,Night,5
+2026-04-11,Emergency,Day,15
+04-11-2026,Emergency,Night,9
+2026-04-12,Cardiology,Day,12
+2026-04-12,Cardiology,Night,8
+12-Apr-2026,Orthopedics,Day,10
+04-12-2026,Orthopedics,Night,3
+2026-04-12,Pediatrics,Day,9
+12-Apr-2026,Pediatrics,Night,4
+12-Apr-2026,General Surgery,Day,13
+2026-04-12,General Surgery,Night,7
+12/04/2026,Neurology,Day,5
+2026-04-12,Neurology,Night,4
+04-12-2026,Oncology,Day,7
+04-12-2026,Oncology,Night,5
+12/04/2026,Emergency,Day,13
+12/04/2026,Emergency,Night,9
+2026-04-13,Cardiology,Day,10
+2026-04-13,Cardiology,Night,6
+13-Apr-2026,Orthopedics,Day,10
+04-13-2026,Orthopedics,Night,4
+04-13-2026,Pediatrics,Day,8
+04-13-2026,Pediatrics,Night,5
+04-13-2026,General Surgery,Day,12
+04-13-2026,General Surgery,Night,8
+2026-04-13,Neurology,Day,9
+13/04/2026,Neurology,Night,3
+04-13-2026,Oncology,Day,10
+13/04/2026,Oncology,Night,2
+04-13-2026,Emergency,Day,14
+04-13-2026,Emergency,Night,8
+04-14-2026,Cardiology,Day,9
+14-Apr-2026,Cardiology,Night,7
+14/04/2026,Orthopedics,Day,9
+14/04/2026,Orthopedics,Night,4
+04-14-2026,Pediatrics,Day,10
+04-14-2026,Pediatrics,Night,5
+2026-04-14,General Surgery,Day,10
+04-14-2026,General Surgery,Night,5
+2026-04-14,Neurology,Day,6
+04-14-2026,Neurology,Night,4
+14-Apr-2026,Oncology,Day,10
+14/04/2026,Oncology,Night,5
+14/04/2026,Emergency,Day,14
+04-14-2026,Emergency,Night,10
+04-15-2026,Cardiology,Day,12
+15-Apr-2026,Cardiology,Night,7
+15-Apr-2026,Orthopedics,Day,8
+15-Apr-2026,Orthopedics,Night,4
+2026-04-15,Pediatrics,Day,9
+04-15-2026,Pediatrics,Night,2
+04-15-2026,General Surgery,Day,10
+15/04/2026,General Surgery,Night,5
+04-15-2026,Neurology,Day,6
+2026-04-15,Neurology,Night,6
+04-15-2026,Oncology,Day,7
+15-Apr-2026,Oncology,Night,5
+2026-04-15,Emergency,Day,16
+15/04/2026,Emergency,Night,10
+04-16-2026,Cardiology,Day,9
+16-Apr-2026,Cardiology,Night,4
+04-16-2026,Orthopedics,Day,7
+2026-04-16,Orthopedics,Night,7
+2026-04-16,Pediatrics,Day,8
+16-Apr-2026,Pediatrics,Night,2
+16/04/2026,General Surgery,Day,13
+04-16-2026,General Surgery,Night,5
+16/04/2026,Neurology,Day,6
+16-Apr-2026,Neurology,Night,3
+2026-04-16,Oncology,Day,7
+04-16-2026,Oncology,Night,6
+04-16-2026,Emergency,Day,16
+16/04/2026,Emergency,Night,6
+17/04/2026,Cardiology,Day,8
+04-17-2026,Cardiology,Night,8
+17/04/2026,Orthopedics,Day,7
+17/04/2026,Orthopedics,Night,4
+17-Apr-2026,Pediatrics,Day,10
+2026-04-17,Pediatrics,Night,5
+2026-04-17,General Surgery,Day,13
+2026-04-17,General Surgery,Night,6
+17-Apr-2026,Neurology,Day,6
+17-Apr-2026,Neurology,Night,2
+17-Apr-2026,Oncology,Day,6
+2026-04-17,Oncology,Night,3
+17/04/2026,Emergency,Day,16
+17-Apr-2026,Emergency,Night,10
+2026-04-18,Cardiology,Day,10
+18-Apr-2026,Cardiology,Night,8
+18-Apr-2026,Orthopedics,Day,7
+18-Apr-2026,Orthopedics,Night,4
+04-18-2026,Pediatrics,Day,6
+04-18-2026,Pediatrics,Night,5
+18/04/2026,General Surgery,Day,12
+18-Apr-2026,General Surgery,Night,6
+04-18-2026,Neurology,Day,9
+04-18-2026,Neurology,Night,4
+18/04/2026,Oncology,Day,10
+04-18-2026,Oncology,Night,4
+04-18-2026,Emergency,Day,16
+2026-04-18,Emergency,Night,9
+19-Apr-2026,Cardiology,Day,9
+04-19-2026,Cardiology,Night,4
+19-Apr-2026,Orthopedics,Day,11
+19/04/2026,Orthopedics,Night,6
+2026-04-19,Pediatrics,Day,7
+04-19-2026,Pediatrics,Night,5
+19-Apr-2026,General Surgery,Day,9
+19/04/2026,General Surgery,Night,6
+2026-04-19,Neurology,Day,6
+19/04/2026,Neurology,Night,3
+04-19-2026,Oncology,Day,8
+19-Apr-2026,Oncology,Night,4
+04-19-2026,Emergency,Day,12
+19/04/2026,Emergency,Night,10
+20/04/2026,Cardiology,Day,12
+20/04/2026,Cardiology,Night,6
+20-Apr-2026,Orthopedics,Day,8
+20/04/2026,Orthopedics,Night,4
+20/04/2026,Pediatrics,Day,10
+20-Apr-2026,Pediatrics,Night,4
+20-Apr-2026,General Surgery,Day,13
+20/04/2026,General Surgery,Night,6
+20-Apr-2026,Neurology,Day,7
+04-20-2026,Neurology,Night,4
+04-20-2026,Oncology,Day,7
+04-20-2026,Oncology,Night,4
+20-Apr-2026,Emergency,Day,14
+20-Apr-2026,Emergency,Night,8
+21-Apr-2026,Cardiology,Day,12
+2026-04-21,Cardiology,Night,7
+2026-04-21,Orthopedics,Day,10
+04-21-2026,Orthopedics,Night,6
+21-Apr-2026,Pediatrics,Day,7
+2026-04-21,Pediatrics,Night,4
+21/04/2026,General Surgery,Day,10
+04-21-2026,General Surgery,Night,6
+2026-04-21,Neurology,Day,7
+21-Apr-2026,Neurology,Night,4
+04-21-2026,Oncology,Day,9
+21/04/2026,Oncology,Night,6
+21-Apr-2026,Emergency,Day,13
+2026-04-21,Emergency,Night,8
+22/04/2026,Cardiology,Day,8
+04-22-2026,Cardiology,Night,5
+22-Apr-2026,Orthopedics,Day,10
+22-Apr-2026,Orthopedics,Night,3
+22/04/2026,Pediatrics,Day,9
+22-Apr-2026,Pediatrics,Night,4
+2026-04-22,General Surgery,Day,9
+04-22-2026,General Surgery,Night,4
+04-22-2026,Neurology,Day,7
+04-22-2026,Neurology,Night,5
+22-Apr-2026,Oncology,Day,6
+2026-04-22,Oncology,Night,3
+22-Apr-2026,Emergency,Day,14
+22/04/2026,Emergency,Night,7
+04-23-2026,Cardiology,Day,12
+23/04/2026,Cardiology,Night,8
+2026-04-23,Orthopedics,Day,11
+23/04/2026,Orthopedics,Night,6
+04-23-2026,Pediatrics,Day,8
+04-23-2026,Pediatrics,Night,6
+23/04/2026,General Surgery,Day,9
+04-23-2026,General Surgery,Night,4
+23-Apr-2026,Neurology,Day,7
+23/04/2026,Neurology,Night,3
+23-Apr-2026,Oncology,Day,8
+23-Apr-2026,Oncology,Night,3
+04-23-2026,Emergency,Day,14
+04-23-2026,Emergency,Night,7
+2026-04-24,Cardiology,Day,10
+2026-04-24,Cardiology,Night,5
+24-Apr-2026,Orthopedics,Day,10
+24-Apr-2026,Orthopedics,Night,6
+2026-04-24,Pediatrics,Day,6
+04-24-2026,Pediatrics,Night,6
+24-Apr-2026,General Surgery,Day,9
+04-24-2026,General Surgery,Night,4
+24-Apr-2026,Neurology,Day,9
+04-24-2026,Neurology,Night,4
+2026-04-24,Oncology,Day,6
+2026-04-24,Oncology,Night,6
+2026-04-24,Emergency,Day,16
+24/04/2026,Emergency,Night,10
+2026-04-25,Cardiology,Day,12
+25-Apr-2026,Cardiology,Night,8
+25/04/2026,Orthopedics,Day,11
+25-Apr-2026,Orthopedics,Night,3
+25-Apr-2026,Pediatrics,Day,8
+25/04/2026,Pediatrics,Night,5
+2026-04-25,General Surgery,Day,11
+04-25-2026,General Surgery,Night,5
+25-Apr-2026,Neurology,Day,8
+25-Apr-2026,Neurology,Night,2
+04-25-2026,Oncology,Day,10
+25-Apr-2026,Oncology,Night,2
+2026-04-25,Emergency,Day,12
+04-25-2026,Emergency,Night,7
+26/04/2026,Cardiology,Day,11
+26/04/2026,Cardiology,Night,6
+04-26-2026,Orthopedics,Day,11
+26-Apr-2026,Orthopedics,Night,7
+04-26-2026,Pediatrics,Day,7
+26/04/2026,Pediatrics,Night,6
+26/04/2026,General Surgery,Day,10
+04-26-2026,General Surgery,Night,5
+2026-04-26,Neurology,Day,6
+2026-04-26,Neurology,Night,2
+04-26-2026,Oncology,Day,7
+04-26-2026,Oncology,Night,2
+26/04/2026,Emergency,Day,14
+26/04/2026,Emergency,Night,7
+27/04/2026,Cardiology,Day,10
+04-27-2026,Cardiology,Night,7
+27/04/2026,Orthopedics,Day,8
+2026-04-27,Orthopedics,Night,5
+27-Apr-2026,Pediatrics,Day,7
+27-Apr-2026,Pediatrics,Night,2
+27-Apr-2026,General Surgery,Day,9
+27-Apr-2026,General Surgery,Night,5
+27-Apr-2026,Neurology,Day,5
+27-Apr-2026,Neurology,Night,5
+27/04/2026,Oncology,Day,7
+2026-04-27,Oncology,Night,5
+27/04/2026,Emergency,Day,12
+2026-04-27,Emergency,Night,10
+28/04/2026,Cardiology,Day,9
+28-Apr-2026,Cardiology,Night,4
+04-28-2026,Orthopedics,Day,11
+28-Apr-2026,Orthopedics,Night,5
+28/04/2026,Pediatrics,Day,7
+04-28-2026,Pediatrics,Night,2
+04-28-2026,General Surgery,Day,12
+2026-04-28,General Surgery,Night,8
+2026-04-28,Neurology,Day,8
+28-Apr-2026,Neurology,Night,2
+28-Apr-2026,Oncology,Day,9
+04-28-2026,Oncology,Night,2
+04-28-2026,Emergency,Day,14
+28-Apr-2026,Emergency,Night,6
+29/04/2026,Cardiology,Day,10
+29-Apr-2026,Cardiology,Night,4
+2026-04-29,Orthopedics,Day,10
+04-29-2026,Orthopedics,Night,5
+29/04/2026,Pediatrics,Day,6
+29/04/2026,Pediatrics,Night,3
+2026-04-29,General Surgery,Day,13
+29/04/2026,General Surgery,Night,5
+29-Apr-2026,Neurology,Day,6
+2026-04-29,Neurology,Night,2
+29/04/2026,Oncology,Day,10
+04-29-2026,Oncology,Night,4
+29-Apr-2026,Emergency,Day,16
+29-Apr-2026,Emergency,Night,7
+30/04/2026,Cardiology,Day,9
+30/04/2026,Cardiology,Night,8
+04-30-2026,Orthopedics,Day,8
+30/04/2026,Orthopedics,Night,3
+30-Apr-2026,Pediatrics,Day,6
+04-30-2026,Pediatrics,Night,3
+04-30-2026,General Surgery,Day,12
+04-30-2026,General Surgery,Night,6
+2026-04-30,Neurology,Day,5
+2026-04-30,Neurology,Night,4
+2026-04-30,Oncology,Day,9
+30-Apr-2026,Oncology,Night,3
+30-Apr-2026,Emergency,Day,12
+30/04/2026,Emergency,Night,10
+2026-05-01,Cardiology,Day,9
+05-01-2026,Cardiology,Night,4
+2026-05-01,Orthopedics,Day,8
+2026-05-01,Orthopedics,Night,6
+01-May-2026,Pediatrics,Day,6
+01-May-2026,Pediatrics,Night,5
+01-May-2026,General Surgery,Day,13
+2026-05-01,General Surgery,Night,5
+01-May-2026,Neurology,Day,7
+05-01-2026,Neurology,Night,5
+05-01-2026,Oncology,Day,7
+05-01-2026,Oncology,Night,6
+2026-05-01,Emergency,Day,16
+01-May-2026,Emergency,Night,9
+02/05/2026,Cardiology,Day,12
+02/05/2026,Cardiology,Night,5
+02/05/2026,Orthopedics,Day,11
+02/05/2026,Orthopedics,Night,4
+2026-05-02,Pediatrics,Day,6
+05-02-2026,Pediatrics,Night,5
+2026-05-02,General Surgery,Day,13
+02/05/2026,General Surgery,Night,5
+02/05/2026,Neurology,Day,7
+05-02-2026,Neurology,Night,4
+05-02-2026,Oncology,Day,9
+05-02-2026,Oncology,Night,3
+05-02-2026,Emergency,Day,15
+2026-05-02,Emergency,Night,7
+2026-05-03,Cardiology,Day,11
+03/05/2026,Cardiology,Night,5
+03/05/2026,Orthopedics,Day,7
+03/05/2026,Orthopedics,Night,3
+03-May-2026,Pediatrics,Day,7
+2026-05-03,Pediatrics,Night,4
+03-May-2026,General Surgery,Day,13
+05-03-2026,General Surgery,Night,7
+03-May-2026,Neurology,Day,6
+03/05/2026,Neurology,Night,5
+05-03-2026,Oncology,Day,9
+03-May-2026,Oncology,Night,6
+05-03-2026,Emergency,Day,12
+05-03-2026,Emergency,Night,10
+04/05/2026,Cardiology,Day,10
+05-04-2026,Cardiology,Night,6
+04-May-2026,Orthopedics,Day,10
+05-04-2026,Orthopedics,Night,3
+05-04-2026,Pediatrics,Day,10
+05-04-2026,Pediatrics,Night,2
+2026-05-04,General Surgery,Day,12
+04/05/2026,General Surgery,Night,8
+04/05/2026,Neurology,Day,5
+2026-05-04,Neurology,Night,5
+05-04-2026,Oncology,Day,6
+05-04-2026,Oncology,Night,3
+04-May-2026,Emergency,Day,14
+2026-05-04,Emergency,Night,9
+05/05/2026,Cardiology,Day,12
+05/05/2026,Cardiology,Night,7
+05/05/2026,Orthopedics,Day,8
+05/05/2026,Orthopedics,Night,3
+05/05/2026,Pediatrics,Day,8
+2026-05-05,Pediatrics,Night,6
+05-05-2026,General Surgery,Day,13
+05/05/2026,General Surgery,Night,8
+05/05/2026,Neurology,Day,9
+05/05/2026,Neurology,Night,4
+05/05/2026,Oncology,Day,6
+05/05/2026,Oncology,Night,6
+05-May-2026,Emergency,Day,13
+05-05-2026,Emergency,Night,7
+06-May-2026,Cardiology,Day,8
+06-May-2026,Cardiology,Night,6
+06-May-2026,Orthopedics,Day,11
+06-May-2026,Orthopedics,Night,6
+06/05/2026,Pediatrics,Day,8
+2026-05-06,Pediatrics,Night,4
+05-06-2026,General Surgery,Day,9
+05-06-2026,General Surgery,Night,8
+2026-05-06,Neurology,Day,6
+06-May-2026,Neurology,Night,2
+06/05/2026,Oncology,Day,7
+06/05/2026,Oncology,Night,5
+06-May-2026,Emergency,Day,13
+06-May-2026,Emergency,Night,7
+07/05/2026,Cardiology,Day,11
+05-07-2026,Cardiology,Night,5
+07/05/2026,Orthopedics,Day,7
+07/05/2026,Orthopedics,Night,5
+2026-05-07,Pediatrics,Day,9
+07/05/2026,Pediatrics,Night,6
+07-May-2026,General Surgery,Day,10
+05-07-2026,General Surgery,Night,5
+2026-05-07,Neurology,Day,7
+05-07-2026,Neurology,Night,2
+2026-05-07,Oncology,Day,10
+07-May-2026,Oncology,Night,6
+07-May-2026,Emergency,Day,13
+2026-05-07,Emergency,Night,8
+08-May-2026,Cardiology,Day,12
+2026-05-08,Cardiology,Night,5
+05-08-2026,Orthopedics,Day,9
+08-May-2026,Orthopedics,Night,3
+2026-05-08,Pediatrics,Day,8
+08-May-2026,Pediatrics,Night,5
+08/05/2026,General Surgery,Day,13
+05-08-2026,General Surgery,Night,7
+2026-05-08,Neurology,Day,6
+05-08-2026,Neurology,Night,2
+08-May-2026,Oncology,Day,7
+08-May-2026,Oncology,Night,5
+2026-05-08,Emergency,Day,12
+05-08-2026,Emergency,Night,8
+05-09-2026,Cardiology,Day,10
+05-09-2026,Cardiology,Night,7
+2026-05-09,Orthopedics,Day,9
+2026-05-09,Orthopedics,Night,3
+09/05/2026,Pediatrics,Day,9
+09-May-2026,Pediatrics,Night,6
+09-May-2026,General Surgery,Day,10
+2026-05-09,General Surgery,Night,6
+09-May-2026,Neurology,Day,8
+09-May-2026,Neurology,Night,6
+2026-05-09,Oncology,Day,6
+2026-05-09,Oncology,Night,6
+2026-05-09,Emergency,Day,16
+09/05/2026,Emergency,Night,6
+10-May-2026,Cardiology,Day,10
+2026-05-10,Cardiology,Night,7
+10-May-2026,Orthopedics,Day,9
+2026-05-10,Orthopedics,Night,6
+10-May-2026,Pediatrics,Day,9
+10/05/2026,Pediatrics,Night,2
+10/05/2026,General Surgery,Day,13
+05-10-2026,General Surgery,Night,4
+05-10-2026,Neurology,Day,5
+2026-05-10,Neurology,Night,5
+05-10-2026,Oncology,Day,9
+05-10-2026,Oncology,Night,4
+10/05/2026,Emergency,Day,14
+10-May-2026,Emergency,Night,8
+05-11-2026,Cardiology,Day,8
+05-11-2026,Cardiology,Night,7
+11/05/2026,Orthopedics,Day,8
+05-11-2026,Orthopedics,Night,7
+05-11-2026,Pediatrics,Day,9
+11-May-2026,Pediatrics,Night,3
+05-11-2026,General Surgery,Day,9
+11/05/2026,General Surgery,Night,6
+05-11-2026,Neurology,Day,7
+2026-05-11,Neurology,Night,2
+05-11-2026,Oncology,Day,9
+11-May-2026,Oncology,Night,6
+11-May-2026,Emergency,Day,13
+05-11-2026,Emergency,Night,7
+05-12-2026,Cardiology,Day,11
+12-May-2026,Cardiology,Night,6
+12/05/2026,Orthopedics,Day,9
+05-12-2026,Orthopedics,Night,4
+2026-05-12,Pediatrics,Day,6
+05-12-2026,Pediatrics,Night,3
+05-12-2026,General Surgery,Day,13
+12/05/2026,General Surgery,Night,8
+2026-05-12,Neurology,Day,8
+2026-05-12,Neurology,Night,3
+12-May-2026,Oncology,Day,6
+12/05/2026,Oncology,Night,4
+05-12-2026,Emergency,Day,14
+12/05/2026,Emergency,Night,9
+2026-05-13,Cardiology,Day,11
+2026-05-13,Cardiology,Night,6
+13/05/2026,Orthopedics,Day,9
+2026-05-13,Orthopedics,Night,6
+13/05/2026,Pediatrics,Day,7
+2026-05-13,Pediatrics,Night,4
+13/05/2026,General Surgery,Day,12
+13/05/2026,General Surgery,Night,5
+13-May-2026,Neurology,Day,6
+13/05/2026,Neurology,Night,3
+05-13-2026,Oncology,Day,6
+2026-05-13,Oncology,Night,3
+13-May-2026,Emergency,Day,16
+13-May-2026,Emergency,Night,9
+14/05/2026,Cardiology,Day,12
+14/05/2026,Cardiology,Night,7
+14-May-2026,Orthopedics,Day,11
+14-May-2026,Orthopedics,Night,7
+05-14-2026,Pediatrics,Day,8
+14-May-2026,Pediatrics,Night,4
+05-14-2026,General Surgery,Day,11
+05-14-2026,General Surgery,Night,5
+05-14-2026,Neurology,Day,9
+14/05/2026,Neurology,Night,2
+14/05/2026,Oncology,Day,8
+14/05/2026,Oncology,Night,6
+14-May-2026,Emergency,Day,12
+05-14-2026,Emergency,Night,10
+15/05/2026,Cardiology,Day,8
+15/05/2026,Cardiology,Night,6
+05-15-2026,Orthopedics,Day,10
+2026-05-15,Orthopedics,Night,7
+15-May-2026,Pediatrics,Day,9
+15-May-2026,Pediatrics,Night,5
+15/05/2026,General Surgery,Day,9
+15-May-2026,General Surgery,Night,4
+2026-05-15,Neurology,Day,9
+15-May-2026,Neurology,Night,4
+2026-05-15,Oncology,Day,7
+2026-05-15,Oncology,Night,4
+05-15-2026,Emergency,Day,14
+15-May-2026,Emergency,Night,6
+16/05/2026,Cardiology,Day,11
+16/05/2026,Cardiology,Night,7
+05-16-2026,Orthopedics,Day,10
+05-16-2026,Orthopedics,Night,7
+16/05/2026,Pediatrics,Day,8
+16-May-2026,Pediatrics,Night,6
+05-16-2026,General Surgery,Day,10
+2026-05-16,General Surgery,Night,4
+2026-05-16,Neurology,Day,7
+2026-05-16,Neurology,Night,2
+16-May-2026,Oncology,Day,10
+16/05/2026,Oncology,Night,3
+16/05/2026,Emergency,Day,13
+2026-05-16,Emergency,Night,7
+2026-05-17,Cardiology,Day,11
+2026-05-17,Cardiology,Night,6
+17-May-2026,Orthopedics,Day,7
+17-May-2026,Orthopedics,Night,7
+17-May-2026,Pediatrics,Day,9
+17/05/2026,Pediatrics,Night,5
+17/05/2026,General Surgery,Day,11
+05-17-2026,General Surgery,Night,4
+17/05/2026,Neurology,Day,7
+05-17-2026,Neurology,Night,5
+2026-05-17,Oncology,Day,9
+05-17-2026,Oncology,Night,3
+17/05/2026,Emergency,Day,15
+05-17-2026,Emergency,Night,7
+05-18-2026,Cardiology,Day,8
+2026-05-18,Cardiology,Night,7
+05-18-2026,Orthopedics,Day,11
+2026-05-18,Orthopedics,Night,3
+2026-05-18,Pediatrics,Day,10
+2026-05-18,Pediatrics,Night,4
+2026-05-18,General Surgery,Day,10
+2026-05-18,General Surgery,Night,8
+05-18-2026,Neurology,Day,5
+05-18-2026,Neurology,Night,5
+05-18-2026,Oncology,Day,6
+18/05/2026,Oncology,Night,2
+18-May-2026,Emergency,Day,13
+18/05/2026,Emergency,Night,7
+2026-05-19,Cardiology,Day,10
+05-19-2026,Cardiology,Night,5
+19/05/2026,Orthopedics,Day,11
+19/05/2026,Orthopedics,Night,6
+19/05/2026,Pediatrics,Day,10
+2026-05-19,Pediatrics,Night,5
+2026-05-19,General Surgery,Day,13
+2026-05-19,General Surgery,Night,8
+05-19-2026,Neurology,Day,7
+05-19-2026,Neurology,Night,2
+19/05/2026,Oncology,Day,7
+19-May-2026,Oncology,Night,2
+19/05/2026,Emergency,Day,13
+05-19-2026,Emergency,Night,10
+20-May-2026,Cardiology,Day,11
+2026-05-20,Cardiology,Night,7
+2026-05-20,Orthopedics,Day,11
+20/05/2026,Orthopedics,Night,5
+20/05/2026,Pediatrics,Day,8
+20-May-2026,Pediatrics,Night,3
+20-May-2026,General Surgery,Day,10
+05-20-2026,General Surgery,Night,4
+20-May-2026,Neurology,Day,5
+2026-05-20,Neurology,Night,6
+2026-05-20,Oncology,Day,10
+20-May-2026,Oncology,Night,4
+20/05/2026,Emergency,Day,16
+05-20-2026,Emergency,Night,8
+21-May-2026,Cardiology,Day,9
+05-21-2026,Cardiology,Night,5
+21-May-2026,Orthopedics,Day,10
+21-May-2026,Orthopedics,Night,6
+21-May-2026,Pediatrics,Day,6
+21-May-2026,Pediatrics,Night,2
+05-21-2026,General Surgery,Day,9
+21-May-2026,General Surgery,Night,8
+21-May-2026,Neurology,Day,9
+21-May-2026,Neurology,Night,4
+2026-05-21,Oncology,Day,8
+2026-05-21,Oncology,Night,6
+2026-05-21,Emergency,Day,13
+21/05/2026,Emergency,Night,8
+2026-05-22,Cardiology,Day,10
+2026-05-22,Cardiology,Night,8
+05-22-2026,Orthopedics,Day,7
+22/05/2026,Orthopedics,Night,6
+2026-05-22,Pediatrics,Day,8
+22/05/2026,Pediatrics,Night,5
+05-22-2026,General Surgery,Day,13
+22/05/2026,General Surgery,Night,4
+22-May-2026,Neurology,Day,5
+22/05/2026,Neurology,Night,3
+2026-05-22,Oncology,Day,8
+22-May-2026,Oncology,Night,3
+2026-05-22,Emergency,Day,13
+22-May-2026,Emergency,Night,6
+2026-05-23,Cardiology,Day,9
+2026-05-23,Cardiology,Night,6
+05-23-2026,Orthopedics,Day,8
+23-May-2026,Orthopedics,Night,4
+05-23-2026,Pediatrics,Day,7
+2026-05-23,Pediatrics,Night,5
+23/05/2026,General Surgery,Day,10
+23/05/2026,General Surgery,Night,8
+05-23-2026,Neurology,Day,9
+05-23-2026,Neurology,Night,5
+05-23-2026,Oncology,Day,7
+2026-05-23,Oncology,Night,5
+23-May-2026,Emergency,Day,15
+05-23-2026,Emergency,Night,9
+24-May-2026,Cardiology,Day,9
+2026-05-24,Cardiology,Night,6
+2026-05-24,Orthopedics,Day,10
+24/05/2026,Orthopedics,Night,6
+2026-05-24,Pediatrics,Day,7
+2026-05-24,Pediatrics,Night,2
+24-May-2026,General Surgery,Day,10
+24/05/2026,General Surgery,Night,4
+05-24-2026,Neurology,Day,9
+05-24-2026,Neurology,Night,3
+05-24-2026,Oncology,Day,9
+05-24-2026,Oncology,Night,6
+05-24-2026,Emergency,Day,14
+2026-05-24,Emergency,Night,6
+25/05/2026,Cardiology,Day,11
+25-May-2026,Cardiology,Night,4
+25/05/2026,Orthopedics,Day,8
+2026-05-25,Orthopedics,Night,7
+25-May-2026,Pediatrics,Day,9
+2026-05-25,Pediatrics,Night,2
+2026-05-25,General Surgery,Day,10
+25/05/2026,General Surgery,Night,7
+2026-05-25,Neurology,Day,5
+25-May-2026,Neurology,Night,3
+05-25-2026,Oncology,Day,10
+25/05/2026,Oncology,Night,5
+2026-05-25,Emergency,Day,15
+25/05/2026,Emergency,Night,10
+05-26-2026,Cardiology,Day,9
+2026-05-26,Cardiology,Night,4
+05-26-2026,Orthopedics,Day,8
+26/05/2026,Orthopedics,Night,5
+26-May-2026,Pediatrics,Day,8
+2026-05-26,Pediatrics,Night,3
+26-May-2026,General Surgery,Day,12
+05-26-2026,General Surgery,Night,5
+2026-05-26,Neurology,Day,9
+26/05/2026,Neurology,Night,3
+05-26-2026,Oncology,Day,7
+2026-05-26,Oncology,Night,5
+2026-05-26,Emergency,Day,15
+05-26-2026,Emergency,Night,7
+27/05/2026,Cardiology,Day,12
+05-27-2026,Cardiology,Night,5
+2026-05-27,Orthopedics,Day,7
+27-May-2026,Orthopedics,Night,3
+2026-05-27,Pediatrics,Day,10
+27/05/2026,Pediatrics,Night,6
+05-27-2026,General Surgery,Day,11
+27/05/2026,General Surgery,Night,4
+27/05/2026,Neurology,Day,5
+27-May-2026,Neurology,Night,2
+2026-05-27,Oncology,Day,6
+2026-05-27,Oncology,Night,5
+2026-05-27,Emergency,Day,13
+2026-05-27,Emergency,Night,10
+28-May-2026,Cardiology,Day,8
+28-May-2026,Cardiology,Night,8
+28-May-2026,Orthopedics,Day,9
+28/05/2026,Orthopedics,Night,6
+05-28-2026,Pediatrics,Day,9
+28-May-2026,Pediatrics,Night,4
+28/05/2026,General Surgery,Day,12
+05-28-2026,General Surgery,Night,7
+28/05/2026,Neurology,Day,6
+28/05/2026,Neurology,Night,4
+05-28-2026,Oncology,Day,9
+05-28-2026,Oncology,Night,3
+28-May-2026,Emergency,Day,12
+28/05/2026,Emergency,Night,8
+29-May-2026,Cardiology,Day,8
+29/05/2026,Cardiology,Night,7
+29/05/2026,Orthopedics,Day,10
+29/05/2026,Orthopedics,Night,5
+29-May-2026,Pediatrics,Day,9
+29-May-2026,Pediatrics,Night,5
+29-May-2026,General Surgery,Day,12
+29-May-2026,General Surgery,Night,7
+05-29-2026,Neurology,Day,7
+29-May-2026,Neurology,Night,4
+29/05/2026,Oncology,Day,7
+29/05/2026,Oncology,Night,3
+29/05/2026,Emergency,Day,13
+05-29-2026,Emergency,Night,10

@@ -1,0 +1,970 @@
+Patient ID,Admit Date,Discharge Date,department,Diagnosis,Payer Type,readmission,Age
+PT-1000,2026-03-01,2026-03-05,Cardiology,Arrhythmia,Government Scheme,No,5
+PT-1001,01-Mar-2026,03-Mar-2026,Orthopedics,Fracture,Government Scheme,No,76
+PT-1002,03-01-2026,03-05-2026,Emergency,Cardiac Emergency,Private Insurance,No,49
+PT-1003,2026-03-01,2026-03-04,Emergency,Poisoning,Self-Pay,No,49
+PT-1004,2026-03-01,2026-03-02,Orthopedics,Spinal Injury,Government Scheme,No,38
+PT-1005,03-01-2026,03-02-2026,Emergency,Accident Trauma,Private Insurance,No,46
+PT-1006,01-Mar-2026,08-Mar-2026,Orthopedics,Joint Replacement,Government Scheme,No,82
+PT-1007,01/03/2026,04/03/2026,Orthopedics,Spinal Injury,Self-Pay,No,41
+PT-1008,01-Mar-2026,08-Mar-2026,Cardiology,Heart Failure,Private Insurance,No,18
+PT-1009,01-Mar-2026,03-Mar-2026,General Surgery,Gallbladder Removal,Government Scheme,No,18
+PT-1010,2026-03-01,2026-03-06,Cardiology,Arrhythmia,Self-Pay,No,77
+PT-1011,03-01-2026,03-05-2026,General Surgery,Appendectomy,Government Scheme,No,44
+PT-1012,2026-03-01,2026-03-02,General Surgery,Gallbladder Removal,Corporate,No,39
+PT-1013,2026-03-01,2026-03-07,General Surgery,Hernia Repair,Private Insurance,No,63
+PT-1013,2026-03-01,2026-03-07,General Surgery,Hernia Repair,Private Insurance,No,63
+PT-1014,2026-03-01,2026-03-08,Emergency,Poisoning,Private Insurance,No,63
+PT-1015,01/03/2026,02/03/2026,Emergency,Acute Illness,Private Insurance,No,78
+PT-1016,03-02-2026,03-06-2026,Emergency,Poisoning,Private Insurance,No,67
+PT-1017,02/03/2026,03/03/2026,Orthopedics,Fracture,Private Insurance,No,1
+PT-1018,02-Mar-2026,07-Mar-2026,Neurology,Migraine,Private Insurance,No,17
+PT-1019,02-Mar-2026,11-Mar-2026,Emergency,Cardiac Emergency,Private Insurance,No,13
+PT-1020,2026-03-02,2026-03-03,Pediatrics,Fever/Infection,Government Scheme,No,94
+PT-1021,02/03/2026,09/03/2026,Emergency,Acute Illness,Private Insurance,No,36
+PT-1022,2026-03-02,2026-03-10,Emergency,Accident Trauma,Private Insurance,No,31
+PT-1023,02/03/2026,08/03/2026,General Surgery,Hernia Repair,Self-Pay,No,50
+PT-1024,2026-03-02,2026-03-03,Oncology,Palliative Care,Private Insurance,No,70
+PT-1025,03/03/2026,08/03/2026,Cardiology,Hypertension Crisis,Government Scheme,No,66
+PT-1026,03/03/2026,04/03/2026,Orthopedics,Joint Replacement,Private Insurance,No,6
+PT-1027,03-03-2026,03-05-2026,Pediatrics,Congenital Condition,Corporate,No,51
+PT-1028,2026-03-03,2026-03-04,Neurology,Stroke,Private Insurance,No,28
+PT-1029,03-03-2026,03-09-2026,Cardiology,Heart Failure,Self-Pay,No,57
+PT-1030,2026-03-03,2026-03-04,Oncology,Chemotherapy,Government Scheme,No,18
+PT-1031,03-03-2026,03-04-2026,Emergency,Acute Illness,Private Insurance,No,82
+PT-1032,03-03-2026,03-07-2026,General Surgery,Appendectomy,Private Insurance,No,43
+PT-1033,03-Mar-2026,12-Mar-2026,Neurology,Migraine,Private Insurance,No,15
+PT-1034,03/03/2026,10/03/2026,Emergency,Poisoning,Government Scheme,No,47
+PT-1035,03/03/2026,05/03/2026,Emergency,Accident Trauma,Self-Pay,No,46
+PT-1036,04/03/2026,08/03/2026,Emergency,Acute Illness,Self-Pay,No,4
+PT-1037,04/03/2026,05/03/2026,Emergency,Cardiac Emergency,Self-Pay,No,90
+PT-1038,04/03/2026,09/03/2026,Emergency,Cardiac Emergency,Private Insurance,No,85
+PT-1039,04-Mar-2026,07-Mar-2026,Pediatrics,Fever/Infection,Corporate,No,69
+PT-1040,03-04-2026,03-09-2026,Cardiology,Heart Failure,Private Insurance,No,41
+PT-1041,03-04-2026,03-07-2026,Emergency,Accident Trauma,Private Insurance,No,56
+PT-1041,03-04-2026,03-07-2026,Emergency,Accident Trauma,Private Insurance,No,56
+PT-1042,03-04-2026,03-05-2026,Emergency,Acute Illness,Private Insurance,Yes,85
+PT-1043,03-04-2026,03-07-2026,Oncology,Tumor Removal,Government Scheme,No,38
+PT-1044,2026-03-04,2026-03-07,Orthopedics,Joint Replacement,Government Scheme,No,27
+PT-1045,04/03/2026,06/03/2026,General Surgery,Gallbladder Removal,Government Scheme,No,95
+PT-1046,04/03/2026,05/03/2026,Cardiology,Heart Failure,Private Insurance,No,29
+PT-1047,2026-03-04,2026-03-08,Cardiology,Myocardial Infarction,Private Insurance,No,81
+PT-1048,2026-03-05,2026-03-09,General Surgery,Appendectomy,Self-Pay,No,29
+PT-1049,2026-03-05,2026-03-13,Emergency,Cardiac Emergency,Private Insurance,No,60
+PT-1050,05-Mar-2026,06-Mar-2026,Emergency,Cardiac Emergency,Government Scheme,No,71
+PT-1051,03-05-2026,03-06-2026,Cardiology,Hypertension Crisis,Government Scheme,No,67
+PT-1052,2026-03-05,2026-03-06,Orthopedics,Joint Replacement,Private Insurance,No,30
+PT-1053,05-Mar-2026,10-Mar-2026,Cardiology,Arrhythmia,Private Insurance,No,27
+PT-1054,05-Mar-2026,10-Mar-2026,Pediatrics,Fever/Infection,Self-Pay,No,46
+PT-1055,05/03/2026,06/03/2026,Pediatrics,Injury,Government Scheme,No,35
+PT-1056,05/03/2026,07/03/2026,Cardiology,Hypertension Crisis,Government Scheme,No,69
+PT-1057,05-Mar-2026,12-Mar-2026,Pediatrics,Fever/Infection,Private Insurance,No,34
+PT-1058,05-Mar-2026,07-Mar-2026,Orthopedics,Sports Injury,Private Insurance,No,11
+PT-1059,2026-03-05,2026-03-13,Oncology,Chemotherapy,Corporate,No,84
+PT-1060,2026-03-06,2026-03-10,Emergency,Acute Illness,Private Insurance,No,28
+PT-1061,2026-03-06,2026-03-10,Orthopedics,Spinal Injury,Private Insurance,No,21
+PT-1062,2026-03-06,2026-03-12,Cardiology,Hypertension Crisis,Private Insurance,No,81
+PT-1063,2026-03-06,2026-03-10,Oncology,Tumor Removal,Self-Pay,No,73
+PT-1064,06-Mar-2026,08-Mar-2026,Pediatrics,Congenital Condition,Private Insurance,No,47
+PT-1065,03-06-2026,03-11-2026,Emergency,Acute Illness,Private Insurance,No,69
+PT-1066,07-Mar-2026,11-Mar-2026,General Surgery,Hernia Repair,Self-Pay,No,60
+PT-1067,07/03/2026,09/03/2026,Neurology,Migraine,Private Insurance,No,46
+PT-1068,07/03/2026,14/03/2026,Pediatrics,Congenital Condition,Government Scheme,No,93
+PT-1069,07-Mar-2026,08-Mar-2026,General Surgery,Hernia Repair,Government Scheme,No,3
+PT-1070,07-Mar-2026,10-Mar-2026,Orthopedics,Spinal Injury,Government Scheme,No,71
+PT-1071,07/03/2026,09/03/2026,Oncology,Tumor Removal,Private Insurance,No,69
+PT-1072,03-07-2026,03-12-2026,Oncology,Tumor Removal,Government Scheme,No,25
+PT-1073,03-07-2026,03-15-2026,Pediatrics,Congenital Condition,Private Insurance,No,7
+PT-1074,03-07-2026,03-15-2026,Oncology,Palliative Care,Private Insurance,Yes,57
+PT-1075,2026-03-07,2026-03-15,Emergency,Poisoning,Corporate,No,10
+PT-1076,07-Mar-2026,14-Mar-2026,Neurology,Migraine,Private Insurance,No,80
+PT-1077,07-Mar-2026,15-Mar-2026,General Surgery,Trauma Surgery,Corporate,No,80
+PT-1078,07/03/2026,14/03/2026,Emergency,Acute Illness,Private Insurance,No,10
+PT-1079,03-08-2026,03-14-2026,General Surgery,Trauma Surgery,Private Insurance,No,59
+PT-1080,08/03/2026,12/03/2026,Orthopedics,Joint Replacement,Private Insurance,No,19
+PT-1081,03-08-2026,03-16-2026,Orthopedics,Spinal Injury,Government Scheme,No,60
+PT-1082,08-Mar-2026,15-Mar-2026,Oncology,Palliative Care,Private Insurance,No,78
+PT-1083,03-08-2026,03-11-2026,Cardiology,Myocardial Infarction,Corporate,No,23
+PT-1084,2026-03-08,2026-03-13,Neurology,Head Injury,Government Scheme,No,53
+PT-1085,03-08-2026,03-11-2026,Neurology,Seizure Disorder,Private Insurance,No,52
+PT-1086,2026-03-08,2026-03-10,General Surgery,Gallbladder Removal,Private Insurance,No,70
+PT-1087,08-Mar-2026,13-Mar-2026,Cardiology,Heart Failure,Government Scheme,No,27
+PT-1088,08/03/2026,11/03/2026,Cardiology,Hypertension Crisis,Private Insurance,No,40
+PT-1089,2026-03-08,2026-03-17,General Surgery,Appendectomy,Private Insurance,No,16
+PT-1090,08-Mar-2026,14-Mar-2026,Cardiology,Heart Failure,Private Insurance,No,71
+PT-1091,09-Mar-2026,12-Mar-2026,Emergency,Acute Illness,Self-Pay,No,65
+PT-1092,09-Mar-2026,12-Mar-2026,Cardiology,Hypertension Crisis,Self-Pay,No,71
+PT-1093,09/03/2026,10/03/2026,Pediatrics,Congenital Condition,Self-Pay,No,30
+PT-1094,09/03/2026,12/03/2026,Pediatrics,Injury,Private Insurance,No,5
+PT-1095,09-Mar-2026,16-Mar-2026,Emergency,Poisoning,Self-Pay,No,59
+PT-1095,09-Mar-2026,16-Mar-2026,Emergency,Poisoning,Self-Pay,No,59
+PT-1096,03-09-2026,03-18-2026,Cardiology,Myocardial Infarction,Government Scheme,No,51
+PT-1097,09-Mar-2026,10-Mar-2026,Emergency,Cardiac Emergency,Corporate,No,5
+PT-1098,2026-03-09,2026-03-12,Orthopedics,Joint Replacement,Government Scheme,No,91
+PT-1099,2026-03-09,2026-03-11,General Surgery,Gallbladder Removal,Corporate,Yes,48
+PT-1100,10-Mar-2026,11-Mar-2026,General Surgery,Hernia Repair,Private Insurance,No,31
+PT-1101,03-10-2026,03-12-2026,Neurology,Seizure Disorder,Government Scheme,No,60
+PT-1102,10-Mar-2026,15-Mar-2026,Neurology,Migraine,Corporate,No,59
+PT-1103,10-Mar-2026,16-Mar-2026,Orthopedics,Sports Injury,Self-Pay,No,74
+PT-1104,2026-03-10,2026-03-19,Oncology,Palliative Care,Private Insurance,No,64
+PT-1105,10/03/2026,15/03/2026,Emergency,Acute Illness,Government Scheme,No,87
+PT-1106,03-10-2026,03-13-2026,Oncology,Chemotherapy,Corporate,No,5
+PT-1107,10-Mar-2026,13-Mar-2026,Oncology,Chemotherapy,Corporate,No,17
+PT-1108,10-Mar-2026,12-Mar-2026,Emergency,Poisoning,Self-Pay,No,38
+PT-1109,11/03/2026,17/03/2026,Emergency,Cardiac Emergency,Corporate,No,93
+PT-1110,2026-03-11,2026-03-17,Pediatrics,Fever/Infection,Self-Pay,Yes,87
+PT-1111,2026-03-11,2026-03-12,Orthopedics,Sports Injury,Self-Pay,No,61
+PT-1112,11-Mar-2026,12-Mar-2026,Emergency,Acute Illness,Government Scheme,No,39
+PT-1113,11-Mar-2026,13-Mar-2026,Cardiology,Myocardial Infarction,Corporate,No,31
+PT-1114,11-Mar-2026,12-Mar-2026,Cardiology,Hypertension Crisis,Government Scheme,No,63
+PT-1115,11-Mar-2026,16-Mar-2026,Emergency,Poisoning,Private Insurance,No,31
+PT-1116,2026-03-11,2026-03-14,Cardiology,Heart Failure,Private Insurance,No,59
+PT-1117,11/03/2026,12/03/2026,Orthopedics,Fracture,Private Insurance,No,27
+PT-1118,2026-03-11,2026-03-15,Oncology,Radiation Treatment,Private Insurance,No,19
+PT-1119,11/03/2026,,General Surgery,Hernia Repair,Private Insurance,No,31
+PT-1120,03-12-2026,03-20-2026,Orthopedics,Fracture,Government Scheme,No,14
+PT-1121,03-12-2026,03-17-2026,Orthopedics,Fracture,Government Scheme,No,4
+PT-1122,2026-03-12,2026-03-13,General Surgery,Trauma Surgery,Government Scheme,No,19
+PT-1123,03-12-2026,03-18-2026,Orthopedics,Spinal Injury,Private Insurance,No,78
+PT-1124,12-Mar-2026,19-Mar-2026,Emergency,Acute Illness,Private Insurance,No,59
+PT-1125,03-12-2026,03-18-2026,Oncology,Tumor Removal,Private Insurance,No,88
+PT-1126,03-13-2026,03-19-2026,Cardiology,Heart Failure,Self-Pay,No,53
+PT-1127,03-13-2026,03-18-2026,Neurology,Head Injury,Self-Pay,No,46
+PT-1128,2026-03-13,2026-03-19,General Surgery,Appendectomy,Private Insurance,No,74
+PT-1129,03-13-2026,,Pediatrics,Fever/Infection,Government Scheme,No,35
+PT-1130,13/03/2026,17/03/2026,Pediatrics,Respiratory Illness,Government Scheme,No,4
+PT-1131,03-13-2026,03-17-2026,General Surgery,Trauma Surgery,Private Insurance,No,42
+PT-1132,2026-03-13,2026-03-18,General Surgery,Hernia Repair,Self-Pay,Yes,85
+PT-1133,03-14-2026,03-18-2026,General Surgery,Gallbladder Removal,Private Insurance,No,37
+PT-1134,2026-03-14,2026-03-16,Neurology,Seizure Disorder,Private Insurance,No,28
+PT-1135,14-Mar-2026,18-Mar-2026,Oncology,Tumor Removal,Private Insurance,Yes,49
+PT-1136,2026-03-14,2026-03-15,Orthopedics,Spinal Injury,Private Insurance,No,59
+PT-1137,14-Mar-2026,17-Mar-2026,Emergency,Cardiac Emergency,Government Scheme,No,52
+PT-1138,14/03/2026,19/03/2026,Pediatrics,Congenital Condition,Private Insurance,No,52
+PT-1139,14/03/2026,15/03/2026,Pediatrics,Congenital Condition,Government Scheme,No,82
+PT-1140,14/03/2026,20/03/2026,General Surgery,Hernia Repair,Private Insurance,No,20
+PT-1141,14-Mar-2026,17-Mar-2026,Neurology,Seizure Disorder,Corporate,No,75
+PT-1142,14/03/2026,15/03/2026,Emergency,Poisoning,Self-Pay,No,61
+PT-1143,2026-03-14,2026-03-17,Pediatrics,Congenital Condition,Government Scheme,No,58
+PT-1144,14-Mar-2026,17-Mar-2026,Pediatrics,Fever/Infection,Government Scheme,No,95
+PT-1145,14/03/2026,21/03/2026,General Surgery,Hernia Repair,Private Insurance,No,58
+PT-1146,14-Mar-2026,16-Mar-2026,Emergency,Acute Illness,Private Insurance,No,79
+PT-1147,2026-03-14,2026-03-21,Pediatrics,Congenital Condition,Private Insurance,No,83
+PT-1148,15/03/2026,18/03/2026,Cardiology,Arrhythmia,Private Insurance,No,40
+PT-1149,2026-03-15,2026-03-17,Oncology,Palliative Care,Private Insurance,No,49
+PT-1150,03-15-2026,,Pediatrics,Fever/Infection,Government Scheme,No,40
+PT-1151,15/03/2026,22/03/2026,Orthopedics,Sports Injury,Private Insurance,No,13
+PT-1152,15-Mar-2026,19-Mar-2026,General Surgery,Gallbladder Removal,Self-Pay,No,24
+PT-1153,03-15-2026,03-16-2026,Oncology,Radiation Treatment,Government Scheme,Yes,31
+PT-1154,15-Mar-2026,19-Mar-2026,Neurology,Seizure Disorder,Government Scheme,No,25
+PT-1155,15-Mar-2026,16-Mar-2026,Emergency,Cardiac Emergency,Government Scheme,No,54
+PT-1156,03-15-2026,03-19-2026,Emergency,Poisoning,Private Insurance,No,14
+PT-1157,03-15-2026,03-18-2026,General Surgery,Appendectomy,Private Insurance,No,66
+PT-1158,15-Mar-2026,21-Mar-2026,General Surgery,Trauma Surgery,Self-Pay,No,65
+PT-1159,2026-03-16,2026-03-19,Emergency,Poisoning,Private Insurance,No,84
+PT-1160,16-Mar-2026,25-Mar-2026,Cardiology,Hypertension Crisis,Government Scheme,No,1
+PT-1161,16-Mar-2026,21-Mar-2026,Cardiology,Arrhythmia,Self-Pay,No,37
+PT-1162,16-Mar-2026,20-Mar-2026,Cardiology,Hypertension Crisis,Private Insurance,No,3
+PT-1163,03-16-2026,03-24-2026,General Surgery,Hernia Repair,Private Insurance,Yes,54
+PT-1164,16-Mar-2026,18-Mar-2026,Neurology,Stroke,Private Insurance,No,33
+PT-1165,2026-03-16,2026-03-20,Pediatrics,Fever/Infection,Private Insurance,No,95
+PT-1166,16-Mar-2026,19-Mar-2026,Cardiology,Arrhythmia,Self-Pay,No,18
+PT-1167,16/03/2026,22/03/2026,Oncology,Palliative Care,Private Insurance,No,41
+PT-1168,03-16-2026,03-23-2026,General Surgery,Gallbladder Removal,Private Insurance,No,7
+PT-1169,16-Mar-2026,20-Mar-2026,Pediatrics,Fever/Infection,Self-Pay,No,50
+PT-1170,2026-03-16,2026-03-19,Orthopedics,Spinal Injury,Self-Pay,No,24
+PT-1171,17-Mar-2026,19-Mar-2026,Cardiology,Heart Failure,Government Scheme,No,57
+PT-1172,2026-03-17,2026-03-23,Cardiology,Hypertension Crisis,Private Insurance,No,82
+PT-1173,17-Mar-2026,19-Mar-2026,General Surgery,Hernia Repair,Corporate,No,9
+PT-1174,03-17-2026,03-18-2026,Neurology,Stroke,Government Scheme,No,10
+PT-1175,2026-03-17,,General Surgery,Trauma Surgery,Private Insurance,No,24
+PT-1176,03-17-2026,03-19-2026,Pediatrics,Congenital Condition,Government Scheme,No,63
+PT-1177,17-Mar-2026,20-Mar-2026,Cardiology,Myocardial Infarction,Government Scheme,No,88
+PT-1178,17/03/2026,19/03/2026,Emergency,Poisoning,Self-Pay,No,66
+PT-1179,03-17-2026,03-18-2026,Emergency,Acute Illness,Private Insurance,No,48
+PT-1180,17-Mar-2026,25-Mar-2026,Emergency,Accident Trauma,Private Insurance,No,53
+PT-1181,03-17-2026,03-25-2026,Cardiology,Heart Failure,Government Scheme,No,71
+PT-1182,03-18-2026,03-24-2026,Oncology,Chemotherapy,Self-Pay,No,42
+PT-1183,03-18-2026,03-24-2026,Orthopedics,Spinal Injury,Self-Pay,No,39
+PT-1184,03-18-2026,03-20-2026,Cardiology,Arrhythmia,Private Insurance,No,73
+PT-1185,03-18-2026,03-19-2026,Emergency,Accident Trauma,Private Insurance,No,74
+PT-1186,18/03/2026,19/03/2026,Neurology,Migraine,Government Scheme,No,88
+PT-1187,18-Mar-2026,22-Mar-2026,General Surgery,Appendectomy,Private Insurance,No,78
+PT-1188,03-18-2026,03-19-2026,Emergency,Poisoning,Corporate,No,14
+PT-1189,2026-03-18,2026-03-29,General Surgery,Gallbladder Removal,Private Insurance,No,50
+PT-1190,19/03/2026,24/03/2026,Orthopedics,Spinal Injury,Corporate,No,64
+PT-1191,19-Mar-2026,22-Mar-2026,General Surgery,Gallbladder Removal,Government Scheme,No,31
+PT-1192,2026-03-19,2026-03-26,Pediatrics,Injury,Private Insurance,Yes,34
+PT-1193,19/03/2026,24/03/2026,Oncology,Tumor Removal,Private Insurance,Yes,37
+PT-1194,03-19-2026,03-23-2026,General Surgery,Appendectomy,Private Insurance,No,44
+PT-1195,2026-03-19,2026-03-21,Pediatrics,Respiratory Illness,Private Insurance,No,18
+PT-1196,19/03/2026,22/03/2026,Emergency,Acute Illness,Private Insurance,No,79
+PT-1197,19-Mar-2026,23-Mar-2026,Orthopedics,Spinal Injury,Government Scheme,No,39
+PT-1198,2026-03-19,2026-03-22,Cardiology,Hypertension Crisis,Government Scheme,No,34
+PT-1199,19/03/2026,24/03/2026,Oncology,Radiation Treatment,Government Scheme,No,93
+PT-1200,19/03/2026,,Emergency,Accident Trauma,Government Scheme,No,41
+PT-1201,19-Mar-2026,26-Mar-2026,Pediatrics,Respiratory Illness,Private Insurance,No,95
+PT-1202,20/03/2026,21/03/2026,General Surgery,Trauma Surgery,Government Scheme,No,69
+PT-1203,20/03/2026,21/03/2026,Pediatrics,Congenital Condition,Government Scheme,No,39
+PT-1204,20-Mar-2026,23-Mar-2026,Emergency,Acute Illness,Government Scheme,No,93
+PT-1205,03-20-2026,03-26-2026,Cardiology,Hypertension Crisis,Self-Pay,No,19
+PT-1206,20/03/2026,23/03/2026,Orthopedics,Sports Injury,Government Scheme,No,69
+PT-1207,20/03/2026,22/03/2026,General Surgery,Gallbladder Removal,Private Insurance,No,86
+PT-1208,20/03/2026,,Orthopedics,Spinal Injury,Government Scheme,No,71
+PT-1209,03-20-2026,03-25-2026,Cardiology,Hypertension Crisis,Government Scheme,No,83
+PT-1210,21/03/2026,25/03/2026,Neurology,Stroke,Corporate,No,5
+PT-1211,03-21-2026,03-29-2026,Pediatrics,Injury,Private Insurance,No,2
+PT-1212,21-Mar-2026,27-Mar-2026,Neurology,Head Injury,Corporate,No,18
+PT-1213,21-Mar-2026,24-Mar-2026,General Surgery,Hernia Repair,Self-Pay,No,92
+PT-1214,21-Mar-2026,26-Mar-2026,Oncology,Radiation Treatment,Private Insurance,No,66
+PT-1215,03-21-2026,03-22-2026,Pediatrics,Fever/Infection,Private Insurance,No,1
+PT-1216,03-21-2026,03-25-2026,Orthopedics,Spinal Injury,Government Scheme,No,89
+PT-1217,03-22-2026,03-23-2026,Cardiology,Heart Failure,Private Insurance,No,82
+PT-1218,03-22-2026,03-25-2026,Orthopedics,Joint Replacement,Government Scheme,No,71
+PT-1219,2026-03-22,2026-03-25,Oncology,Radiation Treatment,Self-Pay,No,68
+PT-1220,03-22-2026,03-25-2026,Cardiology,Arrhythmia,Government Scheme,No,57
+PT-1221,2026-03-22,2026-03-26,Orthopedics,Sports Injury,Private Insurance,No,66
+PT-1222,2026-03-22,2026-03-23,General Surgery,Gallbladder Removal,Government Scheme,No,75
+PT-1223,2026-03-22,2026-03-25,Pediatrics,Fever/Infection,Government Scheme,Yes,61
+PT-1224,22-Mar-2026,27-Mar-2026,Pediatrics,Injury,Private Insurance,No,49
+PT-1225,22/03/2026,23/03/2026,Neurology,Seizure Disorder,Government Scheme,No,51
+PT-1226,22-Mar-2026,26-Mar-2026,Oncology,Chemotherapy,Corporate,No,30
+PT-1227,2026-03-22,2026-03-26,Pediatrics,Congenital Condition,Private Insurance,No,85
+PT-1228,22-Mar-2026,26-Mar-2026,Oncology,Radiation Treatment,Private Insurance,No,91
+PT-1229,22/03/2026,26/03/2026,Orthopedics,Fracture,Private Insurance,No,8
+PT-1230,03-22-2026,03-27-2026,Emergency,Poisoning,Government Scheme,No,19
+PT-1231,22/03/2026,01/04/2026,General Surgery,Trauma Surgery,Private Insurance,Yes,55
+PT-1232,22-Mar-2026,24-Mar-2026,Cardiology,Hypertension Crisis,Self-Pay,No,39
+PT-1233,23-Mar-2026,30-Mar-2026,General Surgery,Hernia Repair,Private Insurance,No,72
+PT-1234,23-Mar-2026,25-Mar-2026,Pediatrics,Congenital Condition,Private Insurance,No,12
+PT-1235,2026-03-23,2026-03-27,Emergency,Accident Trauma,Private Insurance,No,25
+PT-1236,2026-03-23,2026-03-26,Neurology,Seizure Disorder,Self-Pay,No,25
+PT-1237,23/03/2026,25/03/2026,Cardiology,Hypertension Crisis,Corporate,No,31
+PT-1238,23-Mar-2026,25-Mar-2026,Oncology,Tumor Removal,Private Insurance,No,93
+PT-1239,23/03/2026,29/03/2026,Emergency,Acute Illness,Private Insurance,No,3
+PT-1240,23/03/2026,25/03/2026,Emergency,Acute Illness,Private Insurance,No,84
+PT-1241,23-Mar-2026,26-Mar-2026,Pediatrics,Injury,Corporate,No,94
+PT-1242,2026-03-23,2026-03-26,Orthopedics,Fracture,Government Scheme,No,86
+PT-1243,23/03/2026,,Cardiology,Arrhythmia,Self-Pay,No,65
+PT-1244,23-Mar-2026,,Cardiology,Hypertension Crisis,Government Scheme,Yes,68
+PT-1245,23-Mar-2026,24-Mar-2026,General Surgery,Gallbladder Removal,Private Insurance,No,23
+PT-1246,23-Mar-2026,28-Mar-2026,Cardiology,Heart Failure,Self-Pay,No,52
+PT-1247,2026-03-24,2026-03-29,Emergency,Acute Illness,Private Insurance,No,84
+PT-1248,2026-03-24,2026-03-26,Cardiology,Myocardial Infarction,Government Scheme,No,56
+PT-1249,24/03/2026,30/03/2026,Pediatrics,Fever/Infection,Self-Pay,No,89
+PT-1250,2026-03-24,2026-03-29,General Surgery,Gallbladder Removal,Self-Pay,No,41
+PT-1250,2026-03-24,2026-03-29,General Surgery,Gallbladder Removal,Self-Pay,No,41
+PT-1251,24-Mar-2026,28-Mar-2026,Orthopedics,Joint Replacement,Self-Pay,No,39
+PT-1252,2026-03-24,2026-03-29,Orthopedics,Spinal Injury,Private Insurance,No,45
+PT-1253,24-Mar-2026,26-Mar-2026,General Surgery,Appendectomy,Private Insurance,No,42
+PT-1254,24/03/2026,31/03/2026,Orthopedics,Spinal Injury,Government Scheme,No,85
+PT-1255,2026-03-24,2026-03-28,Oncology,Tumor Removal,Self-Pay,No,49
+PT-1256,03-25-2026,03-27-2026,Cardiology,Myocardial Infarction,Private Insurance,No,14
+PT-1257,2026-03-25,,Orthopedics,Sports Injury,Government Scheme,No,46
+PT-1258,2026-03-25,2026-03-30,Neurology,Stroke,Private Insurance,No,72
+PT-1259,03-25-2026,03-26-2026,Emergency,Acute Illness,Government Scheme,No,64
+PT-1260,25-Mar-2026,29-Mar-2026,Orthopedics,Fracture,Private Insurance,No,26
+PT-1261,25-Mar-2026,31-Mar-2026,Cardiology,Myocardial Infarction,Corporate,No,43
+PT-1262,25/03/2026,31/03/2026,General Surgery,Hernia Repair,Private Insurance,No,23
+PT-1263,25/03/2026,26/03/2026,Emergency,Poisoning,Government Scheme,No,36
+PT-1264,25-Mar-2026,31-Mar-2026,Pediatrics,Respiratory Illness,Government Scheme,No,27
+PT-1265,25-Mar-2026,31-Mar-2026,Orthopedics,Fracture,Self-Pay,No,18
+PT-1266,25-Mar-2026,27-Mar-2026,Orthopedics,Sports Injury,Private Insurance,No,69
+PT-1267,03-25-2026,03-26-2026,Emergency,Cardiac Emergency,Government Scheme,No,69
+PT-1268,25-Mar-2026,30-Mar-2026,Emergency,Poisoning,Private Insurance,No,43
+PT-1269,25/03/2026,30/03/2026,General Surgery,Appendectomy,Private Insurance,No,51
+PT-1270,2026-03-25,2026-03-28,Neurology,Stroke,Government Scheme,No,94
+PT-1271,03-25-2026,03-28-2026,Pediatrics,Injury,Self-Pay,No,57
+PT-1272,2026-03-26,2026-03-29,Pediatrics,Fever/Infection,Private Insurance,No,22
+PT-1273,26-Mar-2026,03-Apr-2026,Oncology,Radiation Treatment,Government Scheme,No,30
+PT-1274,26/03/2026,31/03/2026,Neurology,Head Injury,Private Insurance,No,55
+PT-1275,2026-03-26,2026-04-02,Oncology,Radiation Treatment,Private Insurance,No,69
+PT-1276,26-Mar-2026,28-Mar-2026,Pediatrics,Injury,Government Scheme,No,76
+PT-1277,03-26-2026,03-31-2026,Pediatrics,Injury,Government Scheme,No,76
+PT-1278,26-Mar-2026,01-Apr-2026,Cardiology,Arrhythmia,Private Insurance,No,18
+PT-1279,26/03/2026,31/03/2026,Pediatrics,Injury,Government Scheme,No,63
+PT-1280,26/03/2026,01/04/2026,Orthopedics,Spinal Injury,Corporate,No,72
+PT-1281,26-Mar-2026,27-Mar-2026,General Surgery,Trauma Surgery,Private Insurance,No,73
+PT-1282,26-Mar-2026,29-Mar-2026,Oncology,Tumor Removal,Private Insurance,No,15
+PT-1283,26-Mar-2026,01-Apr-2026,Orthopedics,Spinal Injury,Government Scheme,No,55
+PT-1284,2026-03-26,2026-03-30,Emergency,Accident Trauma,Private Insurance,No,16
+PT-1285,27-Mar-2026,29-Mar-2026,Orthopedics,Spinal Injury,Self-Pay,No,18
+PT-1286,03-27-2026,04-01-2026,Emergency,Poisoning,Government Scheme,No,35
+PT-1287,27-Mar-2026,28-Mar-2026,General Surgery,Appendectomy,Private Insurance,No,36
+PT-1288,27-Mar-2026,01-Apr-2026,Cardiology,Heart Failure,Self-Pay,No,74
+PT-1289,2026-03-27,2026-03-30,Neurology,Head Injury,Government Scheme,No,36
+PT-1290,2026-03-27,2026-03-28,Emergency,Accident Trauma,Self-Pay,No,59
+PT-1291,27-Mar-2026,01-Apr-2026,Oncology,Chemotherapy,Self-Pay,No,64
+PT-1292,2026-03-27,2026-03-29,Emergency,Cardiac Emergency,Self-Pay,No,81
+PT-1293,27-Mar-2026,,General Surgery,Appendectomy,Corporate,No,55
+PT-1294,2026-03-28,2026-03-30,Emergency,Poisoning,Private Insurance,No,84
+PT-1295,28-Mar-2026,06-Apr-2026,Pediatrics,Congenital Condition,Government Scheme,No,91
+PT-1296,2026-03-28,2026-04-04,Orthopedics,Sports Injury,Private Insurance,No,55
+PT-1297,2026-03-28,2026-04-03,General Surgery,Hernia Repair,Private Insurance,No,48
+PT-1298,2026-03-28,2026-04-02,Cardiology,Arrhythmia,Government Scheme,No,2
+PT-1299,28/03/2026,29/03/2026,Orthopedics,Spinal Injury,Government Scheme,No,79
+PT-1300,28-Mar-2026,02-Apr-2026,Emergency,Accident Trauma,Government Scheme,No,18
+PT-1301,03-28-2026,04-02-2026,Neurology,Seizure Disorder,Government Scheme,No,89
+PT-1302,2026-03-29,2026-04-03,Emergency,Acute Illness,Government Scheme,No,31
+PT-1303,2026-03-29,2026-04-05,Cardiology,Hypertension Crisis,Government Scheme,Yes,41
+PT-1304,2026-03-29,,Emergency,Acute Illness,Self-Pay,No,9
+PT-1304,2026-03-29,,Emergency,Acute Illness,Self-Pay,No,9
+PT-1305,03-29-2026,04-01-2026,Orthopedics,Fracture,Corporate,No,65
+PT-1306,29/03/2026,30/03/2026,Pediatrics,Respiratory Illness,Private Insurance,No,20
+PT-1307,29/03/2026,04/04/2026,Pediatrics,Fever/Infection,Private Insurance,No,12
+PT-1308,2026-03-29,2026-04-01,Cardiology,Arrhythmia,Private Insurance,No,45
+PT-1309,03-29-2026,04-01-2026,Oncology,Tumor Removal,Private Insurance,No,16
+PT-1310,2026-03-29,2026-04-03,Cardiology,Myocardial Infarction,Private Insurance,No,66
+PT-1311,2026-03-29,2026-03-31,General Surgery,Hernia Repair,Private Insurance,No,87
+PT-1312,29-Mar-2026,01-Apr-2026,Orthopedics,Fracture,Private Insurance,No,23
+PT-1313,03-29-2026,04-02-2026,Emergency,Cardiac Emergency,Private Insurance,No,10
+PT-1314,29-Mar-2026,02-Apr-2026,Cardiology,Arrhythmia,Self-Pay,No,60
+PT-1315,2026-03-29,2026-04-01,Oncology,Tumor Removal,Private Insurance,No,38
+PT-1316,29/03/2026,31/03/2026,Pediatrics,Injury,Corporate,No,53
+PT-1317,29-Mar-2026,31-Mar-2026,General Surgery,Appendectomy,Corporate,Yes,94
+PT-1318,03-30-2026,04-03-2026,General Surgery,Appendectomy,Corporate,No,30
+PT-1319,2026-03-30,2026-04-06,General Surgery,Gallbladder Removal,Government Scheme,No,82
+PT-1320,03-30-2026,04-01-2026,Cardiology,Arrhythmia,Private Insurance,No,51
+PT-1321,30/03/2026,02/04/2026,Oncology,Tumor Removal,Government Scheme,No,75
+PT-1322,30/03/2026,01/04/2026,Cardiology,Myocardial Infarction,Government Scheme,No,60
+PT-1323,2026-03-30,2026-04-04,Cardiology,Arrhythmia,Self-Pay,No,42
+PT-1324,30/03/2026,05/04/2026,Oncology,Chemotherapy,Government Scheme,No,52
+PT-1325,30/03/2026,03/04/2026,General Surgery,Hernia Repair,Private Insurance,No,8
+PT-1326,2026-03-30,2026-04-06,Emergency,Poisoning,Government Scheme,No,34
+PT-1327,31/03/2026,07/04/2026,Cardiology,Myocardial Infarction,Private Insurance,No,43
+PT-1328,2026-03-31,2026-04-09,Emergency,Cardiac Emergency,Self-Pay,No,55
+PT-1329,31/03/2026,06/04/2026,Orthopedics,Joint Replacement,Private Insurance,No,80
+PT-1330,31/03/2026,01/04/2026,Neurology,Head Injury,Private Insurance,No,83
+PT-1331,03-31-2026,04-04-2026,General Surgery,Appendectomy,Corporate,No,63
+PT-1332,03-31-2026,04-03-2026,General Surgery,Appendectomy,Private Insurance,No,61
+PT-1333,31/03/2026,06/04/2026,Oncology,Radiation Treatment,Corporate,No,95
+PT-1334,04-01-2026,04-07-2026,General Surgery,Hernia Repair,Private Insurance,No,4
+PT-1335,01-Apr-2026,05-Apr-2026,Pediatrics,Respiratory Illness,Government Scheme,No,23
+PT-1336,01/04/2026,05/04/2026,Cardiology,Hypertension Crisis,Private Insurance,No,44
+PT-1337,01/04/2026,07/04/2026,Emergency,Poisoning,Private Insurance,No,68
+PT-1338,04-01-2026,04-02-2026,Emergency,Cardiac Emergency,Government Scheme,No,21
+PT-1339,04-01-2026,04-09-2026,General Surgery,Trauma Surgery,Government Scheme,No,76
+PT-1340,01-Apr-2026,05-Apr-2026,Pediatrics,Respiratory Illness,Government Scheme,No,73
+PT-1341,01-Apr-2026,03-Apr-2026,Neurology,Seizure Disorder,Government Scheme,No,10
+PT-1342,04-01-2026,04-08-2026,Emergency,Accident Trauma,Self-Pay,No,34
+PT-1343,02-Apr-2026,11-Apr-2026,Pediatrics,Fever/Infection,Government Scheme,Yes,22
+PT-1344,02/04/2026,04/04/2026,General Surgery,Appendectomy,Self-Pay,No,10
+PT-1345,2026-04-02,2026-04-08,Cardiology,Myocardial Infarction,Private Insurance,No,49
+PT-1346,02-Apr-2026,12-Apr-2026,Cardiology,Heart Failure,Government Scheme,No,56
+PT-1347,02/04/2026,04/04/2026,Orthopedics,Sports Injury,Private Insurance,No,53
+PT-1348,02-Apr-2026,06-Apr-2026,Oncology,Tumor Removal,Private Insurance,No,63
+PT-1349,02-Apr-2026,04-Apr-2026,Pediatrics,Injury,Private Insurance,No,4
+PT-1350,04-03-2026,04-11-2026,Orthopedics,Spinal Injury,Self-Pay,No,70
+PT-1351,04-03-2026,04-09-2026,Pediatrics,Injury,Private Insurance,No,34
+PT-1352,03-Apr-2026,11-Apr-2026,Orthopedics,Fracture,Private Insurance,No,76
+PT-1353,03-Apr-2026,09-Apr-2026,Cardiology,Hypertension Crisis,Self-Pay,No,31
+PT-1354,03/04/2026,10/04/2026,Cardiology,Arrhythmia,Private Insurance,No,22
+PT-1355,03-Apr-2026,05-Apr-2026,Emergency,Acute Illness,Private Insurance,Yes,81
+PT-1356,04-03-2026,04-05-2026,Neurology,Stroke,Private Insurance,No,67
+PT-1357,2026-04-03,2026-04-11,Emergency,Cardiac Emergency,Private Insurance,No,73
+PT-1358,03-Apr-2026,10-Apr-2026,Emergency,Cardiac Emergency,Private Insurance,No,36
+PT-1359,04-03-2026,04-04-2026,Neurology,Head Injury,Private Insurance,No,7
+PT-1360,2026-04-03,2026-04-07,Emergency,Poisoning,Private Insurance,No,30
+PT-1361,03-Apr-2026,07-Apr-2026,Emergency,Cardiac Emergency,Self-Pay,No,12
+PT-1362,03/04/2026,09/04/2026,Orthopedics,Spinal Injury,Self-Pay,No,91
+PT-1363,03/04/2026,04/04/2026,Cardiology,Myocardial Infarction,Private Insurance,No,32
+PT-1364,2026-04-03,2026-04-06,Cardiology,Heart Failure,Self-Pay,No,31
+PT-1365,04-03-2026,04-08-2026,Neurology,Seizure Disorder,Corporate,No,34
+PT-1366,04/04/2026,07/04/2026,Orthopedics,Joint Replacement,Self-Pay,No,53
+PT-1367,04/04/2026,09/04/2026,Emergency,Accident Trauma,Government Scheme,No,2
+PT-1368,04-04-2026,04-12-2026,Neurology,Migraine,Private Insurance,No,28
+PT-1369,04-04-2026,04-07-2026,Neurology,Head Injury,Government Scheme,Yes,77
+PT-1370,04-04-2026,04-09-2026,Orthopedics,Spinal Injury,Government Scheme,No,84
+PT-1371,04-Apr-2026,09-Apr-2026,Cardiology,Arrhythmia,Self-Pay,No,88
+PT-1372,04/04/2026,06/04/2026,Cardiology,Hypertension Crisis,Private Insurance,No,92
+PT-1373,04-05-2026,04-09-2026,Neurology,Head Injury,Corporate,No,85
+PT-1374,05/04/2026,10/04/2026,Orthopedics,Spinal Injury,Government Scheme,No,43
+PT-1375,04-05-2026,04-10-2026,Orthopedics,Joint Replacement,Government Scheme,No,75
+PT-1376,2026-04-05,2026-04-06,Emergency,Accident Trauma,Government Scheme,No,49
+PT-1377,05-Apr-2026,10-Apr-2026,Pediatrics,Respiratory Illness,Private Insurance,No,59
+PT-1378,2026-04-05,,Emergency,Poisoning,Government Scheme,No,36
+PT-1379,2026-04-05,2026-04-10,Oncology,Radiation Treatment,Government Scheme,No,56
+PT-1380,2026-04-05,2026-04-11,Pediatrics,Fever/Infection,Government Scheme,No,68
+PT-1381,04-05-2026,04-08-2026,Neurology,Seizure Disorder,Private Insurance,No,50
+PT-1382,04-05-2026,04-10-2026,Pediatrics,Congenital Condition,Government Scheme,No,88
+PT-1383,05-Apr-2026,,Pediatrics,Injury,Private Insurance,No,29
+PT-1384,2026-04-05,2026-04-09,Cardiology,Arrhythmia,Private Insurance,No,82
+PT-1385,2026-04-05,2026-04-06,General Surgery,Appendectomy,Government Scheme,Yes,3
+PT-1386,2026-04-05,2026-04-08,Cardiology,Heart Failure,Government Scheme,No,85
+PT-1387,2026-04-06,2026-04-10,Orthopedics,Joint Replacement,Private Insurance,No,14
+PT-1388,06/04/2026,11/04/2026,Neurology,Seizure Disorder,Private Insurance,No,64
+PT-1389,2026-04-06,2026-04-07,Oncology,Palliative Care,Private Insurance,Yes,74
+PT-1390,06-Apr-2026,13-Apr-2026,Cardiology,Myocardial Infarction,Corporate,No,38
+PT-1391,04-06-2026,04-12-2026,Cardiology,Arrhythmia,Self-Pay,No,41
+PT-1392,06/04/2026,13/04/2026,Cardiology,Myocardial Infarction,Self-Pay,No,57
+PT-1393,2026-04-06,2026-04-07,Orthopedics,Fracture,Private Insurance,No,59
+PT-1394,2026-04-06,2026-04-13,Pediatrics,Respiratory Illness,Private Insurance,No,21
+PT-1395,06/04/2026,07/04/2026,Emergency,Cardiac Emergency,Self-Pay,No,46
+PT-1396,06-Apr-2026,13-Apr-2026,Emergency,Acute Illness,Government Scheme,No,9
+PT-1397,04-06-2026,04-07-2026,Pediatrics,Respiratory Illness,Corporate,No,89
+PT-1398,06/04/2026,09/04/2026,Cardiology,Heart Failure,Government Scheme,No,72
+PT-1399,06-Apr-2026,08-Apr-2026,Neurology,Stroke,Government Scheme,No,22
+PT-1400,06-Apr-2026,10-Apr-2026,General Surgery,Appendectomy,Government Scheme,No,31
+PT-1401,04-07-2026,04-18-2026,Emergency,Cardiac Emergency,Private Insurance,No,64
+PT-1402,04-07-2026,04-10-2026,Cardiology,Myocardial Infarction,Self-Pay,No,72
+PT-1403,07/04/2026,11/04/2026,Neurology,Migraine,Private Insurance,Yes,43
+PT-1404,07/04/2026,,Neurology,Head Injury,Private Insurance,No,46
+PT-1405,2026-04-07,2026-04-12,Emergency,Poisoning,Government Scheme,No,22
+PT-1406,07-Apr-2026,11-Apr-2026,Emergency,Poisoning,Government Scheme,No,25
+PT-1407,2026-04-07,2026-04-08,Cardiology,Hypertension Crisis,Private Insurance,No,58
+PT-1408,07-Apr-2026,08-Apr-2026,Neurology,Stroke,Government Scheme,Yes,62
+PT-1409,07/04/2026,11/04/2026,Oncology,Radiation Treatment,Government Scheme,No,85
+PT-1410,04-07-2026,04-09-2026,Emergency,Acute Illness,Private Insurance,No,18
+PT-1411,04-07-2026,04-11-2026,Neurology,Migraine,Self-Pay,No,71
+PT-1412,07/04/2026,10/04/2026,Orthopedics,Spinal Injury,Corporate,No,89
+PT-1413,07-Apr-2026,10-Apr-2026,Oncology,Tumor Removal,Government Scheme,No,69
+PT-1414,04-08-2026,04-11-2026,Emergency,Acute Illness,Private Insurance,Yes,21
+PT-1415,04-08-2026,04-12-2026,Neurology,Seizure Disorder,Self-Pay,No,70
+PT-1416,08/04/2026,16/04/2026,Emergency,Acute Illness,Government Scheme,No,90
+PT-1417,04-08-2026,04-15-2026,Neurology,Head Injury,Private Insurance,No,7
+PT-1417,04-08-2026,04-15-2026,Neurology,Head Injury,Private Insurance,No,7
+PT-1418,04-08-2026,04-09-2026,Orthopedics,Sports Injury,Self-Pay,No,70
+PT-1419,2026-04-08,2026-04-09,Orthopedics,Joint Replacement,Private Insurance,No,23
+PT-1420,04-08-2026,,Cardiology,Heart Failure,Private Insurance,No,60
+PT-1421,04-08-2026,04-13-2026,Cardiology,Arrhythmia,Corporate,No,74
+PT-1422,08/04/2026,11/04/2026,Cardiology,Arrhythmia,Government Scheme,No,69
+PT-1423,04-08-2026,04-09-2026,Pediatrics,Respiratory Illness,Government Scheme,No,80
+PT-1424,08/04/2026,15/04/2026,Emergency,Accident Trauma,Private Insurance,No,79
+PT-1425,2026-04-08,2026-04-09,Orthopedics,Fracture,Government Scheme,No,70
+PT-1426,09/04/2026,14/04/2026,Emergency,Cardiac Emergency,Government Scheme,No,11
+PT-1427,09/04/2026,11/04/2026,Orthopedics,Fracture,Government Scheme,No,55
+PT-1428,09/04/2026,,Orthopedics,Sports Injury,Government Scheme,No,92
+PT-1429,2026-04-09,2026-04-10,Cardiology,Myocardial Infarction,Private Insurance,No,30
+PT-1430,2026-04-09,2026-04-11,Pediatrics,Congenital Condition,Private Insurance,No,80
+PT-1431,2026-04-09,2026-04-14,Oncology,Chemotherapy,Government Scheme,Yes,88
+PT-1432,10/04/2026,16/04/2026,Orthopedics,Fracture,Government Scheme,No,70
+PT-1433,04-10-2026,04-13-2026,Neurology,Migraine,Government Scheme,No,2
+PT-1434,04-10-2026,04-14-2026,General Surgery,Trauma Surgery,Government Scheme,No,95
+PT-1435,10/04/2026,14/04/2026,Pediatrics,Injury,Corporate,No,29
+PT-1436,10-Apr-2026,17-Apr-2026,Orthopedics,Fracture,Self-Pay,No,10
+PT-1437,04-10-2026,04-16-2026,Cardiology,Myocardial Infarction,Private Insurance,No,86
+PT-1438,04-10-2026,04-11-2026,Cardiology,Heart Failure,Government Scheme,No,20
+PT-1439,11/04/2026,12/04/2026,Emergency,Cardiac Emergency,Private Insurance,No,83
+PT-1440,04-11-2026,04-18-2026,Emergency,Cardiac Emergency,Government Scheme,No,14
+PT-1441,11/04/2026,18/04/2026,Neurology,Migraine,Self-Pay,No,81
+PT-1442,11/04/2026,18/04/2026,Cardiology,Myocardial Infarction,Self-Pay,No,71
+PT-1443,11-Apr-2026,15-Apr-2026,Emergency,Cardiac Emergency,Government Scheme,No,76
+PT-1444,11/04/2026,12/04/2026,Orthopedics,Sports Injury,Private Insurance,Yes,79
+PT-1445,11/04/2026,16/04/2026,Oncology,Radiation Treatment,Private Insurance,No,62
+PT-1446,11/04/2026,15/04/2026,Cardiology,Heart Failure,Private Insurance,Yes,47
+PT-1447,2026-04-11,2026-04-13,Emergency,Accident Trauma,Private Insurance,No,67
+PT-1448,2026-04-11,2026-04-15,Orthopedics,Joint Replacement,Private Insurance,No,49
+PT-1449,11-Apr-2026,12-Apr-2026,Orthopedics,Sports Injury,Private Insurance,No,78
+PT-1449,11-Apr-2026,12-Apr-2026,Orthopedics,Sports Injury,Private Insurance,No,78
+PT-1450,04-12-2026,04-16-2026,General Surgery,Gallbladder Removal,Private Insurance,No,16
+PT-1451,12-Apr-2026,19-Apr-2026,Pediatrics,Congenital Condition,Government Scheme,No,76
+PT-1452,12/04/2026,17/04/2026,Emergency,Acute Illness,Private Insurance,No,34
+PT-1453,2026-04-12,2026-04-16,General Surgery,Trauma Surgery,Government Scheme,No,94
+PT-1454,12-Apr-2026,18-Apr-2026,Orthopedics,Sports Injury,Self-Pay,No,75
+PT-1455,12-Apr-2026,17-Apr-2026,Orthopedics,Spinal Injury,Private Insurance,No,9
+PT-1456,12/04/2026,17/04/2026,Pediatrics,Injury,Self-Pay,No,79
+PT-1457,2026-04-12,2026-04-17,Emergency,Accident Trauma,Private Insurance,No,87
+PT-1458,13-Apr-2026,20-Apr-2026,Pediatrics,Injury,Private Insurance,No,95
+PT-1459,13/04/2026,14/04/2026,Emergency,Accident Trauma,Private Insurance,No,11
+PT-1460,2026-04-13,2026-04-16,Emergency,Accident Trauma,Government Scheme,No,27
+PT-1461,04-13-2026,04-18-2026,Pediatrics,Congenital Condition,Private Insurance,No,69
+PT-1462,13-Apr-2026,16-Apr-2026,Pediatrics,Respiratory Illness,Private Insurance,No,72
+PT-1463,13-Apr-2026,21-Apr-2026,Orthopedics,Spinal Injury,Government Scheme,No,85
+PT-1464,04-13-2026,04-18-2026,Orthopedics,Fracture,Private Insurance,No,79
+PT-1465,2026-04-13,2026-04-14,Oncology,Radiation Treatment,Private Insurance,No,61
+PT-1466,13-Apr-2026,19-Apr-2026,General Surgery,Appendectomy,Government Scheme,No,67
+PT-1467,13-Apr-2026,18-Apr-2026,Emergency,Accident Trauma,Corporate,No,26
+PT-1468,04-13-2026,04-15-2026,Emergency,Acute Illness,Government Scheme,No,1
+PT-1469,13-Apr-2026,17-Apr-2026,Cardiology,Heart Failure,Self-Pay,No,26
+PT-1470,04-13-2026,04-18-2026,Oncology,Tumor Removal,Government Scheme,No,36
+PT-1471,04-13-2026,04-17-2026,Emergency,Cardiac Emergency,Corporate,No,65
+PT-1472,04-14-2026,04-17-2026,General Surgery,Gallbladder Removal,Self-Pay,No,49
+PT-1473,14-Apr-2026,19-Apr-2026,Oncology,Tumor Removal,Corporate,No,4
+PT-1474,04-14-2026,04-15-2026,Orthopedics,Joint Replacement,Government Scheme,No,46
+PT-1475,04-14-2026,04-21-2026,Cardiology,Heart Failure,Private Insurance,No,23
+PT-1476,14/04/2026,20/04/2026,Pediatrics,Respiratory Illness,Government Scheme,No,27
+PT-1477,2026-04-14,2026-04-17,Emergency,Poisoning,Private Insurance,No,85
+PT-1478,04-14-2026,04-22-2026,Cardiology,Hypertension Crisis,Private Insurance,No,66
+PT-1479,15-Apr-2026,16-Apr-2026,Oncology,Radiation Treatment,Private Insurance,No,5
+PT-1480,2026-04-15,,Pediatrics,Fever/Infection,Government Scheme,No,27
+PT-1481,04-15-2026,04-18-2026,Cardiology,Heart Failure,Government Scheme,No,61
+PT-1482,15-Apr-2026,20-Apr-2026,Pediatrics,Injury,Government Scheme,No,24
+PT-1483,15/04/2026,21/04/2026,Emergency,Acute Illness,Self-Pay,No,49
+PT-1484,04-15-2026,04-19-2026,Emergency,Accident Trauma,Private Insurance,No,39
+PT-1485,2026-04-15,2026-04-16,Emergency,Accident Trauma,Private Insurance,No,33
+PT-1486,04-15-2026,04-17-2026,Neurology,Migraine,Private Insurance,No,53
+PT-1487,15/04/2026,20/04/2026,Emergency,Acute Illness,Government Scheme,No,37
+PT-1488,16/04/2026,20/04/2026,General Surgery,Appendectomy,Private Insurance,No,82
+PT-1489,16/04/2026,17/04/2026,Pediatrics,Injury,Self-Pay,Yes,41
+PT-1490,04-16-2026,04-20-2026,Orthopedics,Spinal Injury,Self-Pay,No,67
+PT-1491,16/04/2026,24/04/2026,Pediatrics,Respiratory Illness,Self-Pay,No,90
+PT-1492,16-Apr-2026,19-Apr-2026,Orthopedics,Sports Injury,Government Scheme,Yes,11
+PT-1493,04-16-2026,04-21-2026,Neurology,Stroke,Government Scheme,No,95
+PT-1494,04-16-2026,04-23-2026,Neurology,Stroke,Private Insurance,No,60
+PT-1495,16/04/2026,24/04/2026,General Surgery,Gallbladder Removal,Government Scheme,No,59
+PT-1496,16/04/2026,17/04/2026,Neurology,Migraine,Corporate,No,57
+PT-1497,16/04/2026,19/04/2026,Pediatrics,Respiratory Illness,Private Insurance,Yes,61
+PT-1498,04-16-2026,04-17-2026,Neurology,Migraine,Private Insurance,No,1
+PT-1499,16-Apr-2026,20-Apr-2026,Orthopedics,Sports Injury,Private Insurance,No,29
+PT-1500,04-16-2026,04-20-2026,Pediatrics,Congenital Condition,Private Insurance,No,9
+PT-1501,16-Apr-2026,24-Apr-2026,Orthopedics,Sports Injury,Government Scheme,No,3
+PT-1502,2026-04-16,2026-04-27,Emergency,Poisoning,Private Insurance,No,20
+PT-1502,2026-04-16,2026-04-27,Emergency,Poisoning,Private Insurance,No,20
+PT-1503,04-16-2026,04-21-2026,Orthopedics,Sports Injury,Private Insurance,No,5
+PT-1504,04-17-2026,04-21-2026,Cardiology,Hypertension Crisis,Private Insurance,No,2
+PT-1505,17/04/2026,20/04/2026,Oncology,Radiation Treatment,Private Insurance,No,5
+PT-1506,04-17-2026,04-24-2026,Oncology,Radiation Treatment,Government Scheme,No,21
+PT-1507,17/04/2026,23/04/2026,Cardiology,Myocardial Infarction,Private Insurance,No,7
+PT-1508,2026-04-17,2026-04-24,Orthopedics,Spinal Injury,Private Insurance,No,32
+PT-1508,2026-04-17,2026-04-24,Orthopedics,Spinal Injury,Private Insurance,No,32
+PT-1509,2026-04-17,2026-04-23,Cardiology,Hypertension Crisis,Government Scheme,No,64
+PT-1510,2026-04-17,2026-04-29,Neurology,Stroke,Private Insurance,No,30
+PT-1511,17/04/2026,,General Surgery,Gallbladder Removal,Self-Pay,No,49
+PT-1512,18/04/2026,26/04/2026,Orthopedics,Spinal Injury,Government Scheme,No,42
+PT-1513,04-18-2026,04-23-2026,Orthopedics,Joint Replacement,Private Insurance,No,70
+PT-1514,04-18-2026,04-20-2026,Cardiology,Arrhythmia,Self-Pay,No,31
+PT-1515,18/04/2026,20/04/2026,Cardiology,Hypertension Crisis,Private Insurance,No,42
+PT-1516,2026-04-18,2026-04-25,Pediatrics,Fever/Infection,Self-Pay,No,63
+PT-1517,04-18-2026,04-24-2026,Cardiology,Hypertension Crisis,Government Scheme,No,29
+PT-1518,18-Apr-2026,24-Apr-2026,Cardiology,Hypertension Crisis,Corporate,No,8
+PT-1519,2026-04-18,2026-04-21,Oncology,Palliative Care,Self-Pay,No,35
+PT-1520,19-Apr-2026,25-Apr-2026,Emergency,Accident Trauma,Private Insurance,No,68
+PT-1521,2026-04-19,2026-04-24,General Surgery,Hernia Repair,Government Scheme,No,74
+PT-1522,04-19-2026,04-20-2026,General Surgery,Hernia Repair,Self-Pay,No,69
+PT-1523,04-19-2026,04-20-2026,General Surgery,Gallbladder Removal,Corporate,No,53
+PT-1524,04-19-2026,04-22-2026,General Surgery,Hernia Repair,Private Insurance,No,58
+PT-1525,19/04/2026,20/04/2026,Pediatrics,Fever/Infection,Corporate,No,39
+PT-1525,19/04/2026,20/04/2026,Pediatrics,Fever/Infection,Corporate,No,39
+PT-1526,19/04/2026,23/04/2026,Emergency,Poisoning,Corporate,No,59
+PT-1527,2026-04-20,2026-04-26,Orthopedics,Joint Replacement,Private Insurance,No,73
+PT-1528,2026-04-20,2026-04-23,Oncology,Radiation Treatment,Government Scheme,No,39
+PT-1529,04-20-2026,04-21-2026,Emergency,Cardiac Emergency,Private Insurance,Yes,56
+PT-1530,2026-04-20,2026-04-25,Emergency,Accident Trauma,Government Scheme,No,6
+PT-1531,2026-04-20,2026-04-23,General Surgery,Gallbladder Removal,Government Scheme,No,51
+PT-1532,20/04/2026,23/04/2026,Oncology,Palliative Care,Private Insurance,No,61
+PT-1533,20-Apr-2026,24-Apr-2026,Cardiology,Hypertension Crisis,Private Insurance,No,17
+PT-1534,20/04/2026,25/04/2026,General Surgery,Hernia Repair,Government Scheme,No,35
+PT-1535,04-21-2026,04-27-2026,Neurology,Stroke,Private Insurance,No,42
+PT-1536,21-Apr-2026,25-Apr-2026,Neurology,Migraine,Government Scheme,No,57
+PT-1537,2026-04-21,2026-04-23,Emergency,Acute Illness,Government Scheme,No,7
+PT-1538,2026-04-21,2026-04-28,Neurology,Migraine,Private Insurance,No,61
+PT-1539,04-21-2026,04-29-2026,Orthopedics,Joint Replacement,Private Insurance,No,80
+PT-1540,21/04/2026,25/04/2026,Cardiology,Myocardial Infarction,Private Insurance,Yes,80
+PT-1541,04-21-2026,04-25-2026,General Surgery,Appendectomy,Private Insurance,No,3
+PT-1542,2026-04-21,2026-04-22,Emergency,Accident Trauma,Corporate,No,65
+PT-1543,04-21-2026,04-30-2026,General Surgery,Appendectomy,Private Insurance,No,51
+PT-1544,04-21-2026,04-24-2026,Cardiology,Heart Failure,Private Insurance,No,81
+PT-1545,21/04/2026,23/04/2026,Pediatrics,Fever/Infection,Corporate,No,51
+PT-1546,22-Apr-2026,23-Apr-2026,Oncology,Radiation Treatment,Private Insurance,No,78
+PT-1547,22/04/2026,26/04/2026,General Surgery,Hernia Repair,Government Scheme,No,40
+PT-1548,22/04/2026,28/04/2026,Emergency,Acute Illness,Government Scheme,No,72
+PT-1549,2026-04-22,2026-04-25,Oncology,Radiation Treatment,Private Insurance,No,53
+PT-1550,22/04/2026,26/04/2026,Pediatrics,Congenital Condition,Private Insurance,No,79
+PT-1551,2026-04-22,2026-04-23,Neurology,Seizure Disorder,Government Scheme,No,89
+PT-1552,22-Apr-2026,28-Apr-2026,Cardiology,Heart Failure,Private Insurance,No,25
+PT-1553,23/04/2026,25/04/2026,Oncology,Chemotherapy,Corporate,No,26
+PT-1554,23/04/2026,04/05/2026,Cardiology,Hypertension Crisis,Government Scheme,No,6
+PT-1555,2026-04-23,2026-04-24,Emergency,Poisoning,Private Insurance,No,58
+PT-1556,23-Apr-2026,28-Apr-2026,Emergency,Cardiac Emergency,Corporate,Yes,81
+PT-1557,04-23-2026,04-26-2026,Orthopedics,Sports Injury,Private Insurance,No,55
+PT-1558,2026-04-23,2026-04-25,Emergency,Cardiac Emergency,Self-Pay,No,75
+PT-1559,2026-04-23,2026-04-24,Oncology,Radiation Treatment,Private Insurance,No,76
+PT-1560,23/04/2026,28/04/2026,Emergency,Poisoning,Government Scheme,No,16
+PT-1561,23/04/2026,26/04/2026,Oncology,Tumor Removal,Private Insurance,No,49
+PT-1562,2026-04-23,2026-04-24,Orthopedics,Joint Replacement,Private Insurance,No,40
+PT-1563,23/04/2026,01/05/2026,Emergency,Poisoning,Government Scheme,No,1
+PT-1564,23/04/2026,24/04/2026,Orthopedics,Fracture,Government Scheme,No,61
+PT-1565,24/04/2026,29/04/2026,Cardiology,Myocardial Infarction,Private Insurance,No,19
+PT-1566,2026-04-24,2026-04-28,Pediatrics,Congenital Condition,Private Insurance,No,23
+PT-1567,04-24-2026,04-29-2026,Orthopedics,Joint Replacement,Corporate,No,12
+PT-1568,24-Apr-2026,02-May-2026,Pediatrics,Injury,Self-Pay,Yes,89
+PT-1569,2026-04-24,2026-04-25,Pediatrics,Injury,Government Scheme,No,94
+PT-1570,04-24-2026,05-01-2026,General Surgery,Gallbladder Removal,Private Insurance,No,80
+PT-1571,24-Apr-2026,30-Apr-2026,Cardiology,Hypertension Crisis,Government Scheme,No,79
+PT-1572,24/04/2026,28/04/2026,Orthopedics,Sports Injury,Government Scheme,No,54
+PT-1573,04-24-2026,04-29-2026,Pediatrics,Respiratory Illness,Private Insurance,No,9
+PT-1574,2026-04-24,2026-04-28,General Surgery,Gallbladder Removal,Private Insurance,No,25
+PT-1575,24/04/2026,28/04/2026,Pediatrics,Injury,Corporate,No,81
+PT-1576,04-24-2026,04-30-2026,Emergency,Cardiac Emergency,Corporate,Yes,87
+PT-1577,04-24-2026,04-26-2026,General Surgery,Hernia Repair,Government Scheme,No,20
+PT-1578,2026-04-25,2026-04-27,Pediatrics,Respiratory Illness,Government Scheme,No,40
+PT-1579,25/04/2026,01/05/2026,Pediatrics,Fever/Infection,Private Insurance,No,39
+PT-1580,2026-04-25,2026-05-02,Pediatrics,Respiratory Illness,Corporate,No,65
+PT-1581,04-25-2026,05-02-2026,Pediatrics,Injury,Government Scheme,No,13
+PT-1582,2026-04-25,,Emergency,Accident Trauma,Government Scheme,No,6
+PT-1583,2026-04-25,2026-04-28,Neurology,Stroke,Private Insurance,No,85
+PT-1584,04-26-2026,04-28-2026,General Surgery,Gallbladder Removal,Private Insurance,No,86
+PT-1585,2026-04-26,2026-05-05,Cardiology,Heart Failure,Private Insurance,No,45
+PT-1586,04-26-2026,05-04-2026,Orthopedics,Joint Replacement,Private Insurance,No,7
+PT-1587,26-Apr-2026,28-Apr-2026,General Surgery,Appendectomy,Private Insurance,Yes,91
+PT-1588,2026-04-26,2026-05-02,Neurology,Migraine,Private Insurance,No,60
+PT-1589,26-Apr-2026,27-Apr-2026,Cardiology,Hypertension Crisis,Private Insurance,No,29
+PT-1590,27-Apr-2026,30-Apr-2026,Orthopedics,Spinal Injury,Self-Pay,No,9
+PT-1591,04-27-2026,05-02-2026,Pediatrics,Injury,Self-Pay,No,17
+PT-1592,27-Apr-2026,01-May-2026,Pediatrics,Fever/Infection,Self-Pay,No,31
+PT-1593,27-Apr-2026,30-Apr-2026,General Surgery,Trauma Surgery,Private Insurance,No,56
+PT-1594,27-Apr-2026,30-Apr-2026,Pediatrics,Fever/Infection,Government Scheme,No,77
+PT-1595,2026-04-27,2026-04-30,General Surgery,Trauma Surgery,Private Insurance,No,88
+PT-1596,2026-04-27,2026-04-29,Oncology,Chemotherapy,Private Insurance,No,85
+PT-1597,27/04/2026,03/05/2026,General Surgery,Trauma Surgery,Government Scheme,No,41
+PT-1598,2026-04-27,2026-04-29,Emergency,Cardiac Emergency,Government Scheme,No,79
+PT-1599,2026-04-27,,Pediatrics,Respiratory Illness,Self-Pay,Yes,72
+PT-1600,04-27-2026,05-04-2026,Pediatrics,Respiratory Illness,Private Insurance,No,52
+PT-1601,27-Apr-2026,28-Apr-2026,General Surgery,Hernia Repair,Government Scheme,No,47
+PT-1602,27/04/2026,05/05/2026,Cardiology,Arrhythmia,Private Insurance,No,63
+PT-1603,27-Apr-2026,01-May-2026,Emergency,Acute Illness,Private Insurance,No,90
+PT-1604,27-Apr-2026,02-May-2026,Pediatrics,Injury,Private Insurance,No,74
+PT-1605,04-28-2026,05-05-2026,Oncology,Tumor Removal,Private Insurance,No,5
+PT-1606,04-28-2026,05-04-2026,Oncology,Chemotherapy,Private Insurance,No,11
+PT-1607,2026-04-28,2026-05-04,Neurology,Seizure Disorder,Government Scheme,No,70
+PT-1608,28-Apr-2026,04-May-2026,Pediatrics,Fever/Infection,Government Scheme,No,43
+PT-1609,04-28-2026,05-03-2026,Emergency,Poisoning,Private Insurance,Yes,73
+PT-1610,04-28-2026,04-29-2026,Neurology,Migraine,Self-Pay,No,17
+PT-1611,04-28-2026,04-30-2026,Emergency,Poisoning,Private Insurance,No,2
+PT-1612,28/04/2026,05/05/2026,Neurology,Head Injury,Private Insurance,No,68
+PT-1613,28/04/2026,30/04/2026,Pediatrics,Fever/Infection,Corporate,No,53
+PT-1614,2026-04-29,2026-05-03,Neurology,Migraine,Private Insurance,No,60
+PT-1615,29-Apr-2026,02-May-2026,Pediatrics,Respiratory Illness,Private Insurance,No,68
+PT-1616,2026-04-29,2026-05-05,Cardiology,Heart Failure,Corporate,No,69
+PT-1617,04-29-2026,05-02-2026,Emergency,Cardiac Emergency,Government Scheme,No,35
+PT-1618,29/04/2026,01/05/2026,Orthopedics,Joint Replacement,Government Scheme,No,87
+PT-1619,2026-04-29,2026-05-02,Orthopedics,Fracture,Government Scheme,No,68
+PT-1620,2026-04-29,2026-05-03,General Surgery,Hernia Repair,Private Insurance,No,85
+PT-1621,29/04/2026,05/05/2026,Orthopedics,Fracture,Government Scheme,No,83
+PT-1622,2026-04-29,2026-05-06,Emergency,Poisoning,Private Insurance,No,36
+PT-1623,04-30-2026,05-02-2026,Oncology,Tumor Removal,Private Insurance,No,49
+PT-1624,30/04/2026,04/05/2026,Emergency,Acute Illness,Private Insurance,No,23
+PT-1625,30-Apr-2026,09-May-2026,Cardiology,Hypertension Crisis,Private Insurance,No,14
+PT-1626,2026-04-30,2026-05-03,Cardiology,Myocardial Infarction,Self-Pay,No,86
+PT-1627,30-Apr-2026,01-May-2026,Cardiology,Heart Failure,Corporate,No,52
+PT-1628,30-Apr-2026,05-May-2026,Oncology,Chemotherapy,Private Insurance,No,69
+PT-1629,2026-04-30,2026-05-01,Pediatrics,Congenital Condition,Private Insurance,No,44
+PT-1630,30/04/2026,04/05/2026,General Surgery,Hernia Repair,Government Scheme,No,50
+PT-1631,30-Apr-2026,01-May-2026,Neurology,Migraine,Government Scheme,No,18
+PT-1632,04-30-2026,05-06-2026,Cardiology,Hypertension Crisis,Private Insurance,No,58
+PT-1633,2026-04-30,2026-05-04,Cardiology,Heart Failure,Private Insurance,No,28
+PT-1634,2026-04-30,2026-05-01,Neurology,Seizure Disorder,Government Scheme,No,19
+PT-1635,2026-04-30,2026-05-05,Cardiology,Myocardial Infarction,Private Insurance,No,7
+PT-1636,30-Apr-2026,07-May-2026,Emergency,Accident Trauma,Self-Pay,No,79
+PT-1637,30-Apr-2026,06-May-2026,Emergency,Cardiac Emergency,Private Insurance,No,88
+PT-1638,2026-04-30,2026-05-06,Cardiology,Myocardial Infarction,Government Scheme,No,54
+PT-1639,01/05/2026,02/05/2026,General Surgery,Trauma Surgery,Private Insurance,No,81
+PT-1640,05-01-2026,05-08-2026,Oncology,Chemotherapy,Private Insurance,No,61
+PT-1641,01/05/2026,05/05/2026,Orthopedics,Spinal Injury,Government Scheme,No,5
+PT-1642,01/05/2026,04/05/2026,Oncology,Tumor Removal,Private Insurance,Yes,68
+PT-1643,01/05/2026,04/05/2026,Neurology,Seizure Disorder,Government Scheme,No,25
+PT-1644,2026-05-01,2026-05-08,Cardiology,Hypertension Crisis,Private Insurance,No,47
+PT-1645,01-May-2026,02-May-2026,General Surgery,Gallbladder Removal,Government Scheme,No,95
+PT-1646,01-May-2026,05-May-2026,General Surgery,Appendectomy,Private Insurance,No,42
+PT-1647,01/05/2026,06/05/2026,Oncology,Tumor Removal,Private Insurance,No,95
+PT-1648,01/05/2026,06/05/2026,Orthopedics,Sports Injury,Private Insurance,No,59
+PT-1649,05-01-2026,05-04-2026,Pediatrics,Injury,Government Scheme,No,17
+PT-1650,02/05/2026,09/05/2026,Cardiology,Hypertension Crisis,Private Insurance,No,78
+PT-1651,02/05/2026,10/05/2026,Emergency,Acute Illness,Government Scheme,No,67
+PT-1652,02/05/2026,03/05/2026,Emergency,Poisoning,Private Insurance,No,56
+PT-1653,02-May-2026,03-May-2026,Emergency,Acute Illness,Corporate,No,6
+PT-1654,2026-05-02,2026-05-03,Oncology,Palliative Care,Government Scheme,No,31
+PT-1655,05-02-2026,05-06-2026,Oncology,Palliative Care,Corporate,No,12
+PT-1655,05-02-2026,05-06-2026,Oncology,Palliative Care,Corporate,No,12
+PT-1656,02/05/2026,07/05/2026,Neurology,Stroke,Corporate,No,52
+PT-1657,2026-05-02,2026-05-08,Emergency,Cardiac Emergency,Government Scheme,Yes,89
+PT-1658,05-02-2026,05-04-2026,Cardiology,Arrhythmia,Self-Pay,No,8
+PT-1659,05-02-2026,05-07-2026,Emergency,Poisoning,Self-Pay,No,6
+PT-1660,2026-05-02,2026-05-05,Orthopedics,Joint Replacement,Private Insurance,No,95
+PT-1661,05-02-2026,05-06-2026,General Surgery,Hernia Repair,Self-Pay,No,35
+PT-1662,2026-05-02,2026-05-08,Pediatrics,Injury,Government Scheme,No,69
+PT-1663,2026-05-02,2026-05-07,General Surgery,Gallbladder Removal,Government Scheme,No,59
+PT-1664,02/05/2026,09/05/2026,Pediatrics,Fever/Infection,Private Insurance,No,27
+PT-1665,03/05/2026,13/05/2026,Cardiology,Hypertension Crisis,Corporate,No,54
+PT-1666,05-03-2026,05-07-2026,Neurology,Seizure Disorder,Self-Pay,No,44
+PT-1667,03-May-2026,08-May-2026,Emergency,Cardiac Emergency,Government Scheme,No,73
+PT-1668,2026-05-03,2026-05-08,Emergency,Cardiac Emergency,Private Insurance,No,37
+PT-1669,03/05/2026,09/05/2026,Orthopedics,Joint Replacement,Government Scheme,No,89
+PT-1670,05-03-2026,05-08-2026,Emergency,Poisoning,Government Scheme,No,72
+PT-1671,03/05/2026,08/05/2026,Neurology,Migraine,Private Insurance,No,16
+PT-1672,05-03-2026,05-06-2026,Pediatrics,Injury,Corporate,No,38
+PT-1673,03-May-2026,07-May-2026,Orthopedics,Joint Replacement,Self-Pay,No,15
+PT-1674,03/05/2026,09/05/2026,Emergency,Poisoning,Private Insurance,No,12
+PT-1675,05-03-2026,05-09-2026,Neurology,Seizure Disorder,Government Scheme,No,11
+PT-1676,2026-05-03,2026-05-06,General Surgery,Trauma Surgery,Private Insurance,No,47
+PT-1677,05-03-2026,05-06-2026,Oncology,Palliative Care,Private Insurance,No,40
+PT-1678,03-May-2026,10-May-2026,Emergency,Cardiac Emergency,Government Scheme,No,94
+PT-1679,2026-05-03,2026-05-09,Pediatrics,Injury,Private Insurance,No,39
+PT-1680,05-03-2026,05-08-2026,Emergency,Cardiac Emergency,Private Insurance,No,72
+PT-1681,05-04-2026,05-08-2026,Oncology,Radiation Treatment,Private Insurance,No,6
+PT-1682,04/05/2026,05/05/2026,Pediatrics,Injury,Private Insurance,No,82
+PT-1683,04/05/2026,,General Surgery,Gallbladder Removal,Private Insurance,No,36
+PT-1684,04-May-2026,06-May-2026,Emergency,Cardiac Emergency,Government Scheme,No,16
+PT-1685,2026-05-04,2026-05-07,Oncology,Chemotherapy,Self-Pay,No,60
+PT-1686,2026-05-04,2026-05-09,Cardiology,Hypertension Crisis,Government Scheme,No,68
+PT-1687,2026-05-04,2026-05-10,Cardiology,Arrhythmia,Self-Pay,No,22
+PT-1688,05-04-2026,05-10-2026,Emergency,Poisoning,Private Insurance,No,75
+PT-1689,04-May-2026,05-May-2026,Cardiology,Arrhythmia,Government Scheme,No,21
+PT-1690,2026-05-04,2026-05-08,Cardiology,Myocardial Infarction,Private Insurance,No,3
+PT-1691,05-04-2026,05-10-2026,Pediatrics,Congenital Condition,Private Insurance,No,39
+PT-1692,04/05/2026,09/05/2026,Emergency,Acute Illness,Government Scheme,No,11
+PT-1693,04-May-2026,13-May-2026,Oncology,Chemotherapy,Private Insurance,No,14
+PT-1694,2026-05-04,2026-05-06,Neurology,Migraine,Private Insurance,No,16
+PT-1695,2026-05-04,2026-05-06,Orthopedics,Joint Replacement,Private Insurance,No,36
+PT-1696,2026-05-05,2026-05-12,Pediatrics,Respiratory Illness,Government Scheme,Yes,92
+PT-1697,05/05/2026,06/05/2026,Orthopedics,Fracture,Corporate,No,91
+PT-1698,05-May-2026,10-May-2026,Oncology,Chemotherapy,Private Insurance,No,66
+PT-1699,05/05/2026,12/05/2026,Cardiology,Heart Failure,Private Insurance,No,47
+PT-1700,05-05-2026,05-11-2026,General Surgery,Appendectomy,Private Insurance,No,57
+PT-1701,05-May-2026,10-May-2026,Pediatrics,Injury,Private Insurance,Yes,48
+PT-1702,2026-05-05,2026-05-08,Emergency,Cardiac Emergency,Government Scheme,No,52
+PT-1703,05-05-2026,05-09-2026,Emergency,Acute Illness,Private Insurance,No,52
+PT-1704,05-May-2026,09-May-2026,Emergency,Poisoning,Self-Pay,No,86
+PT-1705,05-May-2026,07-May-2026,Pediatrics,Injury,Government Scheme,No,33
+PT-1706,2026-05-05,2026-05-10,Orthopedics,Fracture,Self-Pay,No,49
+PT-1707,06-May-2026,10-May-2026,Cardiology,Myocardial Infarction,Self-Pay,No,26
+PT-1708,06-May-2026,07-May-2026,General Surgery,Appendectomy,Corporate,Yes,16
+PT-1709,06/05/2026,10/05/2026,Pediatrics,Injury,Private Insurance,Yes,39
+PT-1710,06-May-2026,08-May-2026,Orthopedics,Sports Injury,Government Scheme,No,88
+PT-1711,06-May-2026,11-May-2026,General Surgery,Hernia Repair,Government Scheme,No,49
+PT-1712,05-06-2026,05-12-2026,Pediatrics,Fever/Infection,Government Scheme,No,95
+PT-1713,05-06-2026,05-10-2026,Oncology,Tumor Removal,Private Insurance,No,8
+PT-1714,06/05/2026,,Orthopedics,Fracture,Self-Pay,No,42
+PT-1715,05-06-2026,,Neurology,Head Injury,Government Scheme,No,61
+PT-1716,06/05/2026,08/05/2026,Emergency,Accident Trauma,Self-Pay,No,65
+PT-1717,06-May-2026,12-May-2026,Neurology,Seizure Disorder,Government Scheme,No,82
+PT-1718,07/05/2026,09/05/2026,Emergency,Accident Trauma,Private Insurance,No,12
+PT-1719,07-May-2026,11-May-2026,General Surgery,Gallbladder Removal,Private Insurance,No,45
+PT-1720,07-May-2026,10-May-2026,Neurology,Head Injury,Government Scheme,No,80
+PT-1721,07/05/2026,15/05/2026,Neurology,Seizure Disorder,Self-Pay,No,28
+PT-1722,2026-05-07,2026-05-13,Emergency,Cardiac Emergency,Corporate,No,47
+PT-1723,2026-05-07,2026-05-10,Orthopedics,Spinal Injury,Self-Pay,No,53
+PT-1724,07/05/2026,,Orthopedics,Joint Replacement,Private Insurance,No,40
+PT-1725,08/05/2026,15/05/2026,Emergency,Cardiac Emergency,Government Scheme,Yes,4
+PT-1726,2026-05-08,2026-05-11,Emergency,Accident Trauma,Corporate,No,11
+PT-1727,05-08-2026,05-11-2026,Orthopedics,Fracture,Corporate,No,12
+PT-1728,05-08-2026,05-13-2026,Emergency,Accident Trauma,Government Scheme,No,12
+PT-1729,08-May-2026,10-May-2026,Cardiology,Heart Failure,Private Insurance,No,31
+PT-1730,2026-05-08,2026-05-13,Orthopedics,Spinal Injury,Private Insurance,No,48
+PT-1731,05-08-2026,05-13-2026,Cardiology,Hypertension Crisis,Government Scheme,No,19
+PT-1732,2026-05-08,2026-05-12,Oncology,Chemotherapy,Self-Pay,No,86
+PT-1733,2026-05-08,2026-05-12,General Surgery,Gallbladder Removal,Government Scheme,No,31
+PT-1734,08/05/2026,14/05/2026,Pediatrics,Congenital Condition,Private Insurance,No,21
+PT-1735,2026-05-08,2026-05-11,Neurology,Head Injury,Self-Pay,No,63
+PT-1736,2026-05-08,2026-05-14,Pediatrics,Fever/Infection,Self-Pay,No,78
+PT-1737,2026-05-08,2026-05-09,General Surgery,Gallbladder Removal,Government Scheme,Yes,24
+PT-1738,08/05/2026,14/05/2026,Emergency,Poisoning,Private Insurance,No,92
+PT-1739,09-May-2026,15-May-2026,Oncology,Palliative Care,Self-Pay,No,18
+PT-1740,09-May-2026,15-May-2026,Neurology,Seizure Disorder,Private Insurance,No,74
+PT-1741,09/05/2026,10/05/2026,Emergency,Acute Illness,Corporate,No,22
+PT-1742,2026-05-09,2026-05-12,Neurology,Migraine,Private Insurance,No,56
+PT-1743,09/05/2026,12/05/2026,Emergency,Cardiac Emergency,Private Insurance,No,35
+PT-1744,09/05/2026,16/05/2026,General Surgery,Hernia Repair,Corporate,No,53
+PT-1745,09/05/2026,17/05/2026,Cardiology,Heart Failure,Private Insurance,No,88
+PT-1746,09-May-2026,10-May-2026,Cardiology,Hypertension Crisis,Government Scheme,No,33
+PT-1747,05-09-2026,05-14-2026,General Surgery,Appendectomy,Private Insurance,No,86
+PT-1748,09-May-2026,13-May-2026,Neurology,Migraine,Government Scheme,No,17
+PT-1749,05-09-2026,05-12-2026,General Surgery,Hernia Repair,Private Insurance,No,17
+PT-1750,05-09-2026,05-11-2026,Oncology,Tumor Removal,Private Insurance,No,56
+PT-1751,09/05/2026,14/05/2026,Emergency,Poisoning,Government Scheme,No,63
+PT-1752,09/05/2026,15/05/2026,Cardiology,Hypertension Crisis,Private Insurance,No,61
+PT-1753,09-May-2026,10-May-2026,Oncology,Palliative Care,Private Insurance,No,46
+PT-1754,05-09-2026,05-12-2026,General Surgery,Hernia Repair,Private Insurance,No,22
+PT-1755,10/05/2026,14/05/2026,General Surgery,Hernia Repair,Government Scheme,No,10
+PT-1756,10-May-2026,16-May-2026,General Surgery,Gallbladder Removal,Government Scheme,No,14
+PT-1757,10-May-2026,15-May-2026,Cardiology,Myocardial Infarction,Government Scheme,No,35
+PT-1758,10/05/2026,18/05/2026,Cardiology,Hypertension Crisis,Private Insurance,No,7
+PT-1759,10-May-2026,13-May-2026,Orthopedics,Fracture,Government Scheme,No,33
+PT-1760,05-10-2026,05-15-2026,Emergency,Acute Illness,Private Insurance,No,84
+PT-1761,10/05/2026,13/05/2026,Orthopedics,Sports Injury,Government Scheme,No,13
+PT-1762,2026-05-10,2026-05-11,General Surgery,Trauma Surgery,Private Insurance,No,48
+PT-1763,10-May-2026,14-May-2026,General Surgery,Trauma Surgery,Private Insurance,No,83
+PT-1764,10-May-2026,11-May-2026,Cardiology,Myocardial Infarction,Private Insurance,No,17
+PT-1765,2026-05-11,2026-05-15,Emergency,Cardiac Emergency,Private Insurance,Yes,66
+PT-1766,2026-05-11,2026-05-18,Pediatrics,Congenital Condition,Private Insurance,No,85
+PT-1767,05-11-2026,05-17-2026,Emergency,Cardiac Emergency,Private Insurance,No,93
+PT-1768,05-11-2026,05-14-2026,Neurology,Seizure Disorder,Private Insurance,Yes,14
+PT-1769,11-May-2026,14-May-2026,Cardiology,Hypertension Crisis,Private Insurance,No,52
+PT-1770,11-May-2026,13-May-2026,Emergency,Poisoning,Government Scheme,No,12
+PT-1771,11/05/2026,13/05/2026,Cardiology,Myocardial Infarction,Self-Pay,No,27
+PT-1772,11/05/2026,15/05/2026,Cardiology,Arrhythmia,Private Insurance,No,3
+PT-1773,11-May-2026,20-May-2026,Emergency,Cardiac Emergency,Corporate,No,26
+PT-1774,11-May-2026,13-May-2026,Emergency,Accident Trauma,Government Scheme,No,95
+PT-1775,12-May-2026,17-May-2026,Emergency,Accident Trauma,Government Scheme,No,8
+PT-1776,05-12-2026,05-16-2026,Pediatrics,Injury,Self-Pay,No,56
+PT-1777,12/05/2026,17/05/2026,Orthopedics,Joint Replacement,Government Scheme,No,88
+PT-1778,12-May-2026,18-May-2026,Neurology,Seizure Disorder,Self-Pay,No,87
+PT-1779,12/05/2026,13/05/2026,Pediatrics,Injury,Self-Pay,No,12
+PT-1780,12-May-2026,17-May-2026,Cardiology,Myocardial Infarction,Self-Pay,No,27
+PT-1781,12/05/2026,19/05/2026,Emergency,Poisoning,Self-Pay,No,65
+PT-1782,05-12-2026,05-13-2026,Cardiology,Myocardial Infarction,Government Scheme,No,6
+PT-1783,2026-05-12,2026-05-17,General Surgery,Hernia Repair,Self-Pay,No,57
+PT-1784,2026-05-12,2026-05-16,Emergency,Accident Trauma,Self-Pay,Yes,16
+PT-1785,12-May-2026,13-May-2026,Emergency,Acute Illness,Government Scheme,No,13
+PT-1786,2026-05-12,2026-05-17,Pediatrics,Respiratory Illness,Private Insurance,No,61
+PT-1787,12-May-2026,15-May-2026,General Surgery,Appendectomy,Private Insurance,No,86
+PT-1788,12-May-2026,13-May-2026,Oncology,Radiation Treatment,Self-Pay,No,67
+PT-1789,2026-05-13,2026-05-16,Emergency,Cardiac Emergency,Private Insurance,Yes,41
+PT-1790,2026-05-13,2026-05-15,Oncology,Chemotherapy,Government Scheme,No,92
+PT-1791,05-13-2026,05-18-2026,Emergency,Poisoning,Private Insurance,No,41
+PT-1792,13/05/2026,16/05/2026,Cardiology,Arrhythmia,Government Scheme,No,80
+PT-1793,13-May-2026,20-May-2026,Neurology,Migraine,Self-Pay,No,39
+PT-1794,13/05/2026,14/05/2026,General Surgery,Hernia Repair,Government Scheme,No,71
+PT-1795,05-13-2026,05-20-2026,Pediatrics,Respiratory Illness,Private Insurance,No,39
+PT-1796,2026-05-13,2026-05-18,Emergency,Poisoning,Private Insurance,No,84
+PT-1797,13/05/2026,18/05/2026,General Surgery,Appendectomy,Government Scheme,No,37
+PT-1798,05-13-2026,05-16-2026,Emergency,Cardiac Emergency,Government Scheme,No,25
+PT-1799,13-May-2026,16-May-2026,Pediatrics,Fever/Infection,Private Insurance,No,8
+PT-1800,14-May-2026,16-May-2026,General Surgery,Trauma Surgery,Government Scheme,No,75
+PT-1801,14-May-2026,19-May-2026,Pediatrics,Injury,Government Scheme,No,19
+PT-1802,2026-05-14,2026-05-15,General Surgery,Appendectomy,Government Scheme,No,72
+PT-1803,05-14-2026,05-20-2026,Emergency,Cardiac Emergency,Private Insurance,No,20
+PT-1804,14-May-2026,17-May-2026,Pediatrics,Fever/Infection,Self-Pay,No,40
+PT-1805,2026-05-14,2026-05-19,Orthopedics,Sports Injury,Private Insurance,No,54
+PT-1806,14/05/2026,16/05/2026,Pediatrics,Injury,Government Scheme,No,65
+PT-1807,2026-05-14,2026-05-19,Oncology,Palliative Care,Private Insurance,No,86
+PT-1808,15/05/2026,17/05/2026,Orthopedics,Sports Injury,Government Scheme,No,74
+PT-1809,2026-05-15,2026-05-21,Oncology,Tumor Removal,Government Scheme,No,80
+PT-1810,15/05/2026,22/05/2026,Oncology,Palliative Care,Government Scheme,Yes,36
+PT-1811,05-15-2026,05-18-2026,Orthopedics,Sports Injury,Private Insurance,No,6
+PT-1812,05-15-2026,05-18-2026,Emergency,Accident Trauma,Self-Pay,No,13
+PT-1813,05-15-2026,05-20-2026,Orthopedics,Joint Replacement,Private Insurance,No,87
+PT-1814,15/05/2026,19/05/2026,Neurology,Stroke,Private Insurance,No,42
+PT-1815,15/05/2026,20/05/2026,Emergency,Accident Trauma,Private Insurance,No,65
+PT-1816,15/05/2026,22/05/2026,Cardiology,Hypertension Crisis,Private Insurance,Yes,3
+PT-1817,15/05/2026,20/05/2026,Emergency,Accident Trauma,Private Insurance,No,53
+PT-1818,15/05/2026,16/05/2026,Emergency,Acute Illness,Private Insurance,No,55
+PT-1819,05-15-2026,05-19-2026,General Surgery,Appendectomy,Private Insurance,No,22
+PT-1819,05-15-2026,05-19-2026,General Surgery,Appendectomy,Private Insurance,No,22
+PT-1820,05-16-2026,05-20-2026,Orthopedics,Spinal Injury,Self-Pay,No,95
+PT-1821,16/05/2026,24/05/2026,Cardiology,Myocardial Infarction,Private Insurance,No,36
+PT-1822,16-May-2026,17-May-2026,Orthopedics,Spinal Injury,Government Scheme,No,85
+PT-1823,16/05/2026,20/05/2026,Pediatrics,Injury,Corporate,No,1
+PT-1824,2026-05-16,2026-05-22,Cardiology,Hypertension Crisis,Self-Pay,No,86
+PT-1825,16/05/2026,20/05/2026,Cardiology,Hypertension Crisis,Self-Pay,No,90
+PT-1826,05-16-2026,05-19-2026,Cardiology,Myocardial Infarction,Private Insurance,Yes,91
+PT-1827,16-May-2026,21-May-2026,Cardiology,Heart Failure,Self-Pay,No,5
+PT-1828,2026-05-16,2026-05-20,Emergency,Acute Illness,Corporate,No,73
+PT-1829,16/05/2026,18/05/2026,Orthopedics,Joint Replacement,Government Scheme,No,17
+PT-1830,05-16-2026,05-24-2026,Cardiology,Heart Failure,Private Insurance,No,59
+PT-1830,05-16-2026,05-24-2026,Cardiology,Heart Failure,Private Insurance,No,59
+PT-1831,16-May-2026,18-May-2026,Pediatrics,Fever/Infection,Self-Pay,No,88
+PT-1832,16-May-2026,19-May-2026,General Surgery,Hernia Repair,Private Insurance,No,51
+PT-1833,17-May-2026,21-May-2026,Emergency,Accident Trauma,Corporate,No,32
+PT-1834,05-17-2026,05-24-2026,Pediatrics,Fever/Infection,Government Scheme,No,32
+PT-1835,17/05/2026,22/05/2026,Orthopedics,Spinal Injury,Self-Pay,No,77
+PT-1836,17-May-2026,19-May-2026,Oncology,Chemotherapy,Corporate,No,89
+PT-1837,17-May-2026,19-May-2026,Cardiology,Hypertension Crisis,Private Insurance,No,87
+PT-1838,2026-05-17,2026-05-22,Cardiology,Hypertension Crisis,Private Insurance,No,60
+PT-1839,2026-05-17,2026-05-19,Emergency,Accident Trauma,Private Insurance,No,43
+PT-1840,05-18-2026,05-21-2026,Cardiology,Arrhythmia,Corporate,No,62
+PT-1841,18/05/2026,21/05/2026,General Surgery,Hernia Repair,Private Insurance,Yes,56
+PT-1842,05-18-2026,05-20-2026,Neurology,Seizure Disorder,Private Insurance,No,2
+PT-1843,2026-05-18,2026-05-25,Neurology,Seizure Disorder,Private Insurance,No,26
+PT-1844,18-May-2026,22-May-2026,Neurology,Seizure Disorder,Government Scheme,No,43
+PT-1845,18/05/2026,23/05/2026,General Surgery,Gallbladder Removal,Government Scheme,No,6
+PT-1846,05-18-2026,05-20-2026,Emergency,Cardiac Emergency,Government Scheme,No,49
+PT-1847,2026-05-19,2026-05-20,Emergency,Accident Trauma,Private Insurance,Yes,19
+PT-1848,05-19-2026,05-20-2026,Orthopedics,Fracture,Corporate,No,34
+PT-1849,05-19-2026,05-21-2026,Pediatrics,Respiratory Illness,Private Insurance,Yes,3
+PT-1850,19/05/2026,20/05/2026,Cardiology,Heart Failure,Corporate,No,48
+PT-1851,19/05/2026,20/05/2026,Emergency,Cardiac Emergency,Self-Pay,Yes,17
+PT-1852,2026-05-19,2026-05-21,Orthopedics,Sports Injury,Corporate,No,76
+PT-1853,05-19-2026,05-25-2026,General Surgery,Hernia Repair,Private Insurance,Yes,66
+PT-1854,19/05/2026,23/05/2026,Emergency,Cardiac Emergency,Self-Pay,No,83
+PT-1855,20-May-2026,25-May-2026,General Surgery,Trauma Surgery,Private Insurance,No,64
+PT-1856,20-May-2026,21-May-2026,Neurology,Stroke,Private Insurance,No,51
+PT-1857,05-20-2026,05-21-2026,Pediatrics,Injury,Government Scheme,No,11
+PT-1858,20-May-2026,22-May-2026,Cardiology,Myocardial Infarction,Government Scheme,No,56
+PT-1859,20-May-2026,25-May-2026,Emergency,Poisoning,Private Insurance,Yes,83
+PT-1860,2026-05-20,2026-05-23,Emergency,Accident Trauma,Self-Pay,No,47
+PT-1861,05-20-2026,05-27-2026,Orthopedics,Joint Replacement,Government Scheme,No,78
+PT-1862,05-20-2026,05-24-2026,Emergency,Poisoning,Private Insurance,No,52
+PT-1863,20/05/2026,21/05/2026,Emergency,Accident Trauma,Government Scheme,No,30
+PT-1864,2026-05-20,2026-05-21,Oncology,Palliative Care,Government Scheme,No,25
+PT-1865,2026-05-20,2026-05-24,Emergency,Cardiac Emergency,Private Insurance,No,74
+PT-1866,21-May-2026,30-May-2026,Emergency,Poisoning,Private Insurance,No,89
+PT-1867,21/05/2026,25/05/2026,Pediatrics,Fever/Infection,Government Scheme,Yes,43
+PT-1868,21-May-2026,28-May-2026,Emergency,Cardiac Emergency,Corporate,No,50
+PT-1869,21/05/2026,23/05/2026,Cardiology,Hypertension Crisis,Government Scheme,No,71
+PT-1870,05-21-2026,05-25-2026,Emergency,Acute Illness,Private Insurance,No,38
+PT-1871,05-21-2026,05-25-2026,Cardiology,Myocardial Infarction,Private Insurance,Yes,53
+PT-1872,21/05/2026,27/05/2026,Emergency,Accident Trauma,Private Insurance,No,27
+PT-1873,05-21-2026,05-27-2026,Emergency,Cardiac Emergency,Private Insurance,No,65
+PT-1874,21/05/2026,27/05/2026,General Surgery,Trauma Surgery,Private Insurance,No,73
+PT-1875,21-May-2026,01-Jun-2026,General Surgery,Appendectomy,Government Scheme,No,92
+PT-1876,22-May-2026,27-May-2026,Neurology,Seizure Disorder,Private Insurance,No,85
+PT-1877,22/05/2026,25/05/2026,General Surgery,Trauma Surgery,Government Scheme,Yes,81
+PT-1878,2026-05-22,2026-05-30,Neurology,Seizure Disorder,Corporate,No,10
+PT-1879,22/05/2026,28/05/2026,General Surgery,Gallbladder Removal,Private Insurance,No,60
+PT-1880,22-May-2026,25-May-2026,Neurology,Migraine,Government Scheme,No,33
+PT-1881,22-May-2026,24-May-2026,Emergency,Poisoning,Government Scheme,No,71
+PT-1882,2026-05-22,2026-05-23,Oncology,Tumor Removal,Self-Pay,No,23
+PT-1883,2026-05-22,2026-05-27,General Surgery,Trauma Surgery,Private Insurance,No,20
+PT-1884,2026-05-22,2026-05-25,Orthopedics,Joint Replacement,Private Insurance,Yes,40
+PT-1885,22/05/2026,23/05/2026,Neurology,Stroke,Self-Pay,No,31
+PT-1886,2026-05-22,2026-05-26,Cardiology,Arrhythmia,Government Scheme,Yes,86
+PT-1887,05-22-2026,05-26-2026,Orthopedics,Sports Injury,Government Scheme,No,25
+PT-1888,23-May-2026,25-May-2026,Pediatrics,Fever/Infection,Private Insurance,No,2
+PT-1889,05-23-2026,05-28-2026,General Surgery,Appendectomy,Government Scheme,No,28
+PT-1890,05-23-2026,05-24-2026,Oncology,Radiation Treatment,Private Insurance,No,90
+PT-1891,05-23-2026,05-27-2026,Emergency,Acute Illness,Private Insurance,No,86
+PT-1892,2026-05-23,2026-05-24,Pediatrics,Injury,Government Scheme,No,79
+PT-1893,2026-05-23,2026-05-25,Cardiology,Arrhythmia,Government Scheme,No,48
+PT-1894,23-May-2026,24-May-2026,Orthopedics,Joint Replacement,Corporate,No,43
+PT-1895,05-23-2026,05-30-2026,Pediatrics,Fever/Infection,Government Scheme,No,30
+PT-1896,23/05/2026,27/05/2026,Pediatrics,Respiratory Illness,Self-Pay,No,49
+PT-1897,23/05/2026,30/05/2026,Orthopedics,Fracture,Private Insurance,No,19
+PT-1898,23-May-2026,28-May-2026,Cardiology,Arrhythmia,Private Insurance,Yes,93
+PT-1899,23/05/2026,30/05/2026,Pediatrics,Respiratory Illness,Private Insurance,No,62
+PT-1900,23-May-2026,26-May-2026,Emergency,Cardiac Emergency,Private Insurance,No,62
+PT-1900,23-May-2026,26-May-2026,Emergency,Cardiac Emergency,Private Insurance,No,62
+PT-1901,23/05/2026,28/05/2026,Pediatrics,Fever/Infection,Self-Pay,No,23
+PT-1902,24-May-2026,27-May-2026,Pediatrics,Injury,Private Insurance,No,25
+PT-1902,24-May-2026,27-May-2026,Pediatrics,Injury,Private Insurance,No,25
+PT-1903,24-May-2026,31-May-2026,Emergency,Poisoning,Government Scheme,No,48
+PT-1904,24/05/2026,29/05/2026,Pediatrics,Fever/Infection,Corporate,No,56
+PT-1905,05-24-2026,05-28-2026,Oncology,Tumor Removal,Government Scheme,No,84
+PT-1906,24/05/2026,28/05/2026,Pediatrics,Congenital Condition,Government Scheme,No,59
+PT-1907,24/05/2026,,Cardiology,Arrhythmia,Government Scheme,No,12
+PT-1908,24-May-2026,25-May-2026,Emergency,Accident Trauma,Government Scheme,No,55
+PT-1909,2026-05-24,2026-05-30,Pediatrics,Injury,Government Scheme,No,74
+PT-1910,24/05/2026,31/05/2026,Pediatrics,Injury,Government Scheme,Yes,1
+PT-1911,24-May-2026,31-May-2026,Oncology,Palliative Care,Government Scheme,No,48
+PT-1912,24/05/2026,25/05/2026,Cardiology,Myocardial Infarction,Government Scheme,No,24
+PT-1913,2026-05-24,2026-05-28,Orthopedics,Sports Injury,Private Insurance,No,22
+PT-1914,2026-05-24,,Cardiology,Myocardial Infarction,Government Scheme,No,35
+PT-1915,2026-05-25,2026-05-30,Neurology,Stroke,Private Insurance,No,67
+PT-1916,05-25-2026,06-01-2026,Oncology,Tumor Removal,Government Scheme,No,31
+PT-1917,05-25-2026,05-28-2026,Neurology,Head Injury,Government Scheme,No,1
+PT-1918,05-25-2026,05-28-2026,Oncology,Radiation Treatment,Private Insurance,No,32
+PT-1919,2026-05-25,2026-05-26,Neurology,Head Injury,Government Scheme,No,42
+PT-1919,2026-05-25,2026-05-26,Neurology,Head Injury,Government Scheme,No,42
+PT-1920,25-May-2026,02-Jun-2026,Pediatrics,Congenital Condition,Government Scheme,No,79
+PT-1921,2026-05-26,2026-05-31,Pediatrics,Injury,Corporate,No,38
+PT-1922,05-26-2026,06-02-2026,Oncology,Chemotherapy,Private Insurance,No,71
+PT-1923,26/05/2026,27/05/2026,General Surgery,Trauma Surgery,Corporate,No,22
+PT-1924,26-May-2026,01-Jun-2026,Neurology,Stroke,Private Insurance,No,29
+PT-1925,26-May-2026,31-May-2026,Neurology,Stroke,Government Scheme,No,89
+PT-1926,26-May-2026,27-May-2026,Orthopedics,Fracture,Government Scheme,No,72
+PT-1927,2026-05-26,2026-05-27,General Surgery,Hernia Repair,Private Insurance,No,44
+PT-1928,26-May-2026,30-May-2026,Emergency,Poisoning,Private Insurance,No,1
+PT-1929,05-26-2026,05-29-2026,Neurology,Seizure Disorder,Self-Pay,No,87
+PT-1930,26-May-2026,28-May-2026,Cardiology,Myocardial Infarction,Private Insurance,No,38
+PT-1931,2026-05-26,2026-05-27,General Surgery,Trauma Surgery,Private Insurance,No,40
+PT-1932,27-May-2026,02-Jun-2026,Orthopedics,Joint Replacement,Government Scheme,No,43
+PT-1933,27/05/2026,28/05/2026,Oncology,Radiation Treatment,Government Scheme,Yes,94
+PT-1934,27-May-2026,28-May-2026,Emergency,Accident Trauma,Government Scheme,No,51
+PT-1935,27-May-2026,28-May-2026,General Surgery,Gallbladder Removal,Private Insurance,No,42
+PT-1936,27/05/2026,02/06/2026,General Surgery,Gallbladder Removal,Government Scheme,No,62
+PT-1937,2026-05-27,2026-05-28,Cardiology,Arrhythmia,Self-Pay,No,74
+PT-1938,2026-05-27,2026-06-02,Emergency,Cardiac Emergency,Government Scheme,No,61
+PT-1939,28-May-2026,30-May-2026,Cardiology,Heart Failure,Government Scheme,No,16
+PT-1940,2026-05-28,2026-05-30,General Surgery,Trauma Surgery,Self-Pay,No,84
+PT-1941,2026-05-28,2026-05-29,Neurology,Head Injury,Private Insurance,No,83
+PT-1942,28/05/2026,04/06/2026,General Surgery,Trauma Surgery,Private Insurance,No,83
+PT-1943,28/05/2026,01/06/2026,Orthopedics,Joint Replacement,Private Insurance,Yes,90
+PT-1943,28/05/2026,01/06/2026,Orthopedics,Joint Replacement,Private Insurance,Yes,90
+PT-1944,2026-05-28,2026-05-29,General Surgery,Trauma Surgery,Private Insurance,No,27
+PT-1945,05-29-2026,06-01-2026,Orthopedics,Joint Replacement,Private Insurance,No,17
+PT-1946,05-29-2026,06-04-2026,Neurology,Stroke,Private Insurance,No,70
+PT-1947,05-29-2026,06-03-2026,Emergency,Accident Trauma,Private Insurance,Yes,57
+PT-1948,2026-05-29,2026-05-31,General Surgery,Gallbladder Removal,Government Scheme,No,6
+PT-1949,29/05/2026,07/06/2026,Orthopedics,Spinal Injury,Self-Pay,No,28
+PT-1950,29/05/2026,02/06/2026,Orthopedics,Spinal Injury,Private Insurance,No,11
+PT-1951,05-29-2026,05-30-2026,Neurology,Seizure Disorder,Government Scheme,Yes,90
