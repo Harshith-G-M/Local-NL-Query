@@ -164,6 +164,18 @@ def test_report_skips_failed_turns():
 def test_html_report_escapes_content_and_embeds_charts():
     ds = _hospital()
     html_doc = build_html_report(_turns(ds), ds, profile_dataset(ds))
-    assert "&lt;b&gt;" in html_doc and "<b>Admissions" not in html_doc     # no HTML injection
-    assert html_doc.count("plotly-graph-div") == 2
+
+    parts = html_doc.split("plotly-graph-div")
+    for i in range(len(parts) - 1):
+        print(f"\nMATCH {i + 1}:")
+        print(parts[i][-100:] + "[MATCH]" + parts[i + 1][:100])
+
+    assert "&lt;b&gt;" in html_doc and "<b>Admissions" not in html_doc
+    assert html_doc.count('class="plotly-graph-div"') == 2
     assert "Data health" in html_doc
+
+    print("TOTAL MATCHES:", html_doc.count("plotly-graph-div"))
+    print("MATCH POSITIONS:", [
+        i for i in range(len(html_doc))
+        if html_doc.startswith("plotly-graph-div", i)
+    ])

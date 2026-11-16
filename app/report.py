@@ -140,7 +140,7 @@ def build_excel_report(turns: list[dict], dataset, health: dict | None = None) -
             qs = writer.sheets[f"Q{i}"]
             _style_header(qs, 1, len(df.columns))
             _autowidth(qs, 40)
-            spec = suggest_chart(df)
+            spec = suggest_chart(df, t["question"])
             if spec:
                 _add_native_chart(qs, df, spec)
 
@@ -150,16 +150,85 @@ def build_excel_report(turns: list[dict], dataset, health: dict | None = None) -
 
 
 # ---------------------------------------------------------------- HTML
+
 _CSS = """
-body{font-family:Segoe UI,Arial,sans-serif;max-width:980px;margin:32px auto;padding:0 20px;color:#222;line-height:1.5}
-h1{color:#1F3864;margin-bottom:0}.sub{color:#666;margin-top:4px}
-h2{color:#1F3864;border-bottom:2px solid #1F3864;padding-bottom:4px;margin-top:36px}
-.q{background:#f4f6fb;border-left:4px solid #1F3864;padding:8px 14px;margin-top:28px;font-weight:600}
-table{border-collapse:collapse;font-size:13px;margin:10px 0}th{background:#1F3864;color:#fff;text-align:left}
-td,th{padding:5px 10px;border:1px solid #d5d9e4}pre{background:#0f172a;color:#e2e8f0;padding:12px;border-radius:6px;white-space:pre-wrap;font-size:12.5px}
-.warn{color:#b45309;font-weight:600}.info{color:#475569}.turn{page-break-inside:avoid}
-@media print{body{margin:0;max-width:none}pre{background:#f1f5f9;color:#111}}
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+    max-width: 980px;
+    margin: 32px auto;
+    padding: 0 20px;
+    color: #222222;
+    background: #FFFFFF;
+    line-height: 1.5;
+}
+
+h1 { color: #1F3864; margin-bottom: 0; }
+.sub { color: #666666; margin-top: 4px; }
+h2 {
+    color: #1F3864;
+    border-bottom: 2px solid #1F3864;
+    padding-bottom: 4px;
+    margin-top: 36px;
+}
+.q {
+    background: #F4F6FB;
+    border-left: 4px solid #1F3864;
+    padding: 8px 14px;
+    margin-top: 28px;
+    font-weight: 600;
+}
+table {
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 10px 0;
+}
+th {
+    background: #1F3864;
+    color: #FFFFFF;
+    text-align: left;
+}
+td, th {
+    padding: 5px 10px;
+    border: 1px solid #D5D9E4;
+}
+pre {
+    background: #F1F5F9;
+    color: #111111;
+    padding: 12px;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    font-size: 12.5px;
+}
+.warn { color: #B45309; font-weight: 600; }
+.info { color: #475569; }
+.turn { page-break-inside: avoid; }
+
+@media print {
+    body {
+        margin: 0;
+        max-width: none;
+        background: #FFFFFF !important;
+        color: #222222 !important;
+    }
+
+    pre {
+        background: #F1F5F9 !important;
+        color: #111111 !important;
+    }
+
+    .plotly-graph-div {
+        background: #FFFFFF !important;
+        color: #222222 !important;
+        break-inside: avoid;
+    }
+
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
 """
+
 
 
 def build_html_report(turns: list[dict], dataset, health: dict | None = None) -> str:
@@ -188,7 +257,7 @@ def build_html_report(turns: list[dict], dataset, health: dict | None = None) ->
     for n, t in enumerate(ok, start=1):
         parts.append(f"<div class='turn'><div class='q'>Q{n}. {e(t['question'])}</div>")
         parts.append(f"<p>{e(t.get('explanation', ''))}</p>")
-        spec = suggest_chart(t["result"])
+        spec = suggest_chart(t["result"], t["question"])
         if spec:
             fig = make_figure(t["result"], spec)
             parts.append(fig.to_html(full_html=False, include_plotlyjs=not js_loaded))

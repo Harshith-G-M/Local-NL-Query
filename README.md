@@ -5,9 +5,10 @@ An interactive, local AI-powered data analyst that lets you upload CSV and Excel
 Powered by local open-weight models through **Ollama**, NL2Query converts natural-language questions into validated SQL, executes queries against SQLite, and explains results in plain English.
 
 - No external LLM API keys required.
-- Your uploaded data stays on your machine.
+- Uploaded data is processed locally on your machine.
 - SQL is validated before execution.
 - Supports conversational follow-ups and multi-step investigations.
+- Generates interactive visualizations and downloadable reports.
 
 ## Features
 
@@ -25,19 +26,21 @@ Unrecognised messages fall back to the SQL pipeline rather than being unnecessar
 
 ### 2. Conversational Chat
 
-- Greetings such as "hello" and "hello again" receive normal responses.
+- Greetings receive normal conversational responses.
 - "What data do I have?" provides information about the loaded dataset.
 - Ollama connection failures produce clear error messages instead of raw tracebacks.
 
 ### 3. Evidence-Based Insights
 
-Ask questions such as **"What stands out in this data?"**
+Ask questions such as:
+
+**"What stands out in this data?"**
 
 The application:
 - Runs safe breakdown and trend queries.
 - Computes findings using database results and application logic.
-- Uses the LLM to phrase the findings rather than invent numerical conclusions.
-- Displays the underlying facts so users can verify the results.
+- Uses the LLM to phrase findings rather than invent numerical conclusions.
+- Displays underlying facts so users can verify the results.
 
 ### 4. Investigative Analysis — "Why" Questions
 
@@ -48,20 +51,21 @@ Ask questions such as:
 The application:
 1. Asks the LLM to plan 2–3 investigative breakdown questions.
 2. Sends each question through the validated SQL pipeline.
-3. Collects the query results as evidence.
+3. Collects query results as evidence.
 4. Uses the LLM to prepare an explanation.
 5. Labels explanations as hypotheses and identifies what the available data cannot establish.
 
-Live progress updates show how the investigation is proceeding. The "How I investigated" section exposes the investigation plan and SQL queries.
+Live progress updates show how the investigation is proceeding. The **How I investigated** section exposes the investigation plan and SQL queries.
 
-### 5. Interactive Chart Control
+### 5. Interactive Charting
 
-- Automatically selects charts based on result structure.
+- Automatically selects charts based on result structure and question context.
+- Supports complementary visualizations for broader analysis questions.
 - Understands requests such as "show that as a pie chart".
 - Understands "no chart".
 - Reuses the previous query result when changing chart presentation, without generating new SQL.
 - Provides a sidebar toggle for automatic charts.
-- Skips automatic charts when results contain more than 25 bars.
+- Supports suitable chart types including bar, line, pie/donut, histogram and scatter visualizations.
 
 ### 6. Data Upload and Quality Checks
 
@@ -94,8 +98,10 @@ Follow-up questions build on recent successful queries instead of treating every
 ### 9. Reports and Exports
 
 Export analysis through:
-- Excel workbooks containing summaries, data-health information, answer sheets and native editable charts.
-- Self-contained HTML reports that can be opened offline and printed to PDF.
+
+- **Excel workbooks:** Include summaries, data-health information, answer sheets and native editable charts.
+- **HTML reports:** Self-contained reports that can be opened offline and printed to PDF.
+- **CSV exports:** Download individual query results.
 
 ### 10. Performance Monitoring
 
@@ -178,13 +184,32 @@ Both models run locally through Ollama.
 
 The application uses a 10-minute model keep-alive setting. Actual model residency and loading performance depend on available system and GPU memory.
 
+## Hardware Requirements
+
+The following are practical guidelines for running the configured local models. Actual performance depends on quantization, model configuration, context size and Ollama's hardware offloading.
+
+| Component | Recommended |
+|---|---|
+| Operating system | Windows, macOS or Linux |
+| Python | 3.10 or newer |
+| RAM | 16 GB recommended |
+| GPU | NVIDIA GPU with approximately 6 GB or more VRAM recommended |
+| Storage | Enough free space for Ollama models, Python dependencies and datasets |
+| Runtime | Ollama |
+
+**Notes:**
+- A dedicated GPU is recommended for better inference performance.
+- CPU-only execution may be possible, but model responses can be considerably slower.
+- Running both models efficiently depends on available RAM and VRAM.
+- Larger datasets and longer prompts may require additional resources.
+
 ## Setup
 
 ### Prerequisites
 
 - Python 3.10+
-- Ollama
-- Sufficient RAM and GPU memory for the selected models
+- Ollama installed and running
+- Sufficient RAM and storage for the selected models
 
 ### 1. Download the models
 
@@ -196,20 +221,20 @@ ollama pull gemma3:4b
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/Harshith-G-M/LocalNL2Query.git
-cd LocalNL2Query
+git clone https://github.com/Harshith-G-M/Local-NL-Query.git
+cd Local-NL-Query
 ```
 
 ### 3. Create and activate a virtual environment
 
-Windows PowerShell:
+**Windows PowerShell:**
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-macOS/Linux:
+**macOS/Linux:**
 
 ```bash
 python -m venv .venv
@@ -224,19 +249,21 @@ python -m pip install -r requirements.txt
 
 ### 5. Run the application
 
-Ensure Ollama is running, then:
+Ensure Ollama is running, then execute:
 
 ```bash
 streamlit run app/ui.py
 ```
 
-The application loads the bundled hospital operations dataset when no files are uploaded.
+The application loads the bundled hospital operations dataset automatically when no files are uploaded.
 
-Sample data is associated with my [Hospital Ops Analytics](https://github.com/Harshith-G-M/Hospital-ops-analytics) project.
+You can also upload your own CSV or Excel files through the application. Uploaded files are used for that analysis session instead of the default sample dataset.
+
+The bundled hospital sample data is associated with my [Hospital Ops Analytics](https://github.com/Harshith-G-M/Hospital-ops-analytics) project.
 
 ## What to Try
 
-Try these questions to explore the application's capabilities:
+Try these questions to explore the application's capabilities.
 
 **Insights**
 - What stands out in this data?
@@ -255,6 +282,11 @@ Try these questions to explore the application's capabilities:
 - What is the average length of stay by department?
 - Show monthly admissions over time.
 
+**Charting**
+- Show admissions by department as a bar chart.
+- Show the distribution of billing costs.
+- Compare monthly admissions across departments.
+
 **SQL safety**
 - Try asking it to drop the admissions table. The validator should block the operation.
 
@@ -266,7 +298,7 @@ Run the automated test suite:
 python -m pytest tests/ -q
 ```
 
-**Current result: 44 tests passed.**
+**Latest verified result: 48 tests passed.**
 
 The tests cover SQL validation, read-only enforcement, file uploads, date parsing, chart selection, self-correction, follow-up prompts, join detection, data-health checks and report generation.
 
@@ -277,12 +309,12 @@ LLM calls are mocked, so the automated tests do not require Ollama to generate r
 ```text
 nl2query/
 ├── app/
-│   ├── engine.py       # Data loading, SQL generation, validation and execution
-│   ├── data_health.py  # Data quality checks and suggested questions
-│   ├── charts.py       # Chart selection and Plotly visualisations
-│   ├── report.py       # Excel and HTML report generation
-│   └── ui.py           # Streamlit interface and message handling
-├── data/               # Bundled sample dataset
+│   ├── engine.py        # Data loading, SQL generation, validation and execution
+│   ├── data_health.py   # Data quality checks and suggested questions
+│   ├── charts.py        # Chart selection and Plotly visualizations
+│   ├── report.py        # Excel and HTML report generation
+│   └── ui.py            # Streamlit interface and message handling
+├── data/                # Bundled hospital sample datasets
 ├── tests/
 │   ├── test_features.py
 │   └── test_nl2query.py
@@ -306,7 +338,7 @@ nl2query/
 - PostgreSQL and MySQL connectors
 - Saved analysis sessions
 - Column-level privacy masking
-- Further optimisation of local model inference
+- Further optimization of local model inference
 
 ---
 

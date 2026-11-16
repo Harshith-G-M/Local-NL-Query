@@ -415,6 +415,67 @@ def explain_result(question: str, sql: str, result_df: pd.DataFrame) -> str:
     return call_ollama(EXPLAIN_MODEL, prompt)
 
 
+def is_general_conversation(question: str, history: list[dict] | None = None) -> bool:
+    """Identify clear conversational prompts without sending them to SQL."""
+
+    q = question.lower().strip()
+
+    # Follow-up questions should retain the data-analysis context.
+    follow_up_patterns = (
+        "previous result",
+        "that result",
+        "same result",
+        "previous query",
+        "break it down",
+        "break that down",
+        "why did it",
+        "explain the result",
+    )
+    if history and any(p in q for p in follow_up_patterns):
+        return False
+
+    # Explicit data-analysis language takes priority.
+    data_patterns = (
+        "revenue", "sales", "profit", "transaction", "dataset",
+        "data", "table", "column", "row", "record", "count",
+        "sum", "average", "total", "maximum", "minimum",
+        "highest", "lowest", "trend", "distribution", "compare",
+        "breakdown", "chart", "graph", "histogram", "donut",
+        "pie chart", "bar chart", "line chart", "group by",
+    )
+    if any(p in q for p in data_patterns):
+        return False
+
+    # Clear conversational or educational prompts.
+    conversation_patterns = (
+        "hello", "hi", "hey", "good morning", "good afternoon",
+        "good evening", "how are you", "who are you",
+        "what is your name", "thank you", "thanks",
+        "what is ", "what are ", "explain ",
+        "define ", "tell me about ", "who is ",
+    )
+    return any(q.startswith(p) for p in conversation_patterns)
+
+
+def answer_conversation(question: str) -> str:
+    """Generate a normal conversational response using the explanation model."""
+
+    prompt = (
+        f"User message: {question}\n\n"
+        "Respond naturally and helpfully in plain English. "
+        "You are an assistant inside a local data analysis application. "
+        "You can explain concepts and answer general questions. "
+        "Do not generate SQL unless explicitly asked to explain SQL as a concept. "
+        "Keep the answer concise."
+    )
+
+    return call_ollama(
+        EXPLAIN_MODEL,
+        prompt,
+        system="You are a friendly, helpful conversational assistant.",
+    )
+
+
 def answer_question(dataset: Dataset, question: str, history: list[dict] | None = None,
                     max_attempts: int = MAX_ATTEMPTS) -> dict:
     """
@@ -424,6 +485,20 @@ def answer_question(dataset: Dataset, question: str, history: list[dict] | None 
     `history` = earlier successful turns (dicts with question + sql) so follow-ups work.
     """
     attempts: list[dict] = []
+    if is_general_conversation(question, history):
+        try:
+            answer = answer_conversation(question)
+            return {
+                "type": "conversation",
+                "question": question,
+                "answer": answer,
+            }
+        except Exception as exc:
+            return {
+                "type": "conversation",
+                "question": question,
+                "answer": f"I couldn't generate a response. Please try again. ({exc})",
+            }
     sql, error = "", ""
     request_start = time.perf_counter()
 

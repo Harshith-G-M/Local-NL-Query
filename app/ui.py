@@ -12,7 +12,7 @@ import pandas as pd
 import streamlit as st
 
 sys.path.append(os.path.dirname(__file__))
-from charts import make_figure, suggest_chart  # noqa: E402
+from charts import make_figure,suggest_charts  # noqa: E402
 from data_health import profile_dataset, suggest_questions  # noqa: E402
 from engine import (  # noqa: E402
     answer_question, build_dataset, llm_suggest_questions, read_tables,
@@ -75,7 +75,10 @@ if st.session_state.get("dataset_key") != key:
 dataset = st.session_state["dataset"]
 health = st.session_state["health"]
 turns: list[dict] = st.session_state.setdefault("turns", [])
-good_turns = [t for t in turns if "error" not in t]
+good_turns = [
+    t for t in turns
+    if "error" not in t and "result" in t and "sql" in t
+]
 
 # ------------------------------------------------------------------ sidebar
 with st.sidebar:
@@ -151,44 +154,91 @@ with st.expander("💡 Suggested questions", expanded=not turns):
 
 
 # ------------------------------------------------------------------ conversation
+
+
+
 def render_turn(i: int, t: dict):
     with st.chat_message("user"):
         st.write(t["question"])
+
     with st.chat_message("assistant"):
-        if "error" in t:
-            st.error(t["error"])
+
+        # Normal conversational response
+        if t.get("type") == "conversation":
+            st.write(t["answer"])
+
         else:
-            st.write(t["explanation"])
-            spec = suggest_chart(t["result"])
-            if spec:
-                st.plotly_chart(make_figure(t["result"], spec), key=f"chart_{i}")
-            st.dataframe(t["result"])
-            st.download_button("Download as CSV", t["result"].to_csv(index=False).encode("utf-8"),
-                               file_name=f"result_{i + 1}.csv", mime="text/csv", key=f"csv_{i}")
-        with st.expander("How this answer was produced (SQL + self-correction log)",
-                         expanded="error" in t):
-            for a in t["attempts"]:
-                status = "✅ worked" if not a["error"] else (
-                    "⛔ blocked by safety validator" if a["blocked"]
-                    else "❌ failed — sent back to the model")
-                st.markdown(f"**Attempt {a['attempt']}** — {status}")
-                st.code(a["sql"], language="sql")
-                if a["error"]:
-                    st.caption(f"Reason: {a['error']}")
+            # SQL analysis response
+            if "error" in t:
+                st.error(t["error"])
+            else:
+                st.write(t["explanation"])
+
+                # Generate and render multiple charts
+                specs = suggest_charts(
+                    t["result"],
+                    t["question"],
+                )
+
+                for j, spec in enumerate(specs):
+                    fig = make_figure(t["result"], spec)
+
+                    if fig is not None:
+                        st.plotly_chart(
+                            fig,
+                            use_container_width=True,
+                            key=f"chart_{i}_{j}",
+                        )
+
+                st.dataframe(t["result"])
+
+                st.download_button(
+                    "Download as CSV",
+                    t["result"].to_csv(index=False).encode("utf-8"),
+                    file_name=f"result_{i + 1}.csv",
+                    mime="text/csv",
+                    key=f"csv_{i}",
+                )
+
+            # SQL execution log only for analysis turns
+            with st.expander(
+                "How this answer was produced (SQL + self-correction log)",
+                expanded="error" in t,
+            ):
+                for a in t.get("attempts", []):
+                    status = "Worked" if not a["error"] else (
+                        "Blocked by safety validator" if a["blocked"]
+                        else "Failed — sent back to the model"
+                    )
+
+                    st.markdown(
+                        f"**Attempt {a['attempt']}** — {status}"
+                    )
+                    st.code(a["sql"], language="sql")
+
+                    if a["error"]:
+                        st.caption(f"Reason: {a['error']}")
+
 
 
 for i, t in enumerate(turns):
     render_turn(i, t)
 
-typed = st.chat_input("Ask about your data — follow-ups work, e.g. “now split that by payer type”")
+typed = st.chat_input(
+    "Ask about your data — follow-ups work, e.g. “now split that by payer type”"
+)
 prompt = st.session_state.pop("pending_q", None) or typed
 
 if prompt:
     with st.chat_message("user"):
         st.write(prompt)
+
     with st.chat_message("assistant"):
-        with st.spinner("Writing SQL, running it locally and checking the result..."):
-            result = answer_question(dataset, prompt.strip(), history=good_turns)
+        with st.spinner("Thinking..."):
+            result = answer_question(
+                dataset, prompt.strip(), history=good_turns
+            )
+
     turns.append(result)
     st.rerun()
 

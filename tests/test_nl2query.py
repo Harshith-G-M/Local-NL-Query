@@ -135,6 +135,42 @@ def test_no_chart_for_single_row_or_empty():
     assert suggest_chart(pd.DataFrame()) is None
 
 
+def test_pie_for_explicit_proportion_request():
+    df = pd.DataFrame({
+        "department": ["A", "B", "C"],
+        "total": [40, 35, 25],
+    })
+    spec = suggest_chart(df, "Show the proportion of admissions by department")
+    assert spec["kind"] == "pie"
+
+
+def test_line_for_explicit_trend_request():
+    df = pd.DataFrame({
+        "month": ["Jan", "Feb", "Mar"],
+        "admissions": [10, 20, 30],
+    })
+    spec = suggest_chart(df, "Show admissions as a line chart")
+    assert spec["kind"] == "line"
+
+
+def test_scatter_for_relationship_request():
+    df = pd.DataFrame({
+        "revenue": [100, 200, 300],
+        "expenses": [50, 120, 180],
+    })
+    spec = suggest_chart(df, "Show the relationship between revenue and expenses")
+    assert spec["kind"] == "scatter"
+
+
+def test_histogram_for_distribution_request():
+    df = pd.DataFrame({
+        "billing_amount": [100, 200, 300, 400, 500],
+    })
+    spec = suggest_chart(df, "Show the distribution of billing amounts")
+    assert spec["kind"] == "histogram"
+
+
+
 # ------------------------------------------------------------ self-correction loop
 def _mock_llm(monkeypatch, sql_replies):
     """SQL model returns the queued replies in order; explainer returns a fixed sentence."""
